@@ -3,7 +3,8 @@
 ## Data
 
 * Massachusetts Land Parcel Database: Parcel geometry and select attributes. Accessed: April 2021. Updated: April 2019.
-* 
+* Beverly CAMA Data. Provided: \_\_\_\_\_\_ 
+
 ## **Join Details**
 
 1. Using the Spatial Data Browser, added the MA Land Parcel Database to ArcGIS and used Select by Attribute \(muni\_id = 30\) to select parcels \(11,656\) in Beverly. Exported to BeverlyADU.gdb, named `LPD_Bev`.

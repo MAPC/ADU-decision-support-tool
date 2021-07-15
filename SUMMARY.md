@@ -22,5 +22,6 @@
 ## Technical Documentation
 
 * [Technical Methods](technical-documentation/technical-methods.md)
-* [Parcel Data](technical-documentation/parcel-data.md)
+* [Data Sources](technical-documentation/data-sources/README.md)
+  * [Parcel Data](technical-documentation/data-sources/parcel-data.md)
 
