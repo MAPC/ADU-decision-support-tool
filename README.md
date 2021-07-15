@@ -1,8 +1,17 @@
 # Project Links
 
+#### Sharepoint Site \(for all Documents\)
+
+
+
+**PK-drive Folder \(for all data and analysis\)**
+
+\*\*\*\*
+
 #### Airtable
 
-*  [https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55](https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55)
+* Stores parameters, potential analytical inputs \(dimensional requirements, parking requirements, and policies and assumptions\), and an inventory of fields in the Land Parcel Database and the Beverly CAMA data.
+* To access: [https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55](https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55)
 
 #### Policy Review Document
 
