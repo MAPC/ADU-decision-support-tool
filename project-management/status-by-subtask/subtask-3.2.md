@@ -20,23 +20,15 @@ While the specific technology “stack” to be used is still TBD, it is likely 
 
 ## Work Completed to Date
 
-### Development Sprint 1&#x20;
+### Ongoing: Development Sprint 1&#x20;
 
 > The first sprint will focus on assembling the data necessary for the high priority policy options to be tested and high priority metrics to be created.
 
-**Data Assembly**
-
-The Airtable base supporting the flowchart described in Subtask 3.1 Work Completed to Date houses a variety of information assembled by Data Services that should support the development of the ADU Decision Support Tool.
-
-\[LINKS TO SUBTABLES]
+The Airtable base supporting the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md) houses a variety of information assembled by Data Services that will support our development of the ADU Decision Support Tool. This information has also been embedded into the [Supporting Information](broken-reference) section of this GitBook, where it is supplemented with non-tabular data. Data Services has additionally begun its development of&#x20;
 
 ### Development Sprint 2&#x20;
 
 > The second sprint will focus on creating a beta version of the decision support tool to test out the highest priority options and create core metrics. The beta version will be reviewed internally.
-
-#### Beta Tool
-
-Data Services has additionally initiated the development of parcel analysis scripts aimed at ...
 
 ### Development Sprint 3
 
