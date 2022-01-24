@@ -1,12 +1,16 @@
 # 1Bii. How much of the allowable density is already consumed?
 
-####
 
+
+* For reference, options from Ella on maximum lot coverage:
+  * No change: None&#x20;
+  * Potential changes:&#x20;
+    * X% for lots greater than Y square feet and Z% for lots less than Y square feet&#x20;
+* For reference, options from Ella on density:
+  * No change: Based on lot size, frontage, and setbacks&#x20;
+  * Potential change:&#x20;
+    * Maximum of d/u per acre&#x20;
 * What is the maximum lot coverage?&#x20;
-
-1. No change: None&#x20;
-2. Potential changes:&#x20;
-3. X% for lots greater than Y square feet and Z% for lots less than Y square feet&#x20;
 
 #### Possible Factors to Explore
 

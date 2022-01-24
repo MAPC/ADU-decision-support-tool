@@ -7,6 +7,13 @@
 
 ### Factors From Ella's ADU Policy Options
 
+From Ella's ADU Policy Options: What types of ADUs are allowed?&#x20;
+
+* No change: Attached&#x20;
+* Potential changes: &#x20;
+  * Attached and existing detached&#x20;
+  * Attached, existing detached, and new detached&#x20;
+
 #### Is there an affordability requirement?&#x20;
 
 * No change: None&#x20;

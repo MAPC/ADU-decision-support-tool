@@ -4,6 +4,8 @@ description: Is there an existing structure on site that could be converted into
 
 # Accessory-Existing
 
+Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
+
 ### Possible Options for Analysis
 
 * ~~Option 1: Evaluate using the `NUM_BUILD` field (Ruled out based on data quality)~~

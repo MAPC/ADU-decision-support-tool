@@ -24,12 +24,12 @@ While the specific technology “stack” to be used is still TBD, it is likely 
 
 > The first sprint will focus on assembling the data necessary for the high priority policy options to be tested and high priority metrics to be created.
 
-The Airtable base supporting the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md) houses a variety of information assembled by Data Services that will support our development of the ADU Decision Support Tool. This information has also been embedded into the [Supporting Information](broken-reference) section of this GitBook, where it is supplemented with non-tabular data. Data Services has additionally begun its analysis of parcel geometry, which will support our assessment of parcel feasibility.
+In addition to enabling the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md), the Beverly ADU Airtable base houses a variety of other information that will support our development of the decision support tool. This information also appears in the [Supporting Information](broken-reference) section of this GitBook, where it has been embedded and then supplemented with non-tabular data. Data Services has also started an analysis of parcel geometry, which will be needed to evaluate whether a parcel can accommodate an external ADU.
 
 ### Next: Development Sprint 2&#x20;
 
 > The second sprint will focus on creating a beta version of the decision support tool to test out the highest priority options and create core metrics. The beta version will be reviewed internally.
 
-### Development Sprint 3
+### After: Development Sprint 3
 
 > The third development sprint will focus on additional feature development with the goal of producing a version of the tool ready for City staff review.

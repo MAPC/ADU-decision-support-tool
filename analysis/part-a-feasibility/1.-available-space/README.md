@@ -6,10 +6,10 @@ description: >-
 
 # 1A. How much space exists on this parcel?
 
-Key questions:
+The pages in this section describe the analysis required to identify the amount of room on a parcel for four ADU typologies: [Principal-Existing](principal-existing.md), [Accessory-Existing](accessory-existing.md), [Principal-New](principal-new.md), and [Accessory-New](accessory-new.md).
 
-![](<../../../.gitbook/assets/image (6).png>)
+![From June 2021 PowerPoint](<../../../.gitbook/assets/image (6).png>)
 
-![](../../../.gitbook/assets/image.png)
+![From June 2021 PowerPoint](../../../.gitbook/assets/image.png)
 
 ****

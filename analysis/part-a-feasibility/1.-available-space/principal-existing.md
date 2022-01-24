@@ -4,7 +4,9 @@ description: Is there room inside the principal dwelling for an ADU?
 
 # Principal-Existing
 
-<mark style="background-color:orange;">The State of Zoning for Accessory Dwelling Units suggests ADU Ordinances and Bylaws commonly control ADUs by percent of primary unit floor area and/or percent expansion of primary dwelling. We might want to account for these in our analysis.</mark>
+Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
+
+Also: _The State of Zoning for Accessory Dwelling Units_ suggests ADU Ordinances and Bylaws commonly control ADUs by **percent of primary unit floor area** and/or **percent expansion of primary dwelling.** We might want to account for these in our analysis.
 
 ### Possible Options for Analysis
 

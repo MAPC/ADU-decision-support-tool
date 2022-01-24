@@ -2,14 +2,15 @@
 
 ## Project Management
 
-* [Data Services Subtasks](README.md)
-* [Data Services Budget](project-management/data-services-budget.md)
-* [Status by Subtask](project-management/status-by-subtask/README.md)
+* [Status by Subtask](README.md)
   * [Subtask 3.1](project-management/status-by-subtask/subtask-3.1.md)
   * [Subtask 3.2](project-management/status-by-subtask/subtask-3.2.md)
-  * [Subtasks to Start](project-management/status-by-subtask/subtasks-to-start.md)
-* [Proposed Next Steps](project-management/proposed-next-steps/README.md)
-  * [Outstanding Questions](project-management/proposed-next-steps/outstanding-questions.md)
+* [Proposed Next Steps](project-management/proposed-next-steps.md)
+* [Reference](project-management/reference/README.md)
+  * [Data Services Subtasks](project-management/reference/data-services-subtasks/README.md)
+    * [Subtasks not Started](project-management/reference/data-services-subtasks/subtasks-not-started.md)
+  * [Data Services Budget](project-management/reference/data-services-budget.md)
+  * [Tool Precedents](project-management/reference/tool-precedents.md)
 
 ## Analysis Roadmap <a href="#analysis" id="analysis"></a>
 
@@ -50,7 +51,6 @@
   * [Parking Requirements](policy/assumptions-and-policy/parking-requirements/README.md)
     * [Citywide Parking Requirements](policy/assumptions-and-policy/parking-requirements/number-of-parking-spaces.md)
     * [Parking Assumptions](policy/assumptions-and-policy/parking-requirements/previous-parking-assumptions.md)
-* [Tool Precedents](policy/tool-precedents.md)
 
 ## Technical Documentation
 
