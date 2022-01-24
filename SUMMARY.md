@@ -54,6 +54,6 @@
 
 ## Technical Documentation
 
+* [Joining LPD and CAMA Data](technical-documentation/parcel-data.md)
 * [Deliverable 1: Code Base](technical-documentation/deliverable-1-code-base.md)
 * [Deliverable 2: User Guide](technical-documentation/deliverable-2-user-guide.md)
-* [Joining LPD and CAMA Data](technical-documentation/parcel-data.md)

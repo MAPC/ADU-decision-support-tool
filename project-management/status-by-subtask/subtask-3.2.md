@@ -24,9 +24,9 @@ While the specific technology “stack” to be used is still TBD, it is likely 
 
 > The first sprint will focus on assembling the data necessary for the high priority policy options to be tested and high priority metrics to be created.
 
-The Airtable base supporting the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md) houses a variety of information assembled by Data Services that will support our development of the ADU Decision Support Tool. This information has also been embedded into the [Supporting Information](broken-reference) section of this GitBook, where it is supplemented with non-tabular data. Data Services has additionally begun its development of&#x20;
+The Airtable base supporting the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md) houses a variety of information assembled by Data Services that will support our development of the ADU Decision Support Tool. This information has also been embedded into the [Supporting Information](broken-reference) section of this GitBook, where it is supplemented with non-tabular data. Data Services has additionally begun its analysis of parcel geometry, which will support our assessment of parcel feasibility.
 
-### Development Sprint 2&#x20;
+### Next: Development Sprint 2&#x20;
 
 > The second sprint will focus on creating a beta version of the decision support tool to test out the highest priority options and create core metrics. The beta version will be reviewed internally.
 
