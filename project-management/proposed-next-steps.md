@@ -10,7 +10,7 @@ After this point, we will need input from the project team on the following high
 
 * [ ] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))
 * [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks/))
-* [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../analysis/decision-support-tool.md))
+* [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../technical-documentation/decision-support-tool/))
 * [ ] Collaborate to define an organizational structure for communication on policy options
 * [ ] Collaborate to define an organizational structure for numerical inputs
 
@@ -90,8 +90,8 @@ After this point, we will need input from the project team on the following high
 
 #### Part A | 1A. How much space exists on this parcel?
 
-* [ ] Devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
 * [ ] Review proposed method for Principal-Existing, Accessory-Existing, and Principal-New ADU typologies; identify an option or options to propose to Land Use.
+* [ ] Devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
 
 #### Part A | 1Bi. How much space is undevelopable due to environmental factors?
 
