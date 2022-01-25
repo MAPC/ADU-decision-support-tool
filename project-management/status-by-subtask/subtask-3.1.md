@@ -20,7 +20,7 @@ Working from the Policy Options Matrix developed in Task 1, MAPC will develop <m
 
 ## Work Completed to Date
 
-In the project scope, the development roadmap is informed by the ADU Policy Options Matrix. No single ADU Policy Options Matrix emerged during Task 2.3 (see the excerpt below from Ella's transition memo), however, Data Services was able to chart a general plan for our analysis using the documents Ella provided.&#x20;
+In the project scope, the development roadmap is informed by the ADU Policy Options Matrix. No single matrix emerged from Task 2.3 (see the excerpt below from Ella's transition memo), however, Data Services was able to chart a general plan for our analysis using the documents Ella provided.&#x20;
 
 <details>
 
@@ -60,14 +60,19 @@ Compared the ADU zoning of Salem, Arlington, and Gloucester: [ADU Policy Compari
 
 </details>
 
-This general plan exists in two formats: a flowchart developed in the Beverly ADU Airtable base by linking parameters and a PowerPoint presentation developed for the City and Steering Committee. The Airtable flowchart (April 2021) is more detailed and is ordered according to how Data Services might proceed with the analysis, while [the PowerPoint](https://mapc365.sharepoint.com/:p:/s/BeverlyADU/EcBUewI8TBRFgeZjJBx8z6gBmtuYnLU6rRtfUkSxwNO8XQ?e=17rrD2) presentation (June 2021) is less detailed and is ordered according to how the City and MAPC might consider policy decisions. <mark style="background-color:orange;">**Importantly, neither option adequately considers ADU typologies beyond a new, detached structure, and resolution of additional typologies must be a priority in the next phase of work.**</mark>** ** This GitBook does include some discussion of different ADU typologies.
+The general plan we developed exists in two related formats:&#x20;
 
-While many more decisions need to be made, I believe the existing development roadmaps are enough to satisfy the scope, and I think we should turn our attention to the remaining tasks.
+* A flowchart created in the [Beverly ADU Airtable base](https://mapc365.sharepoint.com/:p:/s/BeverlyADU/EcBUewI8TBRFgeZjJBx8z6gBmtuYnLU6rRtfUkSxwNO8XQ?e=dFPpTZ) by associating parameters (for example, lot size) with the question(s) they might inform
+* A [deck created in PowerPoint](https://mapc365.sharepoint.com/:p:/s/BeverlyADU/EcBUewI8TBRFgeZjJBx8z6gBmtuYnLU6rRtfUkSxwNO8XQ?e=dFPpTZ) for a presentation to the City and Steering Committee&#x20;
 
-#### **Airtable Flowchart (April 2021)**
+The Airtable flowchart is more detailed and is ordered according to how Data Services might proceed with the analysis, while the PowerPoint deck is less detailed and is ordered according to how the City and MAPC might consider policy decisions. <mark style="background-color:orange;">**Importantly, neither adequately considers ADU typologies beyond a new, detached structure, and resolution of additional typologies must be an area of focus in the next phase of work.**</mark>** ** This gap has been partially addressed in this GitBook, particularly under [question 1A.](../../analysis/part-a-feasibility/1.-available-space/) in the Analysis Roadmap section.
+
+While many more decisions will need to be made, I believe the existing development roadmaps are enough to satisfy the scope, and I would recommend we resolve outstanding issues on approach as they arise.
+
+#### **Airtable Flowchart (developed April 2021)**
 
 ![Flow Chart. Each box is connected to parameters that would help answer the question.](<../../.gitbook/assets/Org Chart (1).jpg>)
 
-#### PowerPoint Excerpt (July 2021)
+#### PowerPoint Excerpt (developed July 2021)
 
 ![PowerPoint Slide. The presentation responds to these questions in greater depth.](<../../.gitbook/assets/image (2).png>)

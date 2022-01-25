@@ -14,9 +14,15 @@ After this point, we will need input from the project team on the questions belo
 * [ ] Collaborate to define an organizational structure for communication on policy options
 * [ ] Collaborate to define an organizational structure for numerical inputs
 
+#### **General**
+
+* [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
+* [ ] Draft list of paramaters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)
+
+### Soon
+
 #### For Part A | 1A. How much space exists on this parcel?
 
-* [ ] **For all:** We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
 * [ ] **For Principal-New and Accessory-New:** Will detached ADUs be allowed in parcel setbacks? Will this be a fixed or flexible parameter?
 * [ ] **For Principal-New and Accessory-New:** Please confirm that the setbacks recorded in the Minimum Yards - Front, Minimum Yards - Side, and Minimum Yards - Rear [columns in the Airtable](../policy/assumptions-and-policy/citywide-dimensional-requirements.md) are correct. Will these setbacks be fixed or flexible parameters? For reference, options from Ella on minimum setbacks:
   * No change: Same as underlying lot size&#x20;
@@ -68,15 +74,9 @@ After this point, we will need input from the project team on the questions belo
     * ADU would not contribute to unit count for variable minimum lot size, for example in R-6&#x20;
     * If detached is allowed, increase minimum lot size to x square feet or by x%&#x20;
 
-### As soon as possible
-
-* [ ] List of factors to explore (don't need specific thresholds, just an indication that they will be important.)
-
-### Soon
+### Later
 
 * [ ] Confirmation of method for siting Principal-Existing and Accessory-Existing ADU typologies
-
-### Later
 
 ## Next Steps for Data Services
 
@@ -86,12 +86,12 @@ After this point, we will need input from the project team on the questions belo
 
 #### Part A | 1A. How much space exists on this parcel?
 
+* [ ] Devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
 * [ ] Review proposed method for Principal-Existing and Accessory-Existing ADU typologies; identify an option or options to propose to Land Use.
 
 #### Part A | 1Bi. How much space is undevelopable due to environmental factors?
 
-* [ ] Review possible environmental factors
-* [ ] Discuss ignoring this part of the analysis&#x20;
+* [ ] Review possible environmental factors, particularly if we want to ignore this part of the analysis&#x20;
 
 
 
@@ -111,13 +111,6 @@ After this point, we will need input from the project team on the questions belo
     * The table does not include restrictions for overlay zones.
 
 
-
-Confirm ADU Typologies (PPT suggests six types; this might not be needed for our project.)
-
-1. Detached, new construction
-2. Detached, conversion of an existing structure
-3. Attached, new addition on the principal building
-4. Attached, conversion of a space in the principal building (upper level, lower level, attached garage conversion)
 
 ## Assumptions
 
