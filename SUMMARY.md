@@ -35,7 +35,7 @@
 
 ## Supporting Information <a href="#policy" id="policy"></a>
 
-* [Desired Data Schema](policy/desired-data-schema.md)
+* [Desired Data Schema](analysis/desired-data-schema.md)
 * [Parameters](policy/parameters/README.md)
   * [Parameters Table](policy/parameters/parameters-table.md)
   * [Additional Parameters](policy/parameters/additional-parameters.md)
