@@ -6,7 +6,9 @@ After this point, we will need input from the project team on the following high
 
 ### ASAP
 
-#### Project Management
+<details>
+
+<summary>Project Management</summary>
 
 * [ ] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))
 * [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks/))
@@ -14,34 +16,42 @@ After this point, we will need input from the project team on the following high
 * [ ] Collaborate to define an organizational structure for communication on policy options
 * [ ] Collaborate to define an organizational structure for numerical inputs
 
-#### **General**
+</details>
+
+<details>
+
+<summary>Analysis</summary>
 
 * [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
 * [ ] <mark style="background-color:orange;">Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)</mark>
 
-### Soon
+</details>
 
-#### For Part A | 1A. How much space exists on this parcel?
+### Sooner
 
-* [ ] **For Principal-Existing and Principal New:** _The State of Zoning for Accessory Dwelling Units_ (Dain, 2018) suggests ADU Ordinances and Bylaws commonly control ADUs by **percent of primary unit floor area** and/or **percent expansion of primary dwelling.** Do you imagine wanting to regulate ADUs using either or both of these parameters?
-* [ ] **For Principal-New and Accessory-New:** Will detached ADUs be allowed in parcel setbacks? Will this be a fixed or flexible parameter?
-* [ ] **For Principal-New and Accessory-New:** Please confirm that the setbacks recorded in the Minimum Yards - Front, Minimum Yards - Side, and Minimum Yards - Rear [columns in the Airtable](../policy/assumptions-and-policy/citywide-dimensional-requirements.md) are correct. Will these setbacks be fixed or flexible parameters? For reference, options from Ella on minimum setbacks:
-  * No change: Same as underlying lot size&#x20;
-  * Potential changes:&#x20;
-    * Rear, side, and/or front setbacks are decreased to x, x, and x feet&#x20;
-    * No additional setback for ADUs within or attached to non-conforming existing structures&#x20;
-* [ ] **For Accessory-New:** What is the minimum buffer between the principal building and a detached ADU? Will this buffer be a fixed or a flexible parameter? For reference, options from Ella on minimum buffers:&#x20;
-  * No change:  N/A
-  * Potential changes:&#x20;
-    * Same as underlying zoning side setback&#x20;
-    * Half of underlying zoning side setback&#x20;
-    * 10 feet&#x20;
-* [ ] **For Accessory-New:** Is there a front yard setback that will only apply to ADUs? (Put differently, will there be an area of the parcel where ADUs may only be constructed?) This might relate to these options from Ella on yard requirements:
-  * No change: None&#x20;
-  * Potential changes:&#x20;
-    * If detached is allowed, minimum of x square feet of yard is required
+<details>
 
-#### Part A | 1Bii. How much of the allowable density is already consumed?
+<summary>For Part A | 1A. How much space exists on this parcel?</summary>
+
+* [ ] **For Principal-Existing and Principal New:**&#x20;
+
+</details>
+
+<details>
+
+<summary>For Part A | 1Bi. How much space is undevelopable due to environmental factors?</summary>
+
+No questions for land use at this time!
+
+</details>
+
+<details>
+
+<summary>Part A | 1Bii. How much of the allowable density is already consumed?</summary>
+
+
+
+</details>
 
 * [ ] We assume ADUs will count towards at least a few parcel-wide density controls. For example, if an ADU would push the parcel beyond a maximum FAR, the ADU could not be built. Is this assumption correct? If so, what of the existing (or non-existing) dimensional regulations should we take into account? [A partial list is here.](../analysis/part-a-feasibility/1bii.-how-much-of-the-allowable-density-is-already-consumed.md)
   * For reference, options from Ella on maximum lot coverage:
