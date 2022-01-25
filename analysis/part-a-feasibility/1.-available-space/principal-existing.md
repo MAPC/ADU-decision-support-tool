@@ -4,10 +4,13 @@ description: Is there room inside the principal dwelling for an ADU?
 
 # Principal-Existing
 
-#### Next Steps
+### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
-* [ ] Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
-* [ ] _The State of Zoning for Accessory Dwelling Units_ suggests ADU Ordinances and Bylaws commonly control ADUs by **percent of primary unit floor area** and/or **percent expansion of primary dwelling.** Should we account for this in our analysis?
+* [ ] _The State of Zoning for Accessory Dwelling Units_ (Dain, 2018) suggests ADU Ordinances and Bylaws commonly control ADUs by **percent of primary unit floor area** and/or **percent expansion of primary dwelling.** Do you imagine wanting to regulate ADUs using either or both of these parameters?
+
+#### For Data Services
+
+* [ ] Data Services needs to identify which of the options below we want to propose to the project team. This is identified as a next step under Project Management.
 
 ### Possible Options for Analysis
 

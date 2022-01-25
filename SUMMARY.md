@@ -56,6 +56,6 @@
 
 * [Technical Documentation](technical-documentation/technical-documentation/README.md)
   * [Fixed Assumptions](technical-documentation/technical-documentation/fixed-assumptions.md)
-  * [Joining LPD and CAMA Data](technical-documentation/technical-documentation/parcel-data.md)
+  * [Joining LPD and CAMA Data](technical-documentation/parcel-data.md)
 * [Deliverable 1: Code Base](technical-documentation/deliverable-1-code-base.md)
 * [Deliverable 2: User Guide](technical-documentation/deliverable-2-user-guide.md)

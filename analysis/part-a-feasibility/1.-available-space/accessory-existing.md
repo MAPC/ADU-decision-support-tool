@@ -4,9 +4,11 @@ description: Is there an existing structure on site that could be converted into
 
 # Accessory-Existing
 
-#### Next Steps
+### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
-* [ ] Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
+#### For Data Services
+
+* [ ] Data Services needs to identify which of the options below we want to propose to the project team. This is identified as a next step under Project Management.
 
 ### Possible Options for Analysis
 

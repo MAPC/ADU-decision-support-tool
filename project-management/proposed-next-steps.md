@@ -17,12 +17,13 @@ After this point, we will need input from the project team on the following high
 #### **General**
 
 * [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
-* [ ] Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)
+* [ ] <mark style="background-color:orange;">Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)</mark>
 
 ### Soon
 
 #### For Part A | 1A. How much space exists on this parcel?
 
+* [ ] **For Principal-Existing and Principal New:** _The State of Zoning for Accessory Dwelling Units_ (Dain, 2018) suggests ADU Ordinances and Bylaws commonly control ADUs by **percent of primary unit floor area** and/or **percent expansion of primary dwelling.** Do you imagine wanting to regulate ADUs using either or both of these parameters?
 * [ ] **For Principal-New and Accessory-New:** Will detached ADUs be allowed in parcel setbacks? Will this be a fixed or flexible parameter?
 * [ ] **For Principal-New and Accessory-New:** Please confirm that the setbacks recorded in the Minimum Yards - Front, Minimum Yards - Side, and Minimum Yards - Rear [columns in the Airtable](../policy/assumptions-and-policy/citywide-dimensional-requirements.md) are correct. Will these setbacks be fixed or flexible parameters? For reference, options from Ella on minimum setbacks:
   * No change: Same as underlying lot size&#x20;
@@ -90,7 +91,7 @@ After this point, we will need input from the project team on the following high
 #### Part A | 1A. How much space exists on this parcel?
 
 * [ ] Devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
-* [ ] Review proposed method for Principal-Existing and Accessory-Existing ADU typologies; identify an option or options to propose to Land Use.
+* [ ] Review proposed method for Principal-Existing, Accessory-Existing, and Principal-New ADU typologies; identify an option or options to propose to Land Use.
 
 #### Part A | 1Bi. How much space is undevelopable due to environmental factors?
 
