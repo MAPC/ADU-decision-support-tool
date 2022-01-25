@@ -3,7 +3,7 @@
 ### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
 * [ ] How small of an ADU is too small? How large of an ADU is too large? What dimensional regulations will be used to define this? A partial list is below.
-* [ ] Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define a minimum separation between ADUs? How
+* [ ] What should we use as a minimum dimension for an ADU? (This is needed as an assumption in our analysis, but may not be translated to policy.)
 
 ### Factors We Could Explore
 
@@ -18,4 +18,4 @@
       * Increase in maximum square feet&#x20;
       * Increase in maximum percentage of primary home&#x20;
 * ADU Minimum Dimensions (How narrow can the rectangle be?)
-* ADU Maximum Height
+* ADU Maximum Height (Does this matter?)

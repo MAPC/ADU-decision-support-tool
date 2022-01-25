@@ -1,5 +1,7 @@
 # Part C | Yield
 
+The flowchart below, one branch of the development roadmap in Airtable, describes the main questions that must be addressed to evaluate yield. These questions are reflected in the pages nested under Part C | Yield.
+
 ### Scope Details
 
 * **Where the impact of a specific policy requirement cannot be determined based on available data, MAPC will use proxy data to estimate the effects.**&#x20;

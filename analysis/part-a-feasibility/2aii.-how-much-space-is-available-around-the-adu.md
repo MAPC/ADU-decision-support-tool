@@ -1,6 +1,8 @@
 # 2Aii. How much space is available around the ADU?
 
+### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
+Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define a minimum separation between ADUs? How?
 
 From Ella's ADU Policy Options: What types of ADUs are allowed? If detached is allowed, what is the minimum buffer between ADU and primary?&#x20;
 

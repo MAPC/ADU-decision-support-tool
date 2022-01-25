@@ -8,7 +8,7 @@ description: Is there an existing structure on site that could be converted into
 
 #### For Data Services
 
-* [ ] Data Services needs to identify which of the options below we want to propose to the project team. This is identified as a next step under Project Management.
+* [ ] Data Services needs to identify which of the options below we want to propose to the project team. This is identified as the next step under Project Management.
 
 ### Possible Options for Analysis
 

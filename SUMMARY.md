@@ -32,10 +32,10 @@
 * [Part C | Yield](analysis/part-c-or-yield/README.md)
   * [4. How many ADUs will be developed?](analysis/part-c-or-yield/4.-how-many-adus-will-be-developed.md)
   * [5. What are the impacts of that development?](analysis/part-c-or-yield/5.-what-are-the-impacts-of-that-development.md)
-* [Desired Data Schema](analysis/desired-data-schema.md)
 
 ## Supporting Information <a href="#policy" id="policy"></a>
 
+* [Desired Data Schema](policy/desired-data-schema.md)
 * [Parameters](policy/parameters/README.md)
   * [Parameters Table](policy/parameters/parameters-table.md)
   * [Additional Parameters](policy/parameters/additional-parameters.md)
@@ -53,9 +53,9 @@
 
 ## Deliverables <a href="#technical-documentation" id="technical-documentation"></a>
 
-* [Decision Support Tool](technical-documentation/decision-support-tool/README.md)
-  * [Deliverable 1: Code Base](technical-documentation/decision-support-tool/deliverable-1-code-base.md)
-  * [Deliverable 2: User Guide](technical-documentation/decision-support-tool/deliverable-2-user-guide.md)
+* [Decision Support Tool](analysis/decision-support-tool.md)
+  * [Deliverable 1: Code Base](technical-documentation/deliverable-1-code-base.md)
+  * [Deliverable 2: User Guide](technical-documentation/deliverable-2-user-guide.md)
 * [Technical Documentation](technical-documentation/technical-documentation/README.md)
   * [Fixed Assumptions](technical-documentation/technical-documentation/fixed-assumptions.md)
-  * [Joining LPD and CAMA Data](technical-documentation/technical-documentation/parcel-data.md)
+  * [Joining LPD and CAMA Data](technical-documentation/parcel-data.md)

@@ -10,7 +10,7 @@ After this point, we will need input from the project team on the following high
 
 * [ ] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))
 * [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks/))
-* [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../technical-documentation/decision-support-tool/))
+* [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../analysis/decision-support-tool.md))
 * [ ] Collaborate to define an organizational structure for communication on policy options
 * [ ] Collaborate to define an organizational structure for numerical inputs
 
@@ -61,7 +61,7 @@ After this point, we will need input from the project team on the following high
   * Potential changes:
     * Increase in maximum square feet&#x20;
     * Increase in maximum percentage of primary home&#x20;
-* [ ] What should we use as a minimum dimension for an ADU?
+* [ ] What should we use as a minimum dimension for an ADU? (This is needed as an assumption in our analysis, but may not be translated to policy.)
 * [ ] Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define a minimum separation between ADUs? How?
 
 #### Part B | 3A. Is an ADU allowable given the individual characteristics of the parcel?

@@ -6,7 +6,7 @@ description: >-
 
 # 1A. How much space exists on this parcel?
 
-The pages nested under 1A. How much space exists on this parcel? describe the analysis required to identify the amount of room on a parcel for four ADU typologies: [Principal-Existing](principal-existing.md), [Accessory-Existing](accessory-existing.md), [Principal-New](principal-new.md), and [Accessory-New](accessory-new.md).
+The pages nested under _1A. How much space exists on this parcel?_ describe the analysis required to identify the amount of room on a parcel for four ADU typologies: [Principal-Existing](principal-existing.md), [Accessory-Existing](accessory-existing.md), [Principal-New](principal-new.md), and [Accessory-New](accessory-new.md).
 
 ### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
