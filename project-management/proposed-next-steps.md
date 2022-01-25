@@ -31,7 +31,7 @@ After this point, we will need input from the project team on the following high
 
 <details>
 
-<summary>For Part A | 1A. How much space exists on this parcel?</summary>
+<summary>Part A | 1A. How much space exists on this parcel?</summary>
 
 * [ ] **For Principal-Existing and Principal New:**&#x20;
 
@@ -39,9 +39,9 @@ After this point, we will need input from the project team on the following high
 
 <details>
 
-<summary>For Part A | 1Bi. How much space is undevelopable due to environmental factors?</summary>
+<summary>Part A | 1Bi. How much space is undevelopable due to environmental factors?</summary>
 
-No questions for land use at this time!
+No questions for Land Use at this time.
 
 </details>
 
@@ -53,44 +53,43 @@ No questions for land use at this time!
 
 </details>
 
-* [ ] We assume ADUs will count towards at least a few parcel-wide density controls. For example, if an ADU would push the parcel beyond a maximum FAR, the ADU could not be built. Is this assumption correct? If so, what of the existing (or non-existing) dimensional regulations should we take into account? [A partial list is here.](../analysis/part-a-feasibility/1bii.-how-much-of-the-allowable-density-is-already-consumed.md)
-  * For reference, options from Ella on maximum lot coverage:
-    * No change: None&#x20;
-    * Potential changes:&#x20;
-      * X% for lots greater than Y square feet and Z% for lots less than Y square feet&#x20;
-  * For reference, options from Ella on density:
-    * No change: Based on lot size, frontage, and setbacks&#x20;
-    * Potential change:&#x20;
-      * Maximum of d/u per acre&#x20;
-* [ ] Is it safe to assume we can ignore the potential for subdivision of lots greater than twice the lot area minimum?
+<details>
 
-#### Part 2Ai. How much space is required for the ADU structure?
+<summary>Part A | 2Ai. How much space is required for the ADU structure?</summary>
 
-* [ ] How small of an ADU is too small? How large of an ADU is too large? What dimensional regulations will be used to define this? [A partial list is here.](proposed-next-steps.md#part-2ai.-how-much-space-is-required-for-the-adu-structure) For reference, options from Ella on maximum ADU footprint:
-  * No change: 900 square feet or 30% of gross floor area of primary home&#x20;
-  * Potential changes:
-    * Increase in maximum square feet&#x20;
-    * Increase in maximum percentage of primary home&#x20;
-* [ ] What should we use as a minimum dimension for an ADU? (This is needed as an assumption in our analysis, but may not be translated to policy.)
-* [ ] Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define a minimum separation between ADUs? How?
 
-#### Part B | 3A. Is an ADU allowable given the individual characteristics of the parcel?
 
-* [ ] Should the analysis exclude parcels where dimensional requirements have been exceeded and where the parcel is likely non-confirming? If so, what dimensional requirements should we take into account?
-* [ ] From Ella's ADU Policy Options: What are the minimum frontage requirements?&#x20;
-  * No change: Same as underlying frontage requirements&#x20;
-  * Potential changes:&#x20;
-    * If detached is allowed, frontage requirements are increased to x, x, and x feet&#x20;
-* [ ] From Ella's ADU Policy Options: What is the minimum lot size for an ADU?&#x20;
-  * No change: Same as underlying lot size&#x20;
-  * Potential changes: &#x20;
-    * ADU would not contribute to unit count for variable minimum lot size, for example in R-6&#x20;
-    * If detached is allowed, increase minimum lot size to x square feet or by x%&#x20;
+</details>
+
+<details>
+
+<summary>Part A | 2Aii. How much space is available around the ADU? </summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Part A | 2B. How much space is required for the parking associated with the ADU?</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Part B | 3A. Is an ADU allowable given the individual characteristics of the parcel?</summary>
+
+
+
+</details>
 
 ### Later
 
 * [ ] Confirmation of method for siting Principal-Existing and Accessory-Existing ADU typologies
-*
+
+
 
 ## Next Steps for Data Services
 
