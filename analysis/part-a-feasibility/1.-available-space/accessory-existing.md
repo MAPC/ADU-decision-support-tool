@@ -4,9 +4,7 @@ description: Is there an existing structure on site that could be converted into
 
 # Accessory-Existing
 
-#### Next Steps
-
-* [ ] Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
+Data Services needs to identify which of the options below we want to use. This is identified as a next step under Project Management.
 
 ### Possible Options for Analysis
 

@@ -24,7 +24,9 @@ While the specific technology “stack” to be used is still TBD, it is likely 
 
 > The first sprint will focus on assembling the data necessary for the high priority policy options to be tested and high priority metrics to be created.
 
-In addition to enabling the flowchart described in [Subtask 3.1 Work Completed to Date](subtask-3.1.md), the Beverly ADU Airtable base houses a variety of other information that will support our development of the decision support tool. This information also appears in the [Supporting Information](broken-reference) section of this GitBook, where it has been embedded and then supplemented with non-tabular data. Data Services has also started an analysis of parcel geometry, which will be needed to evaluate whether a parcel can accommodate an external ADU.
+In addition to the [Parameters table](../../policy/parameters/parameters-table.md) that supports the flowchart described in the [Subtask 3.1](subtask-3.1.md) status update, the Beverly ADU Airtable base houses three other tables that will aid in our development of the decision support tool. The information in these tables also appears in the [Supporting Information](broken-reference) section of this GitBook, where it has been embedded and then supplemented with non-tabular data. Please refer to the [Parcel Data](../../policy/parcel-characteristics/) page, the [Citywide Dimensional Requirements](../../policy/assumptions-and-policy/citywide-dimensional-requirements.md) page, and the [Parking Requirements](../../policy/assumptions-and-policy/parking-requirements/) page for more details.
+
+Outside of the Airtable base and this GitBook, Data Services has created a geodatabase for the project and started to analyze parcel geometry, specifically identifying the front, side, and rear lot lines of each parcel, separating those lines into individual segments, and measuring them. This  that . which will be needed to evaluate whether a parcel can accommodate an external ADU.
 
 ### Next: Development Sprint 2&#x20;
 
