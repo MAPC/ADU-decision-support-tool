@@ -2,7 +2,7 @@
 
 Data Services next step on Subtask 3.2 is to devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
 
-After this point, we will need input from the project team on the questions below:&#x20;
+After this point, we will need input from the project team on the following higher-priority questions:&#x20;
 
 ### ASAP
 
@@ -17,7 +17,7 @@ After this point, we will need input from the project team on the questions belo
 #### **General**
 
 * [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
-* [ ] Draft list of paramaters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)
+* [ ] Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)
 
 ### Soon
 
@@ -51,6 +51,7 @@ After this point, we will need input from the project team on the questions belo
     * No change: Based on lot size, frontage, and setbacks&#x20;
     * Potential change:&#x20;
       * Maximum of d/u per acre&#x20;
+* [ ] Is it safe to assume we can ignore the potential for subdivision of lots greater than twice the lot area minimum?
 
 #### Part 2Ai. How much space is required for the ADU structure?
 
@@ -59,7 +60,8 @@ After this point, we will need input from the project team on the questions belo
   * Potential changes:
     * Increase in maximum square feet&#x20;
     * Increase in maximum percentage of primary home&#x20;
-* [ ] Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define the separation between ADUs? How?
+* [ ] What should we use as a minimum dimension for an ADU?
+* [ ] Is it safe to assume a maximum of one ADU per lot? (This is consistent with the existing ordinance.) If not, will you define a minimum separation between ADUs? How?
 
 #### Part B | 3A. Is an ADU allowable given the individual characteristics of the parcel?
 
@@ -77,6 +79,7 @@ After this point, we will need input from the project team on the questions belo
 ### Later
 
 * [ ] Confirmation of method for siting Principal-Existing and Accessory-Existing ADU typologies
+*
 
 ## Next Steps for Data Services
 
@@ -92,29 +95,4 @@ After this point, we will need input from the project team on the questions belo
 #### Part A | 1Bi. How much space is undevelopable due to environmental factors?
 
 * [ ] Review possible environmental factors, particularly if we want to ignore this part of the analysis&#x20;
-
-
-
-## Parameters
-
-* Are all land uses (residential and non-residential) in Beverly eligible?
-* Are all residential units (1 unit, 2 units, 3 units) in Beverly eligible?
-* Requirement versus value: i.e. Land area un-developable due to flood zone
-* What if you can subdivide the parcel into two?
-* Multiple ADUs
-*
-
-    we'll want to place on the analysis. We will also need to understand how certain dimensional requirements will interact with ADUs. For example:
-
-    * Can ADUs be constructed in the Front, Side, or Rear Yard setbacks?
-    * Will an ADU contribute to the parcel-wide FAR requirement?
-    * The table does not include restrictions for overlay zones.
-
-
-
-## Assumptions
-
-* Minimum width for an ADU?
-* Minimum parking space size?
-* Not considering adding floors.
 
