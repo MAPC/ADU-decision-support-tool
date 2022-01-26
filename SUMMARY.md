@@ -44,7 +44,6 @@
   * [Other Spatial Data](policy/parcel-characteristics/other-spatial-data.md)
 * [Assumptions and Policy](policy/assumptions-and-policy/README.md)
   * [ADU Policy Options](policy/assumptions-and-policy/adu-policy-options/README.md)
-    * [Prepared by Ella](policy/assumptions-and-policy/adu-policy-options/prepared-by-ella.md)
     * [Scenario 0: Existing ADU Ordinance](policy/assumptions-and-policy/adu-policy-options/scenario-0-existing-adu-ordinance.md)
   * [Citywide Dimensional Requirements](policy/assumptions-and-policy/citywide-dimensional-requirements.md)
   * [Parking Requirements](policy/assumptions-and-policy/parking-requirements/README.md)

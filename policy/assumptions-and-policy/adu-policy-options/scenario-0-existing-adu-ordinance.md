@@ -4,6 +4,10 @@ description: From Background on ADUs in Beverly
 
 # Scenario 0: Existing ADU Ordinance
 
+We will need to translate the existing ADU policy into a set of parameters we can model.
+
+
+
 From [Background on ADUs in Beverly](https://mapc365.sharepoint.com/:w:/s/BeverlyADU/EU\_ZwwLqSyZHtzJuzYbo9\_ABc9h\_WoQbSk\_Ih1fgBYb8Jg?e=fCTK8g)
 
 ### **Existing plans and policy**&#x20;
