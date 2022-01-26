@@ -1,6 +1,6 @@
 # Proposed Next Steps
 
-PData Services next step on Subtask 3.2 is to devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
+Data Services next step on Subtask 3.2 is to devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development.&#x20;
 
 After this point, we will need input from the project team on the following higher-priority questions:&#x20;
 
