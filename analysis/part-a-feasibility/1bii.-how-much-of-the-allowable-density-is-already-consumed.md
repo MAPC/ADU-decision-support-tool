@@ -2,7 +2,7 @@
 
 ### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
-* [ ] We assume ADUs will count towards at least a few parcel-wide density controls. For example, if an ADU would push the parcel beyond a maximum FAR, the ADU could not be built. Is this assumption correct? If so, what of the existing (or non-existing) dimensional regulations should we take into account? A partial list is below.
+* [ ] We assume ADUs will count towards at least a few parcel-wide density controls. For example, if an ADU would push the parcel beyond a maximum FAR, the ADU could not be built. Is this assumption correct? If so, what of the existing (or non-existing) dimensional regulations should we take into account? A partial list is below, under Factors We Could Explore.
 * [ ] Is it safe to assume we can ignore the potential for subdivision of lots greater than twice the lot area minimum?
 
 ### Factors We Could Explore

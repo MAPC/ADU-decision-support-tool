@@ -2,8 +2,8 @@
 
 ### <mark style="background-color:orange;">Outstanding Questions (Copied to</mark> [<mark style="background-color:orange;">Proposed Next Steps</mark>](../../project-management/proposed-next-steps.md)<mark style="background-color:orange;">)</mark>
 
-* [ ] How small of an ADU is too small? How large of an ADU is too large? What dimensional regulations will be used to define this? A partial list is below.
-* [ ] What should we use as a minimum dimension for an ADU? (This is needed as an assumption in our analysis, but may not be translated to policy.)
+* [ ] Will the ordinance define ADU size? If so, what dimensional regulations will be used? A partial list is below, under Factors We Could Explore.
+* [ ] What should we use as a minimum dimension for an ADU? (This is needed as an assumption in our analysis regardless of whether it is translated to policy.)
 
 ### Factors We Could Explore
 
