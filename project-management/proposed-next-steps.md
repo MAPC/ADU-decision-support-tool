@@ -119,12 +119,6 @@ No questions for Land Use at this time.
 
 </details>
 
-
-
-* [ ] Confirmation of method for siting Principal-Existing and Accessory-Existing ADU typologies
-
-
-
 ## Next Steps for Data Services
 
 <details>
