@@ -23,7 +23,7 @@
   * [1Bi. How much space is undevelopable due to environmental factors?](analysis/part-a-feasibility/1bi.-how-much-space-is-undevelopable-due-to-environmental-factors.md)
   * [1Bii. How much of the allowable density is already consumed?](analysis/part-a-feasibility/1bii.-how-much-of-the-allowable-density-is-already-consumed.md)
   * [2Ai. How much space is required for the ADU structure?](analysis/part-a-feasibility/2ai.-how-much-space-is-required-for-the-adu-structure.md)
-  * [2Aii. How much space is required around the ADU?](analysis/part-a-feasibility/2aii.-how-much-space-is-required-around-the-adu.md)
+  * [2Aii. How much space is required around the ADU?](analysis/part-a-feasibility/2aii.-how-much-space-is-available-around-the-adu.md)
   * [2B. How much space is required for the parking associated with the ADU?](analysis/part-a-feasibility/2b.-how-much-space-is-required-for-the-parking-associated-with-the-adu.md)
   * [Part A. Output](analysis/part-a-feasibility/part-a.-output.md)
 * [Part B | Eligibility](analysis/part-b-or-eligibility/README.md)
