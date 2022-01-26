@@ -27,7 +27,7 @@ After this point, we will need input from the project team on the following high
 
 </details>
 
-### Sooner
+### Soon
 
 <details>
 
