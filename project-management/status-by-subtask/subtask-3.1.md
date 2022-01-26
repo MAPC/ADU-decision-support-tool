@@ -26,6 +26,8 @@ In the project scope, the development roadmap is informed by the ADU Policy Opti
 
 <summary>From Ella's transition memo: Task 2.3 ADU Policy Options Matrix</summary>
 
+_These are all described in greater depth under_ [_Additional Parameters_](../../policy/parameters/additional-parameters.md)_._
+
 Summarized ADU zoning best practices from The State of Zoning for Accessory Units by Amy Dain and the MA Executive Office of Energy and Environmental Affairs Model ADU Bylaw: [Background on ADUs in Beverly report](https://mapc365.sharepoint.com/:w:/s/BeverlyADU/EU\_ZwwLqSyZHtzJuzYbo9\_ABc9h\_WoQbSk\_Ih1fgBYb8Jg?e=fCTK8g) (saved on the K drive as “Background on ADUs in Beverly” in the Policy review & draft ordinance folder)
 
 * Notes from Lily:
