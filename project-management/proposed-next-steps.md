@@ -134,7 +134,7 @@ No questions for Land Use at this time.
 
 <summary>Part A | 1A. How much space exists on this parcel?</summary>
 
-* [ ] **Principal-Existing and Accessory-Existing:** Data Services needs to identify which of the analysis options under [Principal-Existing](../analysis/part-a-feasibility/1.-available-space/principal-existing.md) and [Accessory-Existing](../analysis/part-a-feasibility/1.-available-space/accessory-existing.md) we want to propose to the project team. This is identified as a next step under Project Management.
+* [ ] **Principal-Existing and Accessory-Existing:** Data Services needs to identify which of the analysis options under [Principal-Existing](../analysis/part-a-feasibility/1.-available-space/principal-existing.md) and [Accessory-Existing](../analysis/part-a-feasibility/1.-available-space/accessory-existing.md) we want to propose to the project team.
 * [ ] **Accessory-New:** Data Services needs to devise a method to internally buffer a parcel's front, side, and rear lot lines by their respective setbacks to determine the subarea of the parcel which could theoretically be used for further development. .&#x20;
 
 </details>
