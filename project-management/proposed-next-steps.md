@@ -11,7 +11,7 @@ After this point, we will need input from the project team on the following high
 <summary>Project Management</summary>
 
 * [ ] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))
-* [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks/))
+* [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks.md))
 * [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../analysis/decision-support-tool.md))
 * [ ] Collaborate to define an organizational structure for communication on policy options
 * [ ] Collaborate to define an organizational structure for numerical inputs

@@ -7,8 +7,7 @@
   * [Subtask 3.2](project-management/status-by-subtask/subtask-3.2.md)
 * [Proposed Next Steps](project-management/proposed-next-steps.md)
 * [Reference](project-management/reference/README.md)
-  * [Data Services Subtasks](project-management/reference/data-services-subtasks/README.md)
-    * [Subtasks not Started](project-management/reference/data-services-subtasks/subtasks-not-started.md)
+  * [Data Services Subtasks](project-management/reference/data-services-subtasks.md)
   * [Data Services Budget](project-management/reference/data-services-budget.md)
   * [Tool Precedents](project-management/reference/tool-precedents.md)
 
