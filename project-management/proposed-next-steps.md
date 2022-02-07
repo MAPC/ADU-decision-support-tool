@@ -10,11 +10,37 @@ After this point, we will need input from the project team on the following high
 
 <summary>Project Management</summary>
 
-* [ ] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))
-* [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks.md))
-* [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../analysis/decision-support-tool.md))
-* [ ] Collaborate to define an organizational structure for communication on policy options
-* [ ] Collaborate to define an organizational structure for numerical inputs
+* [x] Confirmation that the roadmap can stay as-is (see notes under [Subtask 3.1](status-by-subtask/subtask-3.1.md))\
+  \
+  _The road map is staying as is, based both on conversations / concerns from Tim. The language has been softened to not hold our team to anything specific, with the overall goals remaining the same._\
+  __
+* [ ] Clarity on the "template engagement materials" task 3 deliverable (see [Data Services Subtasks](reference/data-services-subtasks.md))\
+  \
+  _This was intended on being support materials for public webinars. Those have been eliminated from the scope, as has the deliverable. The task 3 deliverables are now only the “Fully-documented decision support tool”_\
+
+*   [ ] Collaborate to define the design of the decision-support tool (see notes under [Decision Support Tool](../analysis/decision-support-tool.md))\
+    \
+    _This has been eliminated from the scope. This essentially meant that the tool would be open source (ish, whatever license your team wanted to use) and that GitHub should be used to develop the tool and make the repo publicly available for others to contribute to if they want to. Ryan has indicated to me (John) that the DS team keeps github as part of their workflow and makes code open to the public when they can, and there’s no reason as to why that should change for this project._
+
+    __\
+    _The top priority at this time is that this tool can lead to a functional draft of an ordinance for Beverly. DS is welcome to make the project open source and if there are resources to support that outside of the scope of this project, the housing team is fine with that being pursued independently._\
+
+*   [ ] Collaborate to define an organizational structure for communication on policy options\
+    \
+    _We will need to discuss how to discuss and collaborate on the policy options and how to narrow down the policy options. Let me know how your team prefers to handle communication for this and if we need to follow any intake, set up work sessions, or provide email / slack responses._
+
+    __\
+    _On the housing side, we will want to set up 3 meetings: Goals and equity framework, variables / parameters, client-facing materials._
+
+    __\
+    _We need to get the client’s thoughts on what they would be open to or what there is likely to be severe opposition to. I have been given the indication that there would be little community pushback, but the effort is not a “Slam dunk” per-say for getting this passed. That will be discussed with them on Wednesday._\
+
+
+
+
+* [ ] Collaborate to define an organizational structure for numerical inputs\
+  \
+  _We will need to discuss this to see what exactly you’re looking for with this question. It sounds like you’re asking what / how we will input the variables into the tool – such as lot size, zoning district, cover of existing structures, etc. Let’s talk through it more._
 
 </details>
 
@@ -22,8 +48,44 @@ After this point, we will need input from the project team on the following high
 
 <summary>Analysis</summary>
 
-* [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore?&#x20;
-* [ ] <mark style="background-color:orange;">Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)</mark>
+* [ ] We're planning to explore [the four ADU typologies described here](../analysis/part-a-feasibility/1.-available-space/). Are there typologies we're exploring that you don't see as being necessary? Conversely, are there ADU typologies not under consideration that you would like us to explore? \
+  \
+  _These are the four that we should be looking at. I would just change “convert the attic” to “convert existing floor” as we consider those options and annotate it as such (floor, attic, basement, etc.). The two options under “principal” are currently allowed under the zoning regulations, the accessory ones are not currently allowed. The biggest focus should be on the ”Build new” option._\
+
+*   [ ] <mark style="background-color:orange;">Draft list of parameters to explore so that we can assemble all needed data layers. (We don't need specific thresholds at this time, just an indication that they will be important.)</mark>\ <mark style="background-color:orange;"></mark>\ <mark style="background-color:orange;"></mark>a.     ADU Type (one of the four above)
+
+    &#x20;              i.     This is the first step in Seattle’s tool, determining if the ADU is attached or detached. That logic determines what parameters and variables are needed. So the following may change based on what people select, but overall this is what we should be prepared for:\
+
+
+    b.     Lot size sq ft (int)\
+
+
+    c.      Zoning District (varchar, to get other variables)\
+
+
+    &#x20;            i.     Total Impervious cover allowed by pct (float)
+
+    &#x20;            ii.     Setbacks required (int)
+
+    &#x20;                         1\.     Front
+
+    &#x20;                         2\.     Rear
+
+    &#x20;                         3\.     Side
+
+    &#x20;             iii.     Parking Requirements per unit (float)
+
+    &#x20;             iv.     Maximum FAR (float)\
+
+
+    d.     Current lot coverage in sq ft (float)\
+
+
+    e.     Flood Plain (binary)\
+    &#x20;         i.     The city has a floodplain ordinance designed to have additional protections in flood districts. We don’t need to get the flood zone level or anything that specific, but we’ll want to flag anything that is likely in a flood plain and discourage basement ADUs in those areas [https://www.beverlyma.gov/DocumentCenter/View/130/Zoning-Amendment-Floodplain-Overlay-District-Ordinance-PDF](https://www.beverlyma.gov/DocumentCenter/View/130/Zoning-Amendment-Floodplain-Overlay-District-Ordinance-PDF)\
+
+
+We’ll likely want to add some more nuanced things here based on some input from the city. Let me know if you’re looking for something different.
 
 </details>
 
