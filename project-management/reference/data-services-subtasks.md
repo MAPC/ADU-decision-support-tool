@@ -1,6 +1,6 @@
 # Data Services Subtasks
 
-A copy of the original scope is [saved here](https://mapc365.sharepoint.com/sites/BeverlyADU/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200026A59B5019BBDC40B1B76EA92F79F918\&siteid=%7B0972F1FF%2D). Any emphasis and formatting of the subtasks below is mine. Our progress on each of these subtasks is rendered in the [Status by Subtask](../../../) section.
+A copy of the original scope is [saved here](https://mapc365.sharepoint.com/sites/BeverlyADU/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x01200026A59B5019BBDC40B1B76EA92F79F918\&siteid=%7B0972F1FF%2D). Any emphasis and formatting of the subtasks below is mine. Our progress on each of these subtasks is rendered in the [Status by Subtask](<../../README (1).md>) section.
 
 ### Task 3. Develop Decision Support Tool
 

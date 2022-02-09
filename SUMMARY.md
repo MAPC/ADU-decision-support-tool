@@ -2,7 +2,8 @@
 
 ## Project Management
 
-* [Status by Subtask](README.md)
+* [Meeting Notes](README.md)
+* [Status by Subtask](<README (1).md>)
   * [Subtask 3.1](project-management/status-by-subtask/subtask-3.1.md)
   * [Subtask 3.2](project-management/status-by-subtask/subtask-3.2.md)
 * [Proposed Next Steps](project-management/proposed-next-steps.md)
