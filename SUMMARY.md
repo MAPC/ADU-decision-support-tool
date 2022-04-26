@@ -12,6 +12,10 @@
   * [Data Services Budget](project-management/reference/data-services-budget.md)
   * [Tool Precedents](project-management/reference/tool-precedents.md)
 
+***
+
+* [Data Assembly](data-assembly.md)
+
 ## Analysis Roadmap <a href="#analysis" id="analysis"></a>
 
 * [Part A | Feasibility](analysis/part-a-feasibility/README.md)
