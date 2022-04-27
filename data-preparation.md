@@ -15,20 +15,28 @@
    4. <mark style="background-color:blue;">\[Insert list of fields that must be retained.]</mark>
 4. Export the resulting file to the analysis geodatabase, with the title, "AllParcels."
 
-#### 3.  Assemble Spatial Extent&#x20;
+#### 3.  Assemble Spatial Extent **("ADUBoundary")**
 
 {% hint style="info" %}
-The Spatial Extent layer delineates the boundary outside of which an ADU may not be located, regardless of whether it would otherwise be allowable to construct. The Spatial Extent layer could be comprised of one or more sub-areas in the municipality, such as a zoning district or districts, the area within 1/2-mile of transit stations, or a combination of factors. If the policy under consideration does not reference a specific boundary, the Spatial Extent layer will be the municipal boundary.
+The Spatial Extent layer delineates the ADU Boundary, the area outside of which an ADU may not be located, regardless of whether it would otherwise be allowable to construct. The Spatial Extent layer may consist of one or more areas within the municipality, such as the area defined by a zoning district, areas within 1/2-mile of transit stations, or a combination of factors. If the policy under consideration does not reference a specific boundary, the Spatial Extent layer should be defined using the boundary of the study municipality.
 {% endhint %}
 
-1. Review the ADU Bylaw and identify the data layers required to delineate the ADU boundary. Merge these layers as needed to produce a single-part polygon, where the enclosed area represents geography where ADUs may be allowable.
-2. Export the resulting file to the Analysis Geodatabase, with the title, "ADUBoundary."
+1. Review the draft ADU Bylaw or Ordinance and identify the data layers required to delineate the ADU boundary.&#x20;
+2. Merge the data layers to produce a single-part polygon, where the enclosed area represents geography where ADUs may be allowable.
+3. Export the resulting file to the Analysis Geodatabase, with the title, "ADUBoundary."
 
-**4.  Assemble Categorical Spatial Exclusions**
+**4.  Assemble Categorical Spatial Exclusions ("ADUExclusions")**
 
 {% hint style="info" %}
-The Spatial Exclusions layer delineates areas where&#x20;
+The Spatial Exclusions layer defines areas on which an ADU may not be located, regardless of whether it would otherwise be allowable to construct. The Spatial Exclusions layer may consist of one or more areas within the municipality, such as the area defined by a historic district or flood zones. It could also or additionally be defined by proximity to certain features, such as the area within 100 feet of a particular zoning district. If the policy under consideration does not reference specific spatial exclusions, the Categorical Spatial Exclusions layer does not need to be created.
 {% endhint %}
+
+1. Review the draft ADU Bylaw or Ordinance and identify the data layers required to define Spatial Exclusions.&#x20;
+2. Buffer all point and line geometries by the relevant distance. As relevant, buffer polygon geometries.
+3. Merge the data layers to produce a single-part polygon, where the enclosed area represents geography where ADUs are not allowable.
+4. Export the resulting file to the Analysis Geodatabase, with the title, "ADUExclusions."
+
+****
 
 **Configure Parameter Geography**
 
