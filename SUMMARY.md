@@ -14,7 +14,7 @@
 
 ***
 
-* [Data Assembly](data-assembly.md)
+* [Data Preparation](data-preparation.md)
 
 ## Analysis Roadmap <a href="#analysis" id="analysis"></a>
 
