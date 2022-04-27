@@ -14,7 +14,9 @@
 
 ***
 
-* [Data Preparation](data-preparation.md)
+* [Analysis Preparation](analysis-preparation/README.md)
+  * [Spatial Inputs](analysis-preparation/spatial-inputs.md)
+  * [Tabular Inputs](analysis-preparation/tabular-inputs.md)
 
 ## Analysis Roadmap <a href="#analysis" id="analysis"></a>
 
