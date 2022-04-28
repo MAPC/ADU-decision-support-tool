@@ -62,7 +62,7 @@ As with the ADU Boundary layer, the Spatial Exclusions layer will be determined 
 **4c.  Combine the ADU Boundary and Spatial Exclusions Layer ("EffADUBoundary")**
 
 {% hint style="info" %}
-The **Effective ADU Boundary** layer is the ADU Boundary, less the areas defined in the Spatial Exclusions layer. Parcels with centroids in this boundary will continue to be evaluated for an ADU, while parcels with centroids outside of this boundary will be excluded from the analysis.
+The **Effective ADU Boundary** layer is the ADU Boundary layer (Step 4a), less the areas defined in the Spatial Exclusions layer (Step 4b). Parcels with centroids in this boundary will continue to be evaluated for an ADU, while parcels with centroids outside of this boundary will be excluded from the analysis.
 {% endhint %}
 
 _If an Advanced ArcGIS License is available to you:_&#x20;
@@ -75,13 +75,13 @@ _If an Advanced ArcGIS License is not available to you:_&#x20;
 1. Dissolve the ADU Boundary layer into a single feature class.
 2. Dissolve the Spatial Exclusions layer into a single feature class.
 3. Use the Union tool to consolidate two dissolved layers into a multi-part polygon.&#x20;
-4. Discard any geometry in the resulting multi-part polygon, using the FID\_ADUExc field created through the union. (Geometry where the FID\_ADUExc field not equal to -1 should be elimianted.)
+4. Discard any geometry in the resulting multi-part polygon, using the FID\_ADUExc field created through the union. (Geometry where the FID\_ADUExc field not equal to -1 should be eliminated.)
 5. Export the resulting file to ADUTool.gdb, with the title, "EffADUBoundary."
 
 ### 5. Assemble Parcel-level Exclusions
 
 {% hint style="info" %}
-Parcel-level Exclusions are characteristics of individual parcels that yield them ineligible for an ADU, regardless of their location in the municipality. May need to attach features. If you picked up the parcel and move it, it would still have this attribute. Parcel-level exclusions are attributes of the parcel itself.
+The **Parcel-level Exclusions** layer describes parcels where an ADU may not be located, regardless of their location within the Effective ADU Boundary (Step 4c). In contrast with  May need to attach features. If you picked up the parcel and move it, it would still have this attribute. Parcel-level exclusions are attributes of the parcel itself.
 
 As with the ADU Boundary and Spatial Exclusions layers, Parcel-level Exclusions will be determined by the policy under consideration. Parcel-level exclusions may involve spatial features (for example, parcels with a historical building point) but could also involve tabula
 
