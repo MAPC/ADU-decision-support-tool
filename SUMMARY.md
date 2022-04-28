@@ -1,8 +1,12 @@
 # Table of contents
 
+* [Analysis Preparation](README.md)
+  * [Spatial Inputs](data-preparation.md)
+  * [Tabular Inputs](analysis-preparation/tabular-inputs.md)
+
 ## Project Management
 
-* [Meeting Notes](README.md)
+* [Meeting Notes](<README (2).md>)
 * [Status by Subtask](<README (1).md>)
   * [Subtask 3.1](project-management/status-by-subtask/subtask-3.1.md)
   * [Subtask 3.2](project-management/status-by-subtask/subtask-3.2.md)
@@ -11,12 +15,6 @@
   * [Data Services Subtasks](project-management/reference/data-services-subtasks.md)
   * [Data Services Budget](project-management/reference/data-services-budget.md)
   * [Tool Precedents](project-management/reference/tool-precedents.md)
-
-***
-
-* [Analysis Preparation](analysis-preparation/README.md)
-  * [Spatial Inputs](data-preparation.md)
-  * [Tabular Inputs](analysis-preparation/tabular-inputs.md)
 
 ## Analysis Roadmap <a href="#analysis" id="analysis"></a>
 

@@ -81,14 +81,12 @@ _If an Advanced ArcGIS License is not available to you:_&#x20;
 ### 5. Assemble Parcel-level Exclusions
 
 {% hint style="info" %}
-The **Parcel-level Exclusions** layer describes parcels where an ADU may not be located, regardless of their location within the Effective ADU Boundary (Step 4c). In contrast with  May need to attach features. If you picked up the parcel and move it, it would still have this attribute. Parcel-level exclusions are attributes of the parcel itself.
+The **Parcel-level Exclusions** layer describes parcels where an ADU may not be located, regardless of their location within the Effective ADU Boundary (Step 4c). In contrast with Categorical Spatial Exclusions, Parcel-level Exclusions are attributes (or qualities) of an individual parcel.&#x20;
 
-As with the ADU Boundary and Spatial Exclusions layers, Parcel-level Exclusions will be determined by the policy under consideration. Parcel-level exclusions may involve spatial features (for example, parcels with a historical building point) but could also involve tabula
-
-
-
-It may also consist of one or more areas within the municipality, such as the area defined by a historic district or flood zones. It could also or additionally be defined by proximity to certain features, such as the area within 100 feet of a particular zoning district. If the policy does not reference specific spatial exclusions, the Categorical Spatial Exclusions layer does not need to be created.
+As with the ADU Boundary and Spatial Exclusions layers, Parcel-level Exclusions will be determined by the policy under consideration. Parcel-level exclusions may involve spatial features (for example, excluding all parcels with a historical building point) but could also involve tabular data (for example, excluding all parcels with a non-residential land use. If the policy does not reference specific exclusions, the Parcel Exclusions layer does not need to be created.
 {% endhint %}
+
+
 
 
 
