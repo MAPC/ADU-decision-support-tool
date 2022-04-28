@@ -39,7 +39,7 @@ In the scripted analysis, zoning districts are associated with parcels through a
 {% hint style="info" %}
 The **ADU Boundary** layer delineates the area _outside of which_ an ADU may not be located, regardless of whether one would otherwise be permitted.&#x20;
 
-The ADU Boundary layer will be determined by the policy under consideration. It may consist of one or more areas within the municipality, such as the area defined by a zoning district, areas within 1/2-mile of transit stations, or a combination of factors. If the policy does not reference a specific boundary, the Spatial Extent layer should be defined using the boundary of the study municipality.
+The ADU Boundary layer will be determined by the policy under consideration. It may consist of one or more areas within the municipality, such as the area defined by a zoning district, areas within 1/2-mile of transit stations, or a combination of factors. If the policy does not reference a specific boundary, the ADU Boundary layer should be defined using the boundary of the study municipality.
 {% endhint %}
 
 1. Review the draft ADU Bylaw or Ordinance and identify the data layer(s) required to define the ADU boundary.&#x20;
@@ -59,7 +59,7 @@ As with the ADU Boundary layer, the Spatial Exclusions layer will be determined 
 3. If needed, merge the data layer(s). Produce a single-part polygon, where the enclosed area represents geography where ADUs are not permitted.
 4. Export the resulting file to ADUTool.gdb, with the title, "ADUExclusions."
 
-**4c.  Combine the Spatial Extent and Spatial Exclusions Layer ("EffADUBoundary")**
+**4c.  Combine the ADU Boundary and Spatial Exclusions Layer ("EffADUBoundary")**
 
 {% hint style="info" %}
 The **Effective ADU Boundary** layer is the ADU Boundary, less the areas defined in the Spatial Exclusions layer. Parcels with centroids in this boundary will continue to be evaluated for an ADU, while parcels with centroids outside of this boundary will be excluded from the analysis.
@@ -83,7 +83,7 @@ _If an Advanced ArcGIS License is not available to you:_&#x20;
 {% hint style="info" %}
 Parcel-level Exclusions are characteristics of individual parcels that yield them ineligible for an ADU, regardless of their location in the municipality. May need to attach features. If you picked up the parcel and move it, it would still have this attribute. Parcel-level exclusions are attributes of the parcel itself.
 
-As with the Spatial Extent and Spatial Exclusions layers, Parcel-level Exclusions will be determined by the policy under consideration. Parcel-level exclusions may involve spatial features (for example, parcels with a historical building point) but could also involve tabula
+As with the ADU Boundary and Spatial Exclusions layers, Parcel-level Exclusions will be determined by the policy under consideration. Parcel-level exclusions may involve spatial features (for example, parcels with a historical building point) but could also involve tabula
 
 
 
