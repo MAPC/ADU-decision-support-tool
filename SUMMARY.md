@@ -13,7 +13,7 @@
     * [For Type 1 ADUs](analysis-preparation/tabular-inputs/for-type-1-adus.md)
     * [For Type 2 ADUs](analysis-preparation/tabular-inputs/for-type-2-adus.md)
     * [For Type 3 ADUs](analysis-preparation/tabular-inputs/for-type-3-adus.md)
-    * [Type 4 ADUs (Accessory-New)](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
+    * [For Type 4 ADUs](analysis-preparation/tabular-inputs/for-type-4-adus.md)
 
 ## Project Management
 
