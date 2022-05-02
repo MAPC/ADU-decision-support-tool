@@ -4,7 +4,12 @@
   * [Software Installations](analysis-preparation/software-installations.md)
   * [Spatial Inputs](data-preparation.md)
   * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
+    * [All ADUs](analysis-preparation/tabular-inputs/all-adus.md)
+    * [Zoning Dimensional Requirements](analysis-preparation/tabular-inputs/zoning-dimensional-requirements.md)
     * [Type 1 ADUs (Principal-Existing)](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
+    * [Type 2 ADUs (Principal-New)](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
+    * [Type 3 ADUs (xxx)](analysis-preparation/tabular-inputs/type-3-adus-xxx.md)
+    * [Type 4 ADUs (xxx)](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
 
 ## Project Management
 
