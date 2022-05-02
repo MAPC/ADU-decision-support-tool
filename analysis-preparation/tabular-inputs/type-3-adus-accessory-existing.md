@@ -1,7 +1,7 @@
-# Type 3 ADUs (xxx)
+# Type 3 ADUs (Accessory-Existing)
 
-xxx
+<mark style="color:orange;background-color:blue;">**\[Some explanatory text]**</mark>
 
-#### Tabular Inputs
+#### Inputs for Type 3 ADUs:
 
 {% embed url="https://airtable.com/shrfuU1gCtH4vISYc" %}

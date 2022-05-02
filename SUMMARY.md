@@ -2,14 +2,18 @@
 
 * [Analysis Preparation](README.md)
   * [Software Installations](analysis-preparation/software-installations.md)
-  * [Spatial Inputs](data-preparation.md)
+  * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
+    * [Step 1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
+    * [Step 2. Zoning](analysis-preparation/spatial-inputs/step-2.-zoning.md)
+    * [Step 3. Effective ADU Boundary](analysis-preparation/spatial-inputs/step-3.-effective-adu-boundary.md)
+    * [Step 4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
   * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
     * [All ADUs](analysis-preparation/tabular-inputs/all-adus.md)
-    * [General Zoning Dimensional Requirements](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
+    * [All ADUs: Existing Zoning](analysis-preparation/tabular-inputs/all-adus-existing-zoning.md)
     * [Type 1 ADUs (Principal-Existing)](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
     * [Type 2 ADUs (Principal-New)](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
     * [Type 3 ADUs (Accessory-Existing)](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
-    * [Type 4 ADUs (Accessory-New)](analysis-preparation/tabular-inputs/type-4-adus-accessory-new.md)
+    * [Type 4 ADUs (Accessory-New)](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
 
 ## Project Management
 
