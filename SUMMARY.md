@@ -1,8 +1,10 @@
 # Table of contents
 
 * [Analysis Preparation](README.md)
+  * [Software Installations](analysis-preparation/software-installations.md)
   * [Spatial Inputs](data-preparation.md)
-  * [Tabular Inputs](analysis-preparation/tabular-inputs.md)
+  * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
+    * [Type 1 ADUs (Principal-Existing)](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
 
 ## Project Management
 
