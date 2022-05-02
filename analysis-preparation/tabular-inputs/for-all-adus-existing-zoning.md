@@ -1,4 +1,4 @@
-# All ADUs: Existing Zoning
+# For All ADUs: Existing Zoning
 
 <mark style="color:orange;background-color:blue;">**\[Some explanatory text]**</mark>
 
