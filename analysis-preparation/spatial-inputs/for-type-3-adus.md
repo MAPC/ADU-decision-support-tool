@@ -1,19 +1,24 @@
 # For Type 3 ADUs
 
-### Create Structures Lookup Table
+## Building Footprint Lookup Table
 
-1. Retrieve spatial data for the building footprints in the Study Municipality. If spatial data on building footprints does not exist locally, we recommend sourcing parcel data from the MassGIS Building Structures (Rooftops) layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
-2. Add the building footprints spatial data to ADUTool.gdb, titled "structures\_poly\_\[muniID]," replacing \[muniID] with the Municipal ID for the Study Municipality.
-3. If the Minimum Size of a Type 3 ADU (aduSFmn3) exceeds 300 square feet, discard any geometry where the building footprint area (AREA\_SQ\_FT) is less than this minimum. Title the file with the remaining structures, **structures\_poly\_\[muniID]\_ov\[XX]sf**, where XX is equal to 3ADUMn/StrStor.
-4. Execute a spatial join, using:
+{% hint style="warning" %}
+\[Add something about building stories assumption]
+{% endhint %}
 
-* Target Features = structures\_poly\_\[muniID]\_ov\[XX]sf
-* Join Features = ZoneParcels
-* Output Feature Class = **structures\_ov\[XX]sf\_joinZP**
-* _Do not keep all target parcels_
-* Join Operation = JOIN\_ONE\_TO\_MANY
-
-1. Execute a dissolve, using:
+1. Retrieve data on the size of existing accessory buildings in the Study Municipality. The analysis will require the following information, at the parcel level:
+   1. Count of existing accessory buildings (
+   2. &#x20;
+2. Retrieve spatial data for the building footprints in the Study Municipality. If spatial data on building footprints exists locally, review the attribute table to confwe recommend sourcing parcel data from the MassGIS Building Structures (Rooftops) layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
+3. Add the building footprints spatial data to ADUTool.gdb, titled "Structures."
+4. If the Minimum Size of a Type 3 ADU (aduSFmn3) for the policy under consideration exceeds 150 square feet (the area minimum for the statewide database), discard any geometry where the building footprint area (AREA\_SQ\_FT) is less than this minimum. Title the file with the remaining structures, structures\_ov\[XX]sf, where XX is equal to aduSFmn3.
+5. Execute a spatial join to relate the building footprints spatial data to the parcel data, using:
+   1. Target Features = structures\_ov\[XX]sf
+   2. Join Features = ZoneParcels
+   3. Output Feature Class = **structures\_ov\[XX]sf\_joinZP**
+      1. _Do not keep all target parcels_
+   4. Join Operation = JOIN\_ONE\_TO\_MANY
+   5. Execute a dissolve, using:
 
 * Input Features = structures\_ov\[XX]sf\_joinZP
 * Output Feature Class = **structures\_ov\[XX]sf\_joinZP\_Dis**

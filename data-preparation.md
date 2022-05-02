@@ -11,7 +11,7 @@ The ADU Boundary layer will be determined by the policy under consideration. It 
 {% endhint %}
 
 1. Review the draft ADU Bylaw or Ordinance and identify the data layer(s) required to define the ADU boundary. Retrieve and/or create the data layer(s).&#x20;
-2. IIf working with multiple data layers, merge them into a single layer. Produce a single-part polygon, where the enclosed area represents geography where ADUs _may be_ permitted.
+2. If working with multiple data layers, merge them into a single layer. Produce a single-part polygon, where the enclosed area represents geography where ADUs _may be_ permitted.
 3. Export the resulting file to ADUTool.gdb, titled "ADUBoundary," also adding the file back to ArcMap for further processing.
 
 ### **3b.  Assemble the Categorical Spatial Exclusions input ("ADUExclusions")**
