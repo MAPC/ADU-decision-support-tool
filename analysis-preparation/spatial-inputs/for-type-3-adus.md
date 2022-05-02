@@ -4,7 +4,7 @@
 
 1. Retrieve spatial data for the building footprints in the Study Municipality. If spatial data on building footprints does not exist locally, we recommend sourcing parcel data from the MassGIS Building Structures (Rooftops) layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
 2. Add the building footprints spatial data to ADUTool.gdb, titled "structures\_poly\_\[muniID]," replacing \[muniID] with the Municipal ID for the Study Municipality.
-3. If the ADU Minimum exceeds 300 square feet, discard any structures where **AREA\_SQ\_FT** < (3ADU Mn/StrStor). Title the file with the remaining structures, **structures\_poly\_\[muniID]\_ov\[XX]sf**, where XX is equal to 3ADUMn/StrStor.
+3. If the Minimum Size of a Type 3 ADU (aduSFmn3) exceeds 300 square feet, discard any geometry where the building footprint area (AREA\_SQ\_FT) is less than this minimum. Title the file with the remaining structures, **structures\_poly\_\[muniID]\_ov\[XX]sf**, where XX is equal to 3ADUMn/StrStor.
 4. Execute a spatial join, using:
 
 * Target Features = structures\_poly\_\[muniID]\_ov\[XX]sf
