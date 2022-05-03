@@ -27,7 +27,7 @@ As with the ADU Boundary and Spatial Exclusions layers, Parcel-level Exclusions 
 #### **4c. Polygon geometry (buffered points or lines and/or polygons), that, if present above a certain percentage threshold, renders the parcel ineligible for an ADU.**&#x20;
 
 {% hint style="info" %}
-In contrast with the point geometry (Step 5a) and line geometry (Step 5b), which are boolean exclusions in the tool (the presence of any point and any line on the parcel results in a parcel exclusion, no matter the feature count or type), the exclusions resulting from polygon geometry may vary depending on the feature coverage and/or type. For example, the tool can differentiate between an exclusion based on >25% coverage by steep slopes and an exclusion based on >50% coverage by wetlands.
+In contrast with the point geometry (Step 5a) and line geometry (Step 5b), which are <mark style="color:orange;background-color:blue;">\[</mark><mark style="color:orange;background-color:blue;"><mark style="color:orange;">Boolean exclusions]<mark style="color:orange;"></mark> in the tool (the presence of any point and any line on the parcel results in a parcel exclusion, no matter the feature count or type), the exclusions resulting from polygon geometry may vary depending on the feature coverage and/or type. For example, the tool can differentiate between an exclusion based on >25% coverage by steep slopes and an exclusion based on >50% coverage by wetlands.
 {% endhint %}
 
 1. Review the draft ADU Bylaw or Ordinance and identify the data layer(s) required to define all excluding coverage geometry. Retrieve and/or create the data layer(s).
