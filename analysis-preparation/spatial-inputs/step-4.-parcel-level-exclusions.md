@@ -33,7 +33,7 @@ In contrast with the point geometry (Step 5a) and line geometry (Step 5b), which
 1. Review the draft ADU Bylaw or Ordinance and identify the data layer(s) required to define all excluding coverage geometry. Retrieve and/or create the data layer(s).
 2. If applicable, eliminate any features in the data layer(s) that should not result in a parcel exclusion.
 3. If applicable, buffer all point and line geometries by the relevant distance to produce polygon geometries. As relevant, buffer the polygon geometries to expand them by the policy-mandated distance.
-4. Export the resulting file(s) to ADUTool.gdb, with the naming structure "CG\_\[FeatureType]\_notover\[CoverageLimit]pct." For example, if the policy under consideration excluded parcels with 25% of more coverage by steep slopes, the input file might be titled "CG\_Slopes\_notover25pct."&#x20;
+4. Export the resulting file(s) to ADUTool.gdb, with the naming structure "CG\_\[FeatureType]\_und\[CoverageLimit]pct." For example, if the policy under consideration excluded parcels with 25% of more coverage by steep slopes, the input file might be titled "CG\_Slopes\_und25pct."&#x20;
 
 #### 4d. Parcel attributes, such as Land Use Code, Lot Size, Principal Building Age, already contained within the existing parcel data.&#x20;
 
