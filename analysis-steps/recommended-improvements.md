@@ -1,7 +1,7 @@
 # Recommended Improvements
 
 {% hint style="danger" %}
-From Caitlin's Transition Memo
+From Caitlin's Transition Memo. Not yet edited.
 {% endhint %}
 
 1. Develop internal ADU tool (3/8/2022)

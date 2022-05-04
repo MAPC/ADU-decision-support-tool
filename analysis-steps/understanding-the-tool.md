@@ -1,7 +1,7 @@
 # Understanding the Tool
 
 {% hint style="danger" %}
-From Caitlin's Transition Memo
+From Caitlin's Transition Memo. Not yet edited.
 {% endhint %}
 
 ## Supporting Functions

@@ -1,7 +1,7 @@
 # ADU Fit Tool
 
 {% hint style="danger" %}
-From Caitlin's Transition Memo
+From Caitlin's Transition Memo. Not yet edited.
 {% endhint %}
 
 ADU fit tool

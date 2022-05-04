@@ -2,7 +2,7 @@
 
 * [Analysis Preparation](README.md)
   * [Installations](analysis-preparation/software-installations.md)
-    * [Python Set Up](analysis-preparation/installations/python-set-up.md)
+    * [Python](analysis-preparation/installations/python.md)
   * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
     * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
     * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
