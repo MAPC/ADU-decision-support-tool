@@ -12,7 +12,7 @@
     * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
   * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
     * [All ADUs](analysis-preparation/tabular-inputs/all-adus.md)
-    * [All ADUs: Existing Zoning](analysis-preparation/tabular-inputs/all-adus-existing-zoning.md)
+    * [All ADUs: Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
     * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
     * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
     * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
