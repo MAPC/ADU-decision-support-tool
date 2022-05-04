@@ -1,29 +1,36 @@
 # Table of contents
 
-* [Analysis Preparation](README.md)
-  * [Installations](analysis-preparation/software-installations.md)
-    * [Python](analysis-preparation/installations/python.md)
-  * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
-    * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
-    * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
-    * [3. Effective ADU Boundary](data-preparation.md)
-    * [4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
-    * [For Type 2 and 4 ADUs and/or Required On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-required-on-site-parking.md)
-    * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
-  * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
-    * [1. Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
-    * [2. Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
-    * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
-    * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
-    * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
-    * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
-* [Analysis Steps](analysis-steps/README.md)
-  * [Running the Python Tool](analysis-steps/running-the-python-tool/README.md)
-    * [Data Inputs](analysis-steps/running-the-python-tool/data-inputs.md)
-    * [Parcel Side Classifier](analysis-steps/running-the-python-tool/parcel-side-classifier.md)
-    * [ADU Fit Tool](analysis-steps/running-the-python-tool/adu-fit-tool.md)
-  * [Understanding the Tool](analysis-steps/understanding-the-tool.md)
-  * [Recommended Improvements](analysis-steps/recommended-improvements.md)
+## Analysis Preparation
+
+* [Installations](README.md)
+  * [Python](analysis-preparation/installations/python.md)
+* [Data Inputs](analysis-preparation/data-inputs.md)
+* [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
+  * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
+  * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
+  * [3. Effective ADU Boundary](data-preparation.md)
+  * [4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
+  * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking.md)
+  * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
+* [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
+  * [1. Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
+  * [2. Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
+  * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
+  * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
+  * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
+  * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
+
+## Analysis Steps
+
+* [Analysis Steps](analysis-steps/analysis-steps.md)
+* [Running the Python Tool](analysis-steps/running-the-python-tool/README.md)
+  * [Parcel Side Classifier](analysis-steps/running-the-python-tool/parcel-side-classifier.md)
+  * [ADU Fit Tool](analysis-steps/running-the-python-tool/adu-fit-tool.md)
+
+## Documentation
+
+* [Python Supporting Functions](documentation/python-supporting-functions.md)
+* [Recommended Improvements](documentation/recommended-improvements.md)
 
 ## Project Management
 
