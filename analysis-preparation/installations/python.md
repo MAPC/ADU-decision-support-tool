@@ -19,11 +19,11 @@ The ADU analysis tool relies on several Python libraries and packages.&#x20;
 
 In addition, the toolset relies on a number of custom functions designed specifically for this application. At present, the file containing those functions is found at the path below (3/8/2022):
 
-`K:\DataServices\Projects\Current_Projects\Housing\Beverly_ADU\Scripts\mapcadu\mapcadu.py`
+K:\DataServices\Projects\Current\_Projects\Housing\Beverly\_ADU\Scripts\mapcadu\mapcadu.py
 
 The tools were developed using Python 3.8 in an Anaconda Spyder development environment. An environment (.yml) file which contains all the dependencies used in that development environment is stored here:
 
-`K:\DataServices\Projects\Current_Projects\Housing\Beverly_ADU\Scripts\mapcadu.yml`
+K:\DataServices\Projects\Current\_Projects\Housing\Beverly\_ADU\Scripts\mapcadu.yml
 
 A user should be able to create a conda environment from the .yml file through:
 
