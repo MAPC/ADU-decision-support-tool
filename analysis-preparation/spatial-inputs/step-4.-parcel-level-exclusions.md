@@ -1,4 +1,4 @@
-# Step 4. Parcel-level Exclusions
+# 4. Parcel-level Exclusions
 
 ## Assemble Parcel-level Exclusions
 

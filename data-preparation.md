@@ -1,4 +1,4 @@
-# Step 3. Effective ADU Boundary
+# 3. Effective ADU Boundary
 
 ## Assemble Effective Zone Boundary ("EffADUBoudary")
 

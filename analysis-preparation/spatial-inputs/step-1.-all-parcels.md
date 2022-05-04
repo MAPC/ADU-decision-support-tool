@@ -1,4 +1,4 @@
-# Step 1. All Parcels
+# 1. All Parcels
 
 ## Assemble Base Geography ("AllParcels")
 
