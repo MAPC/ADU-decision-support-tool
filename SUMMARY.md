@@ -4,7 +4,13 @@
 
 * [Installations](README.md)
   * [Python](analysis-preparation/installations/python.md)
-* [Data Inputs](analysis-preparation/data-inputs.md)
+* [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
+  * [1. Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
+  * [2. Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
+  * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
+  * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
+  * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
+  * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
 * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
   * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
   * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
@@ -13,14 +19,8 @@
   * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
     * [Building Roofprints](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/building-roofprints.md)
     * [Right-of-Way Polygons](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/right-of-way-polygons.md)
+    * [For On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/for-on-site-parking.md)
   * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
-* [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
-  * [1. Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
-  * [2. Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
-  * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
-  * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
-  * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
-  * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
 
 ## Analysis Steps
 
