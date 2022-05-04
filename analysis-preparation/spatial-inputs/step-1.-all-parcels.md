@@ -1,6 +1,6 @@
 # 1. All Parcels
 
-## Assemble Base Geography ("allparcels")
+## Assemble Base Geography ("all\_parcels")
 
 1. Retrieve spatial data for the parcels in the municipality with the draft ADU Bylaw or Ordinance, the "Study Municipality." We recommend sourcing parcel data from the Massachusetts Land Parcel Database, available for download at [https://www.mapc.org/learn/data/#landparceldb](https://www.mapc.org/learn/data/#landparceldb)
 2. Discard any parcels not located within the Study Municipality, using the Municipal ID (muni\_id) field.&#x20;
@@ -13,7 +13,7 @@
    * Lot Area (square feet) (lot\_areaft)
    * Percent Building Coverage (pct\_building)
    * <mark style="color:orange;background-color:blue;">\[Insert list of fields that must be retained.]</mark>
-4. Export the resulting file to ADUTool.gdb, titled "AllParcels."
+4. Export the resulting file to ADUTool.gdb, titled "all\_parcels."
 
 **To Incorporate:**
 

@@ -1,6 +1,6 @@
-# 2. Zoning Districts
+# Step 2. Zoning
 
-## Assemble Zoning Data ("zoning\_base")
+## Assemble Zoning Data ("Zoning")
 
 {% hint style="info" %}
 In the scripted analysis, zoning districts are associated with parcels through a spatial join. This association allows users to vary the parameters of the ADU Bylaw or Ordinance by zoning district.
@@ -11,7 +11,7 @@ In the scripted analysis, zoning districts are associated with parcels through a
    * Zone Code (zo\_code): Concatenation of muni\_id and zo\_abbr. Formula: muni\_id\&zo\_abbr
      * Municipal ID (muni\_id): Municipality ID, as assigned by MassGIS.
      * Zone Abbreviation (zo\_abbr): Zoning district abbreviation, as it appears in the municipality's zoning by-law.
-3. Export the resulting file to ADUTool.gdb, titled "ZoningDistricts."
+3. Export the resulting file to ADUTool.gdb, titled "Zoning."
 
 
 
