@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Analysis Preparation](README.md)
-  * [Installations](analysis-preparation/installations/README.md)
+  * [Installations](analysis-preparation/software-installations.md)
     * [Python Set Up](analysis-preparation/installations/python-set-up.md)
   * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
     * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)

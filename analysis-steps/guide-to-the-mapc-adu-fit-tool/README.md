@@ -4,6 +4,10 @@ description: From Caitlin
 
 # Guide to the MAPC ADU fit tool
 
+{% hint style="danger" %}
+From Caitlin's Transition Memo. Not yet edited.
+{% endhint %}
+
 ## Running the Tool
 
 The target user is an analyst working in municipal or regional planning who has some familiarity with scripted data analysis. The scripts are designed to require minimal edits by such an analyst to produce summaries of parcel-level ADU eligibility and municipal-level ADU yield for any municipality in Massachusetts. To set up and run the tools, the analyst should perform the following steps:
