@@ -17,8 +17,8 @@
   * [3. Effective ADU Boundary](data-preparation.md)
   * [4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
   * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
-    * [Building Roofprints](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/building-roofprints.md)
-    * [Right-of-Way Polygons](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/right-of-way-polygons.md)
+    * [A. Building Roofprints](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/a.-building-roofprints.md)
+    * [B. Right-of-Way Polygons](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/b.-right-of-way-polygons.md)
     * [For On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/for-on-site-parking.md)
   * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
 

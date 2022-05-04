@@ -1,15 +1,15 @@
 # For Type 3 ADUs
 
-## Building Footprint Lookup Table
+## Building Roofprints Lookup Table
 
 {% hint style="warning" %}
 \[Add something about building stories assumption]
 {% endhint %}
 
-1. Retrieve spatial data for the building footprints in the Study Municipality. We recommend sourcing this data from the MassGIS Building Structures layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
+1. Retrieve spatial data for the building rootprints in the Study Municipality. We recommend sourcing this data from the MassGIS Building Structures layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
 2. Add the downloaded spatial data to ADUTool.gdb, titled "Structures."
-3. If the Minimum Size of a Type 3 ADU (aduSFmn3) for the policy under consideration exceeds 150 square feet (the minimum area for inclusion in the MassGIS layer), discard any geometry where the building footprint area (area\_sq\_ft) is less than this minimum. Title the file with the remaining structures, structures\_ov\[XX]sf, replacing \[XX] with aduSFmn3.
-4. Execute a spatial join to relate the building footprints spatial data to the parcel data, using:
+3. If the Minimum Size of a Type 3 ADU (aduSFmn3) for the policy under consideration exceeds 150 square feet (the minimum area for inclusion in the MassGIS layer), discard any geometry where the building rootprint area (area\_sq\_ft) is less than this minimum. Title the file with the remaining structures, structures\_ov\[XX]sf, replacing \[XX] with aduSFmn3.
+4. Execute a spatial join to relate the building rootprints spatial data to the parcel data, using:
    * Target Features = structures\_ov\[XX]sf
    * <mark style="color:orange;background-color:blue;">Join Features = ZoneParcels</mark>
    * Output Feature Class = structures\_ov\[XX]sf\_joinZP
