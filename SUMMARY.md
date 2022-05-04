@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Analysis Preparation](README.md)
-  * [Installations](analysis-preparation/installations.md)
+  * [Installations](analysis-preparation/software-installations.md)
   * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
     * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
     * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)

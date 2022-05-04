@@ -1,4 +1,4 @@
-# Software Installations
+# Installations
 
 1. ArcMap (or ArcPro or QGIS)
 2. Python and Python Environment
