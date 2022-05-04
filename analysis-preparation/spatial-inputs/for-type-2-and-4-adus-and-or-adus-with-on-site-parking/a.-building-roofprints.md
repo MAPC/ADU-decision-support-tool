@@ -1,12 +1,8 @@
 # A. Building Roofprints
 
-
-
-{% hint style="danger" %}
-From Caitlin's Transition Memo. Not yet edited.
+{% hint style="info" %}
+For Type 2 and 4 ADUs, which each involve construction beyond the existing parcel structures, data with the location of existing structures is required as an input. Without this information, the tool could erroneously assume an ADU fits on the parcel, but on top of an existing structure. The same input is required to ensure that ADU parking is not located on top of an existing structure.
 {% endhint %}
 
-* Building roofprint spatial data
-* o Web resource listed in spatial data browser: [http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/structures.html](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/structures.html)
-* o K drive local copy listed in spatial data browser: K:\DataServices\Datasets\MassGIS\Facilities\_Structures
-* o Because only building roofprint geometry is needed, there is no reason not to use any comparable alternative. Currently, the script supports ESRI shapefile format.&#x20;
+1. Retrieve spatial data for the building roofprints in the Study Municipality. We recommend sourcing this data from the MassGIS Building Structures layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-)
+2. Add the downloaded spatial data to ADUTool.gdb, titled "all\_structures."

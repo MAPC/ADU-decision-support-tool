@@ -21,6 +21,7 @@
     * [B. Right-of-Way Polygon](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/b.-right-of-way-polygon.md)
     * [For On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/for-on-site-parking.md)
   * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
+  * [Preparation Summary](analysis-preparation/spatial-inputs/preparation-summary.md)
 
 ## Analysis Steps
 
