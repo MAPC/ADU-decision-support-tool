@@ -1,4 +1,4 @@
-# B. Right-of-Way Polygons
+# B. Right-of-Way Polygon
 
 {% hint style="danger" %}
 From Caitlin's Transition Memo. Not yet edited.
