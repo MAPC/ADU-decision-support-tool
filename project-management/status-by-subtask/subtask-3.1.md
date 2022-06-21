@@ -64,7 +64,7 @@ Compared the ADU zoning of Salem, Arlington, and Gloucester: [ADU Policy Compari
 
 The general plan we developed exists in two related formats:&#x20;
 
-* A flowchart created in the [Beverly ADU Airtable base](https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD\&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55) by associating parameters (for example, lot size) with the question(s) they might inform
+* A flowchart created in the [Beverly ADU Airtable base](https://airtable.com/invite/l?inviteId=invmXIRBYk4AJwjHD\&inviteToken=99c290958f5cb50b931033dc7390d17539eefffb62d2b26f1b2e2abf20765c55\&utm\_source=email) by associating parameters (for example, lot size) with the question(s) they might inform
 * A [deck created in PowerPoint](https://mapc365.sharepoint.com/:p:/s/BeverlyADU/EcBUewI8TBRFgeZjJBx8z6gBmtuYnLU6rRtfUkSxwNO8XQ?e=dFPpTZ) for a presentation to the City and Steering Committee&#x20;
 
 The Airtable flowchart is more detailed and is ordered according to how Data Services might proceed with the analysis, while the PowerPoint deck is less detailed and is ordered according to how the City and MAPC might consider policy decisions. <mark style="background-color:orange;">**Importantly, neither adequately considers ADU typologies beyond a new, detached structure, and resolution of additional typologies must be an area of focus in the next phase of work.**</mark>** ** This gap has been partially addressed in this GitBook, particularly under [question 1A.](../../analysis/part-a-feasibility/1.-available-space/) in the Analysis Roadmap section.

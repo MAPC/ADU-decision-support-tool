@@ -1,7 +1,7 @@
-# Type 3 ADUs (xxx)
+# For Type 3 ADUs
 
-xxx
+<mark style="color:orange;background-color:blue;">\[Some explanatory text: Type 3 ADUs (Accessory-Existing) ADUs are ADUs that are developed adjacent to the principal building, through an addition.]</mark>
 
-#### Tabular Inputs
+#### Inputs for Type 3 ADUs:
 
 {% embed url="https://airtable.com/shrfuU1gCtH4vISYc" %}
