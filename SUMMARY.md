@@ -25,7 +25,7 @@
 
 ## Analysis Steps
 
-* [Analysis Steps](analysis-steps/analysis-steps/README.md)
+* [Analysis Steps](analysis-steps/analysis-steps.md)
   * [ADU Type 2](analysis-steps/analysis-steps/adu-type-2.md)
 * [Running the Python Tool](analysis-steps/running-the-python-tool/README.md)
   * [Parcel Side Classifier](analysis-steps/running-the-python-tool/parcel-side-classifier.md)
