@@ -81,11 +81,56 @@
 
 <summary>Execute a Union with the Buffered Setback and Structures</summary>
 
-
+* Input Features:
+  * all\_structures
+  * all\_parcels\_all\_zoning\_mnStbk
+* Output Feature Class: mnStbk\_structures\_union
 
 </details>
 
-####
+<details>
+
+<summary>Execute a Union with </summary>
+
+* Input Features:
+  * all\_structures
+  * all\_parcels\_all\_zoning\_mnStbk
+
+<!---->
+
+* Output Feature Class: mnStbk\_structures\_parcels\_union
+
+</details>
+
+<details>
+
+<summary>Split Multipart to Singlepart Polygons</summary>
+
+singlepart\_union
+
+</details>
+
+<details>
+
+<summary>Discard Building, Setback Parcels</summary>
+
+Add Field: ShapeTy (Type: Text)
+
+Identify Structures: FID\_all\_structures >0, label them 'ROOF'
+
+</details>
+
+<details>
+
+<summary>Add Area and Perimeter Fields to singlepart_union</summary>
+
+* area\_sf (Double), populate with Calculate Geometry
+* perim\_f (Double), populate with Calculate Geometry
+* ppscore (Double), populate with (12.56637 \* \[area\_sf])/( \[perim\_f] \* \[perim\_f] )
+
+</details>
+
+#### ## NEED TO MAKE SURE ADUS ARE PLACED NEXT TO OR AWAY FROM BUILDINGS
 
 
 
