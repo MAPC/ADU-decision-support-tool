@@ -67,7 +67,6 @@
 * Use the Buffer Wizard with the following selections:
   * Page 1:
     * The features of a layer: all\_parcels\_all\_zoning
-    * \[X] Use only the selected features
   * Page 2:
     * Based on a distance from an attribute: mnStbk
   * Page 3:
@@ -75,7 +74,11 @@
     * Create buffers to they are: Only inside the polygon(s)
     * In a new layer: all\_parcels\_all\_zoning\_mnStbk
 
+NOTE: Redid this with SideSetback
+
 </details>
+
+With all input fields, add a TEXT field type titled, "geoty". Name Structure, Parcel, Setback, Buffer, respectively
 
 <details>
 
@@ -130,7 +133,109 @@ Identify Structures: FID\_all\_structures >0, label them 'ROOF'
 
 </details>
 
-#### ## NEED TO MAKE SURE ADUS ARE PLACED NEXT TO OR AWAY FROM BUILDINGS
+#### ## NEED TO MAKE SURE ADUS ARE PLACED NEXT TO OR AWAY FROM BUILDINGS. Approach: Buffer Buildings out by th eminimum width of an ADU.
 
 
 
+<details>
+
+<summary>Execute a Spatial Join to associate buildings with parlocIDs.</summary>
+
+* Target Features: all\_structures
+
+<!---->
+
+* Join Features: all\_parcels
+
+<!---->
+
+* Output Feature Class:&#x20;
+
+<!---->
+
+* Match Option: Have Their Center in
+
+Turn off all fields except Structure ID and Parcel ID
+
+</details>
+
+<details>
+
+<summary>Buffer all_structures by Minimum ADU Dimension</summary>
+
+* Input Features: all_structures_wpids
+
+<!---->
+
+* Output Feature Class: all-structures-wpids-buf12ft
+
+<!---->
+
+* Linear Unit: \[12] Feet
+* SIde Type: Outside Only
+* Dissolve Type: List
+* Dissolve Fields: parloc\_id
+
+</details>
+
+<details>
+
+<summary>Delete Buffer Overflow</summary>
+
+Union
+
+Input Features: all-structures-wpids-buf12ft and all\_parcels
+
+Output Features: all-structures-wpids-buf12ft-unpar
+
+Discard geometry where FID-all-structures-wpids-buf12ft = -1
+
+
+
+
+
+Use these instructions to identify buffers that have overflowed parcel boundaries:
+
+[https://support.esri.com/en/technical-article/000011200](https://support.esri.com/en/technical-article/000011200)
+
+
+
+TRY THIS AGAIN with all-structures-wpids-buf
+
+Works as expected
+
+Discard Overflow Buffers (Source\_Match = 0)
+
+Dissolve once more
+
+Output: all-structures-wpids-buf12ft-unpar-dxpar
+
+</details>
+
+<details>
+
+<summary>Repeat for Required Distance from Building and ADU</summary>
+
+Create structures table with structID, Par_id, Zone Code, Adu_mindbldft
+
+
+
+call it all_structures_wpids\_wmindbldft
+
+
+
+union result:
+
+mindbldft_parcels_union
+
+Discard geometry where FID-all-structures-wpids-wmindbldgfit\_bufmindbldft = -1
+
+reassociate buffered parcels with parlocID using a spatial join
+
+
+
+discard overflow parcels.
+
+
+
+</details>
