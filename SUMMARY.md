@@ -1,9 +1,59 @@
 # Table of contents
 
+* [User Guide](README.md)
+* [Archived, delete when ready](archived-delete-when-ready/README.md)
+  * [Meeting Notes](archived-delete-when-ready/meeting-notes.md)
+  * [Status by Subtask](archived-delete-when-ready/status-by-subtask/README.md)
+    * [Subtask 3.1](archived-delete-when-ready/status-by-subtask/subtask-3.1.md)
+    * [Subtask 3.2](archived-delete-when-ready/status-by-subtask/subtask-3.2.md)
+  * [Proposed Next Steps](archived-delete-when-ready/proposed-next-steps.md)
+  * [Reference](archived-delete-when-ready/reference/README.md)
+    * [Data Services Subtasks](archived-delete-when-ready/reference/data-services-subtasks.md)
+    * [Data Services Budget](archived-delete-when-ready/reference/data-services-budget.md)
+    * [Tool Precedents](archived-delete-when-ready/reference/tool-precedents.md)
+    * [Decision Support Tool](archived-delete-when-ready/reference/decision-support-tool.md)
+  * [Recommended Improvements](archived-delete-when-ready/recommended-improvements.md)
+  * [Part A | Feasibility](archived-delete-when-ready/part-a-feasibility/README.md)
+    * [1A. How much space exists on this parcel?](archived-delete-when-ready/part-a-feasibility/1.-available-space/README.md)
+      * [Principal-Existing](archived-delete-when-ready/part-a-feasibility/1.-available-space/principal-existing.md)
+      * [Accessory-Existing](archived-delete-when-ready/part-a-feasibility/1.-available-space/accessory-existing.md)
+      * [Principal-New](archived-delete-when-ready/part-a-feasibility/1.-available-space/principal-new.md)
+      * [Accessory-New](archived-delete-when-ready/part-a-feasibility/1.-available-space/accessory-new.md)
+    * [1Bi. How much space is undevelopable due to environmental factors?](archived-delete-when-ready/part-a-feasibility/1bi.-how-much-space-is-undevelopable-due-to-environmental-factors.md)
+    * [1Bii. How much of the allowable density is already consumed?](archived-delete-when-ready/part-a-feasibility/1bii.-how-much-of-the-allowable-density-is-already-consumed.md)
+    * [2Ai. How much space is required for the ADU structure?](archived-delete-when-ready/part-a-feasibility/2ai.-how-much-space-is-required-for-the-adu-structure.md)
+    * [2Aii. How much space is required around the ADU?](archived-delete-when-ready/part-a-feasibility/2aii.-how-much-space-is-required-around-the-adu.md)
+    * [2B. How much space is required for the parking associated with the ADU?](archived-delete-when-ready/part-a-feasibility/2b.-how-much-space-is-required-for-the-parking-associated-with-the-adu.md)
+    * [Part A. Output](archived-delete-when-ready/part-a-feasibility/part-a.-output.md)
+  * [Part B | Eligibility](archived-delete-when-ready/part-b-or-eligibility/README.md)
+    * [3A. Is an ADU allowable given the individual characteristics of the parcel?](archived-delete-when-ready/part-b-or-eligibility/3a.-is-an-adu-allowable-given-the-individual-characteristics-of-the-parcel.md)
+    * [3B. Is an ADU allowable given the location of the parcel?](archived-delete-when-ready/part-b-or-eligibility/3b.-is-an-adu-allowable-given-the-location-of-the-parcel.md)
+  * [Part C | Yield](archived-delete-when-ready/part-c-or-yield/README.md)
+    * [4. How many ADUs will be developed?](archived-delete-when-ready/part-c-or-yield/4.-how-many-adus-will-be-developed.md)
+    * [5. What are the impacts of that development?](archived-delete-when-ready/part-c-or-yield/5.-what-are-the-impacts-of-that-development.md)
+  * [Parameters](archived-delete-when-ready/parameters/README.md)
+    * [Parameters Table](archived-delete-when-ready/parameters/parameters-table.md)
+    * [Additional Parameters](archived-delete-when-ready/parameters/additional-parameters.md)
+  * [Parcel Characteristics](archived-delete-when-ready/parcel-characteristics/README.md)
+    * [Parcel Data](archived-delete-when-ready/parcel-characteristics/parcel-data.md)
+    * [Other Spatial Data](archived-delete-when-ready/parcel-characteristics/other-spatial-data.md)
+  * [Assumptions and Policy](archived-delete-when-ready/assumptions-and-policy/README.md)
+    * [ADU Policy Options](archived-delete-when-ready/assumptions-and-policy/adu-policy-options/README.md)
+      * [Scenario 0: Existing ADU Ordinance](archived-delete-when-ready/assumptions-and-policy/adu-policy-options/scenario-0-existing-adu-ordinance.md)
+    * [Citywide Dimensional Requirements](archived-delete-when-ready/assumptions-and-policy/citywide-dimensional-requirements.md)
+    * [Parking Requirements](archived-delete-when-ready/assumptions-and-policy/parking-requirements/README.md)
+      * [Citywide Parking Requirements](archived-delete-when-ready/assumptions-and-policy/parking-requirements/number-of-parking-spaces.md)
+      * [Parking Assumptions](archived-delete-when-ready/assumptions-and-policy/parking-requirements/previous-parking-assumptions.md)
+  * [Joining LPD and CAMA Data](archived-delete-when-ready/parcel-data.md)
+
+## Analysis Overview
+
+* [Page 1](analysis-overview/page-1.md)
+* [Page 2](analysis-overview/page-2.md)
+
 ## Analysis Preparation
 
-* [Installations](README.md)
-  * [Python](analysis-preparation/installations/python.md)
+* [Software Requirements](analysis-preparation/software-requirements.md)
 * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
   * [1. Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
   * [2. Existing Zoning](analysis-preparation/tabular-inputs/general-zoning-dimensional-requirements.md)
@@ -11,6 +61,7 @@
   * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
   * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
   * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
+  * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
 * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
   * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
   * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
@@ -25,71 +76,16 @@
 
 ## Analysis Steps
 
-* [Analysis Steps](analysis-steps/analysis-steps.md)
-  * [ADU Type 2](analysis-steps/analysis-steps/adu-type-2.md)
-* [Running the Python Tool](analysis-steps/running-the-python-tool/README.md)
-  * [Parcel Side Classifier](analysis-steps/running-the-python-tool/parcel-side-classifier.md)
-  * [ADU Fit Tool](analysis-steps/running-the-python-tool/adu-fit-tool.md)
+## Technical Documentation
 
-## Documentation
+* [ADU Type 2](technical-documentation/adu-type-2.md)
+* [Key Assumptions](technical-documentation/key-assumptions.md)
+* [Code Base](technical-documentation/code-base.md)
 
-* [Python Supporting Functions](documentation/python-supporting-functions.md)
-* [Recommended Improvements](documentation/recommended-improvements.md)
+## If relevant, Python Documentation
 
-## Project Management
-
-* [Meeting Notes](<README (2).md>)
-* [Status by Subtask](<README (1).md>)
-  * [Subtask 3.1](project-management/status-by-subtask/subtask-3.1.md)
-  * [Subtask 3.2](project-management/status-by-subtask/subtask-3.2.md)
-* [Proposed Next Steps](project-management/proposed-next-steps.md)
-* [Reference](project-management/reference/README.md)
-  * [Data Services Subtasks](project-management/reference/data-services-subtasks.md)
-  * [Data Services Budget](project-management/reference/data-services-budget.md)
-  * [Tool Precedents](project-management/reference/tool-precedents.md)
-
-## Analysis Roadmap <a href="#analysis" id="analysis"></a>
-
-* [Part A | Feasibility](analysis/part-a-feasibility/README.md)
-  * [1A. How much space exists on this parcel?](analysis/part-a-feasibility/1.-available-space/README.md)
-    * [Principal-Existing](analysis/part-a-feasibility/1.-available-space/principal-existing.md)
-    * [Accessory-Existing](analysis/part-a-feasibility/1.-available-space/accessory-existing.md)
-    * [Principal-New](analysis/part-a-feasibility/1.-available-space/principal-new.md)
-    * [Accessory-New](analysis/part-a-feasibility/1.-available-space/accessory-new.md)
-  * [1Bi. How much space is undevelopable due to environmental factors?](analysis/part-a-feasibility/1bi.-how-much-space-is-undevelopable-due-to-environmental-factors.md)
-  * [1Bii. How much of the allowable density is already consumed?](analysis/part-a-feasibility/1bii.-how-much-of-the-allowable-density-is-already-consumed.md)
-  * [2Ai. How much space is required for the ADU structure?](analysis/part-a-feasibility/2ai.-how-much-space-is-required-for-the-adu-structure.md)
-  * [2Aii. How much space is required around the ADU?](analysis/part-a-feasibility/2aii.-how-much-space-is-available-around-the-adu.md)
-  * [2B. How much space is required for the parking associated with the ADU?](analysis/part-a-feasibility/2b.-how-much-space-is-required-for-the-parking-associated-with-the-adu.md)
-  * [Part A. Output](analysis/part-a-feasibility/part-a.-output.md)
-* [Part B | Eligibility](analysis/part-b-or-eligibility/README.md)
-  * [3A. Is an ADU allowable given the individual characteristics of the parcel?](analysis/part-b-or-eligibility/3a.-is-an-adu-allowable-given-the-individual-characteristics-of-the-parcel.md)
-  * [3B. Is an ADU allowable given the location of the parcel?](analysis/part-b-or-eligibility/3b.-is-an-adu-allowable-given-the-location-of-the-parcel.md)
-* [Part C | Yield](analysis/part-c-or-yield/README.md)
-  * [4. How many ADUs will be developed?](analysis/part-c-or-yield/4.-how-many-adus-will-be-developed.md)
-  * [5. What are the impacts of that development?](analysis/part-c-or-yield/5.-what-are-the-impacts-of-that-development.md)
-
-## Supporting Information <a href="#policy" id="policy"></a>
-
-* [Parameters](policy/parameters/README.md)
-  * [Parameters Table](policy/parameters/parameters-table.md)
-  * [Additional Parameters](policy/parameters/additional-parameters.md)
-* [Parcel Characteristics](policy/parcel-characteristics/README.md)
-  * [Parcel Data](policy/parcel-characteristics/parcel-data.md)
-  * [Other Spatial Data](policy/parcel-characteristics/other-spatial-data.md)
-* [Assumptions and Policy](policy/assumptions-and-policy/README.md)
-  * [ADU Policy Options](policy/assumptions-and-policy/adu-policy-options/README.md)
-    * [Scenario 0: Existing ADU Ordinance](policy/assumptions-and-policy/adu-policy-options/scenario-0-existing-adu-ordinance.md)
-  * [Citywide Dimensional Requirements](policy/assumptions-and-policy/citywide-dimensional-requirements.md)
-  * [Parking Requirements](policy/assumptions-and-policy/parking-requirements/README.md)
-    * [Citywide Parking Requirements](policy/assumptions-and-policy/parking-requirements/number-of-parking-spaces.md)
-    * [Parking Assumptions](policy/assumptions-and-policy/parking-requirements/previous-parking-assumptions.md)
-
-## Deliverables <a href="#technical-documentation" id="technical-documentation"></a>
-
-* [Decision Support Tool](analysis/decision-support-tool.md)
-  * [Deliverable 1: Code Base](technical-documentation/deliverable-1-code-base.md)
-  * [Deliverable 2: User Guide](technical-documentation/deliverable-2-user-guide.md)
-* [Technical Documentation](technical-documentation/technical-documentation/README.md)
-  * [Fixed Assumptions](technical-documentation/technical-documentation/fixed-assumptions.md)
-  * [Joining LPD and CAMA Data](technical-documentation/parcel-data.md)
+* [Python](if-relevant-python-documentation/python.md)
+* [Running the Python Tool](if-relevant-python-documentation/running-the-python-tool/README.md)
+  * [Parcel Side Classifier](if-relevant-python-documentation/running-the-python-tool/parcel-side-classifier.md)
+  * [ADU Fit Tool](if-relevant-python-documentation/running-the-python-tool/adu-fit-tool.md)
+* [Python Supporting Functions](if-relevant-python-documentation/python-supporting-functions.md)
