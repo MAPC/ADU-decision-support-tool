@@ -62,11 +62,15 @@
   * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
   * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
 * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
-  * [1. ADU Boundary](analysis-preparation/spatial-inputs/1.-adu-boundary.md)
-  * [2. ADU Exclusions](data-preparation.md)
-  * [3. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
+  * [1-1. ADU Boundary](analysis-preparation/spatial-inputs/1-1.-adu-boundary.md)
+  * [1-2. ADU Exclusions](analysis-preparation/spatial-inputs/1-2.-adu-exclusions.md)
+  * [1-3. All Parcels](analysis-preparation/spatial-inputs/1-3.-all-parcels.md)
+  * [2. Parcel-level Exclusions](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/README.md)
+    * [2-1. Excluded Parcel IDs](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluded-parcel-ids.md)
+    * [2-2. Excluding Points](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-2.-excluding-points.md)
+    * [2-3. Excluding Lines](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-lines.md)
+    * [2-4. Excluding Polygons](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluding-polygons.md)
   * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
-  * [4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
   * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
     * [A. Right-of-Way Polygon](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/a.-right-of-way-polygon.md)
     * [B. Building Roofprints](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/b.-building-roofprints.md)
@@ -77,6 +81,7 @@
 ## Analysis Steps
 
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
+* [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 
 ## Technical Documentation
 
