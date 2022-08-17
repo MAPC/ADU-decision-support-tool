@@ -48,7 +48,6 @@
 
 ## Analysis Overview
 
-* [Page 1](analysis-overview/page-1.md)
 * [Page 2](analysis-overview/page-2.md)
 
 ## Analysis Preparation
@@ -63,9 +62,10 @@
   * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
   * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
 * [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
-  * [1. All Parcels](analysis-preparation/spatial-inputs/step-1.-all-parcels.md)
+  * [1. ADU Boundary](analysis-preparation/spatial-inputs/1.-adu-boundary.md)
+  * [2. ADU Exclusions](analysis-preparation/spatial-inputs/2.-adu-exclusions.md)
+  * [3. All Parcels](analysis-preparation/spatial-inputs/3.-all-parcels.md)
   * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
-  * [3. Effective ADU Boundary](data-preparation.md)
   * [4. Parcel-level Exclusions](analysis-preparation/spatial-inputs/step-4.-parcel-level-exclusions.md)
   * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
     * [A. Right-of-Way Polygon](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/a.-right-of-way-polygon.md)
@@ -75,6 +75,8 @@
   * [Preparation Summary](analysis-preparation/spatial-inputs/preparation-summary.md)
 
 ## Analysis Steps
+
+* [1 | Define Parcels in ADU Boundary](analysis-steps/1-or-define-parcels-in-adu-boundary.md)
 
 ## Technical Documentation
 
