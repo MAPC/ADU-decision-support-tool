@@ -12,7 +12,7 @@ As with the ADU Boundary input, the ADU Exclusions input will be determined by t
 * [ ] If working with multiple data layers, merge them into a single layer. Then, produce a **single-part polygon**, where the enclosed area represents geography where ADUs _are not_ permitted. **The layer must contain a field "adu\_excl" (Data Type: Short, Suggested Alias: ADU Exclusions) populated with a value of "1".**
 
 {% hint style="info" %}
-Blank and example "aduexclusions" layers are available within the ADU-Analytical-Tool\_Spatial-Inputs.gdb file, titled, "aduexclusions" and "ex\_aduexclusions" respectively.
+Blank and example "aduexclusions" layers are available within the ADU-Analytical-Tool\_Spatial-Inputs.gdb file, titled, "aduexclusions" and "ex\_aduexclusions," respectively.
 {% endhint %}
 
 * [ ] Export the resulting file to ADU-Analytical-Tool\_Spatial-Inputs.gdb, titled "aduexclusions."
