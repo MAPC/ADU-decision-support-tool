@@ -45,6 +45,7 @@
       * [Citywide Parking Requirements](archived-delete-when-ready/assumptions-and-policy/parking-requirements/number-of-parking-spaces.md)
       * [Parking Assumptions](archived-delete-when-ready/assumptions-and-policy/parking-requirements/previous-parking-assumptions.md)
   * [Joining LPD and CAMA Data](archived-delete-when-ready/parcel-data.md)
+  * [ADU Type 2](archived-delete-when-ready/adu-type-2.md)
 
 ## Analysis Overview
 
@@ -85,7 +86,6 @@
 
 ## Technical Documentation
 
-* [ADU Type 2](technical-documentation/adu-type-2.md)
 * [Key Assumptions](technical-documentation/key-assumptions.md)
 * [Code Base](technical-documentation/code-base.md)
 
