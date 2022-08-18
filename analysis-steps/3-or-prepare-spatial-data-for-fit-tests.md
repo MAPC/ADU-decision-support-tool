@@ -2,9 +2,12 @@
 
 ### Overview
 
-The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits table to the Possible Parcels Feature Class and to the Structures input. It generates two outputs: possparcels\_sjo\_zones, which has the same number of parcels as the Possible Parcels Feature Class, but with additional columns for the parcel's base zoning district, and the user-provided inputs for that zoning district...
+The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits table to the Possible Parcels Feature Class and then to the Structures input. It generates two outputs:&#x20;
 
-![Screenshot of Model 3, Group 1: Join Possible Parcels to Zoning Edits. Click to expand.](<../.gitbook/assets/Model 3a.png>)
+* possparcels\_sjo\_zones, which has the same number of parcels as the Possible Parcels (possible\_parcels) Feature Class but has additional fields with the parcel's base zoning district, and the associated user-provided policy inputs.
+* relstructures\_sjo\_zones, which only contains structures that have their center in a parcel in the Possible Parcels Feature Class. As with the possparcels\_sjo\_zones output, the resulting structures data has additional fields with the associated parcel, that parcel's base zoning district, and the associated user-provided policy inputs.
+
+![Screenshot of Model 3, Group 1: Join Possible Parcels to Zoning Edits. Click to expand.](../.gitbook/assets/Model3a2.png)
 
 ![Screenshot of Model 3, Group 2: Join Possible Parcels and Zoning Edits to Structures. Click to expand.](<../.gitbook/assets/Model 3b.png>)
 
@@ -22,5 +25,6 @@ The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits 
 
 ### Key Assumptions
 
-* XXX
+* Parcels are joined to a single zoning district
+* Structures are joined to a single parcel, but multiple structures may be joined to a parcel
 
