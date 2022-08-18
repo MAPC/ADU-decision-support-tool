@@ -49,7 +49,7 @@
 
 ## Analysis Overview
 
-* [Page 2](analysis-overview/page-2.md)
+* [XXX](analysis-overview/xxx.md)
 
 ## Analysis Preparation
 
@@ -71,18 +71,16 @@
     * [2-2. Excluding Lines](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-lines.md)
     * [2-3. Excluding Polygons](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluding-polygons.md)
     * [2-4. Excluded Parcel IDs](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluded-parcel-ids.md)
-  * [2. Zoning Districts](analysis-preparation/spatial-inputs/step-2.-zoning.md)
-  * [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
-    * [A. Right-of-Way Polygon](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/a.-right-of-way-polygon.md)
-    * [B. Building Roofprints](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/b.-building-roofprints.md)
-    * [For On-site Parking](analysis-preparation/spatial-inputs/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/for-on-site-parking.md)
+  * [3-1. Zoning ](analysis-preparation/spatial-inputs/3-1.-zoning.md)
+  * [3-2. All Structures](analysis-preparation/spatial-inputs/3-2.-all-structures.md)
   * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
-  * [Preparation Summary](analysis-preparation/spatial-inputs/preparation-summary.md)
+* [Preparation Summary](analysis-preparation/preparation-summary.md)
 
 ## Analysis Steps
 
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
+* [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
 
 ## Technical Documentation
 
@@ -96,3 +94,6 @@
   * [Parcel Side Classifier](if-relevant-python-documentation/running-the-python-tool/parcel-side-classifier.md)
   * [ADU Fit Tool](if-relevant-python-documentation/running-the-python-tool/adu-fit-tool.md)
 * [Python Supporting Functions](if-relevant-python-documentation/python-supporting-functions.md)
+* [For Type 2 and 4 ADUs and/or ADUs with On-site Parking](if-relevant-python-documentation/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/README.md)
+  * [A. Right-of-Way Polygon](if-relevant-python-documentation/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/a.-right-of-way-polygon.md)
+  * [For On-site Parking](if-relevant-python-documentation/for-type-2-and-4-adus-and-or-adus-with-on-site-parking/for-on-site-parking.md)
