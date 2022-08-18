@@ -81,6 +81,7 @@
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 * [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
+* [4 | Prepare Spatial Data for Fit Tests](analysis-steps/4-or-prepare-spatial-data-for-fit-tests.md)
 
 ## Technical Documentation
 
