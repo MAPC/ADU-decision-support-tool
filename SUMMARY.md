@@ -2,41 +2,41 @@
 
 * [ADU Analytical Tool](README.md)
 
-## Analysis Overview
-
 ## Preparation
 
-* [Software Requirements](preparation/software-requirements.md)
+* [Software Requirements](analysis-preparation/software-requirements.md)
 * [Tool Download](preparation/tool-download/README.md)
-  * [Tabular Inputs Download](preparation/tool-download/tabular-inputs-download.md)
+  * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
 
 ## Tool Inputs
 
-* [Tabular Inputs](tool-inputs/tabular-inputs/README.md)
-  * [Allowable Typologies](tool-inputs/tabular-inputs/allowable-typologies.md)
-  * [For Type 1 ADUs](tool-inputs/tabular-inputs/for-type-1-adus.md)
-  * [For Type 2 ADUs](tool-inputs/tabular-inputs/for-type-2-adus.md)
-  * [For Type 3 ADUs](tool-inputs/tabular-inputs/for-type-3-adus.md)
-  * [For Type 4 ADUs](tool-inputs/tabular-inputs/for-type-4-adus.md)
-* [Spatial Inputs](tool-inputs/spatial-inputs/README.md)
-  * [1-1. ADU Boundary](tool-inputs/spatial-inputs/1-1.-adu-boundary.md)
-  * [1-2. ADU Exclusions](tool-inputs/spatial-inputs/1-2.-adu-exclusions.md)
-  * [1-3. All Parcels](tool-inputs/spatial-inputs/1-3.-all-parcels.md)
-  * [2. Parcel-level Exclusions](tool-inputs/spatial-inputs/2.-parcel-level-exclusions/README.md)
-    * [2-1. Excluding Points](tool-inputs/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluding-points.md)
-    * [2-2. Excluding Lines](tool-inputs/spatial-inputs/2.-parcel-level-exclusions/2-2.-excluding-lines.md)
-    * [2-3. Excluding Polygons](tool-inputs/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-polygons.md)
-    * [2-4. Excluded Parcel IDs](tool-inputs/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluded-parcel-ids.md)
-  * [3-1. Zoning ](tool-inputs/spatial-inputs/3-1.-zoning.md)
-  * [3-2. All Structures](tool-inputs/spatial-inputs/3-2.-all-structures.md)
-  * [For Type 3 ADUs](tool-inputs/spatial-inputs/for-type-3-adus.md)
+* [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
+  * [Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
+  * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
+  * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
+  * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
+  * [For Type 4 ADUs](analysis-preparation/tabular-inputs/type-4-adus-xxx.md)
+* [Spatial Inputs](analysis-preparation/spatial-inputs/README.md)
+  * [1-1. ADU Boundary](analysis-preparation/spatial-inputs/1-1.-adu-boundary.md)
+  * [1-2. ADU Exclusions](analysis-preparation/spatial-inputs/1-2.-adu-exclusions.md)
+  * [1-3. All Parcels](analysis-preparation/spatial-inputs/1-3.-all-parcels.md)
+  * [2. Parcel-level Exclusions](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/README.md)
+    * [2-1. Excluding Points](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-2.-excluding-points.md)
+    * [2-2. Excluding Lines](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-lines.md)
+    * [2-3. Excluding Polygons](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluding-polygons.md)
+    * [2-4. Excluded Parcel IDs](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluded-parcel-ids.md)
+  * [3-1. Zoning ](analysis-preparation/spatial-inputs/3-1.-zoning.md)
+  * [3-2. All Structures](analysis-preparation/spatial-inputs/3-2.-all-structures.md)
+  * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
 
-## Analysis Steps
+## Tool Components
 
-* [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
-* [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
-* [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
-* [4-2 | Type 2 ADU Fit Test](analysis-steps/4-or-prepare-spatial-data-for-fit-tests.md)
+* [1 | Define Parcels in ADU Boundary](tool-components/1-or-define-parcels-in-adu-boundary.md)
+* [2 | Define Possible Parcels](tool-components/2-or-define-possible-parcels.md)
+* [3 | Prepare Spatial Data for Fit Tests](tool-components/3-or-prepare-spatial-data-for-fit-tests.md)
+* [4-2 | Type 2 ADU Fit Test](tool-components/4-2-or-type-2-adu-fit-test.md)
+* [4-4 | Type 4 ADU Fit Test](tool-components/4-4-or-type-4-adu-fit-test.md)
+* [5 | Summary of Results](tool-components/5-or-summary-of-results.md)
 
 ## Technical Documentation
 
@@ -89,8 +89,8 @@
       * [Parking Assumptions](archive/delete-when-ready/assumptions-and-policy/parking-requirements/previous-parking-assumptions.md)
   * [Joining LPD and CAMA Data](archive/delete-when-ready/parcel-data.md)
   * [ADU Type 2](archive/delete-when-ready/adu-type-2.md)
-  * [Code Base](archive/delete-when-ready/code-base.md)
-  * [User Guide](archive/delete-when-ready/user-guide.md)
+  * [Code Base](technical-documentation/code-base.md)
+  * [User Guide](<README (1).md>)
 * [Move When Ready](archive/move-when-ready/README.md)
   * [Python](archive/move-when-ready/python/README.md)
     * [Running the Python Tool](archive/move-when-ready/python/running-the-python-tool/README.md)

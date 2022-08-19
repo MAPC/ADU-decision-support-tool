@@ -4,7 +4,7 @@ description: >-
   engagement materials
 ---
 
-# Deliverable 2: User Guide
+# User Guide
 
 ### From Scope
 

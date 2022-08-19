@@ -13,9 +13,9 @@ The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits 
 
 ### Inputs
 
-* [zoningedits](../tool-inputs/tabular-inputs/) Excel Spreadsheet and Cell Range
-* [zoning\_base](../tool-inputs/spatial-inputs/3-1.-zoning.md)
-* [allstructures](../tool-inputs/spatial-inputs/3-2.-all-structures.md)
+* [zoningedits](../analysis-preparation/tabular-inputs/) Excel Spreadsheet and Cell Range
+* [zoning\_base](../analysis-preparation/spatial-inputs/3-1.-zoning.md)
+* [allstructures](../analysis-preparation/spatial-inputs/3-2.-all-structures.md)
 * possible\_parcels (Generated from [2 | Define Possible Parcels](2-or-define-possible-parcels.md))
 
 ### Outputs
