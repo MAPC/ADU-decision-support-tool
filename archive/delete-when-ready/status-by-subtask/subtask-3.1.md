@@ -73,8 +73,8 @@ While many more decisions will need to be made, I believe the existing developme
 
 #### **Airtable Flowchart (developed April 2021)**
 
-![Flow Chart. Each box is connected to parameters that would help answer the question.](<../../.gitbook/assets/Org Chart (1).jpg>)
+![Flow Chart. Each box is connected to parameters that would help answer the question.](<../../../.gitbook/assets/Org Chart (1).jpg>)
 
 #### PowerPoint Excerpt (developed July 2021)
 
-![PowerPoint Slide. The presentation responds to these questions in greater depth.](<../../.gitbook/assets/image (2).png>)
+![PowerPoint Slide. The presentation responds to these questions in greater depth.](<../../../.gitbook/assets/image (2).png>)
