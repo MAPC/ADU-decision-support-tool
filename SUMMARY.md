@@ -81,11 +81,11 @@
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 * [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
-* [4 | Prepare Spatial Data for Fit Tests](analysis-steps/4-or-prepare-spatial-data-for-fit-tests.md)
+* [4-2 | Type 2 ADU Fit Test](analysis-steps/4-2-or-type-2-adu-fit-test.md)
 
 ## Technical Documentation
 
-* [Key Assumptions](technical-documentation/key-assumptions.md)
+* [Key Assumptions and Limitations](technical-documentation/key-assumptions-and-limitations.md)
 * [Code Base](technical-documentation/code-base.md)
 
 ## If relevant, Python Documentation
