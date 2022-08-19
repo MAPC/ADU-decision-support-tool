@@ -7,10 +7,10 @@
 * [Software Requirements](analysis-preparation/software-requirements.md)
 * [Tool Download](preparation/tool-download/README.md)
   * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
-* [SQL Documentation](preparation/sql-documentation.md)
 
 ## Tool Inputs
 
+* [Input Overview](tool-inputs/input-overview.md)
 * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
   * [Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
   * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
@@ -35,8 +35,9 @@
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 * [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
-* [4-2 | Type 2 ADU Fit Test](analysis-steps/4-or-prepare-spatial-data-for-fit-tests.md)
-* [4-4 | Type 4 ADU Fit Test](tool-components/4-4-or-type-4-adu-fit-test.md)
+* [4 | Fit Tests](tool-components/4-or-fit-tests/README.md)
+  * [4-2 | Type 2 ADU Fit Test](tool-components/4-or-fit-tests/4-2-or-type-2-adu-fit-test.md)
+  * [4-4 | Type 4 ADU Fit Test](tool-components/4-or-fit-tests/4-4-or-type-4-adu-fit-test.md)
 * [5 | Summary of Results](tool-components/5-or-summary-of-results.md)
 
 ## Technical Documentation
@@ -45,6 +46,7 @@
 
 ## Archive
 
+* [SQL Documentation](archive/sql-documentation.md)
 * [Delete When Ready](archive/delete-when-ready/README.md)
   * [Meeting Notes](archive/delete-when-ready/meeting-notes.md)
   * [Status by Subtask](archive/delete-when-ready/status-by-subtask/README.md)
