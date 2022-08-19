@@ -1,11 +1,21 @@
----
-description: >-
-  Fully-documented decision support tool codebase; user guide; template
-  engagement materials
----
+# ADU Analytical Tool
 
-# Deliverable 2: User Guide
+The Accessory Dwelling Unit (ADU) Analytical Tool evaluates what parcels in a municipality are likely eligible to pursue the development of ADU under a given ADU policy, and what of those parcels are large enough to accommodate the smallest allowable ADU. In this way, the Analytical Tool equips municipal staff and their partners with a way to understand&#x20;
 
-### From Scope
+The Analytical Tool uses publicly-available data to evaluate up to four different ADU Typologies:
 
-> MAPC staff will develop a user interface and guidebook for the decision support tool. The Data Services, Land Use, and Community Engagement teams will also collaborate on the design of both in-person and virtual engagement activities that use the tool to structure a stakeholder conversation about policy options and outcomes. The product will be a decision support tool suitable for use by technical staff with skills in the requisite software, guidance on its use, and template materials for public engagement.
+* Type 1 ADUs:
+* Type 2 ADUs:
+* Type 3 ADUs:
+* Type 4 ADUS:
+
+The Tool generates a table&#x20;
+
+
+
+\[Funding Acknowledgement]
+
+\[Contact Information]
+
+
+
