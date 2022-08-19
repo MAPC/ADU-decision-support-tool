@@ -7,6 +7,7 @@
 * [Software Requirements](analysis-preparation/software-requirements.md)
 * [Tool Download](preparation/tool-download/README.md)
   * [Tabular Inputs Download](analysis-preparation/tabular-inputs/tabular-inputs-download.md)
+* [SQL Documentation](preparation/sql-documentation.md)
 
 ## Tool Inputs
 
@@ -31,10 +32,10 @@
 
 ## Tool Components
 
-* [1 | Define Parcels in ADU Boundary](tool-components/1-or-define-parcels-in-adu-boundary.md)
-* [2 | Define Possible Parcels](tool-components/2-or-define-possible-parcels.md)
-* [3 | Prepare Spatial Data for Fit Tests](tool-components/3-or-prepare-spatial-data-for-fit-tests.md)
-* [4-2 | Type 2 ADU Fit Test](tool-components/4-2-or-type-2-adu-fit-test.md)
+* [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
+* [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
+* [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
+* [4-2 | Type 2 ADU Fit Test](analysis-steps/4-or-prepare-spatial-data-for-fit-tests.md)
 * [4-4 | Type 4 ADU Fit Test](tool-components/4-4-or-type-4-adu-fit-test.md)
 * [5 | Summary of Results](tool-components/5-or-summary-of-results.md)
 
