@@ -6,10 +6,10 @@ To run the ADU Analytical Tool, a user must have [ArcPro](https://pro.arcgis.com
 
 ### Tool Download
 
-The ADU Analytical Tool has been uploaded to this folder: XXX. The folder contains three documents:
+The ADU Analytical Tool has been published to this folder: XXX. The folder contains three documents:
 
 * XXX
 * XXX
 * XXX
 
-A user should download the entire folder and save it to their computer.
+A user should download and save the entire folder to their computer.&#x20;
