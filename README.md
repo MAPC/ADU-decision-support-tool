@@ -11,15 +11,11 @@ The ADU Analytical Tool evaluates eligibility for up to four different ADU typol
 
 The ADU Analytical Tool generates a table with rows for each of the parcels in the municipality, and fields corresponding to each of these four ADU typologies. A value of "1" indicates a parcel is likely eligible for that type of ADU; a value of "0" indicates a parcel is likely ineligible for that type of ADU.&#x20;
 
-#### Guidebook&#x20;
+### Guidebook&#x20;
 
-The Guidebook provides a general overview of the tool and instructions to download and operate tool. The Guidebook is developed for an intermediate GIS user, equipped with the relevant software.
-
-#### Questions
+This Guidebook provides a general overview of the tool, and instructions for its operation: downloads, inputs, and components. The Guidebook is developed for an intermediate GIS user, equipped with the relevant software.
 
 Questions about the ADU Analytical Tool can be directed to the Data Services department at the Metropolitan Area Planning Council, using the email address datarequests@mapc.org.
-
-
 
 ### Acknowledgements
 
