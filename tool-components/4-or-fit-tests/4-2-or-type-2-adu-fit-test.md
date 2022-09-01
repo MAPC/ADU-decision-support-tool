@@ -26,7 +26,7 @@ _Combine Buildable Areas and Unbuildable Area (Structures)_
 
 ### Inputs
 
-* Parcel Setback Field: Front (pafrStbk2), Side (pasiStbk2), or Rear (pareStbk2). These fields correspond with fields in the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel Spreadsheet
+* Parcel Setback Field: Front (pafrStbk2), Side (pasiStbk2), or Rear (pareStbk2). These fields correspond with fields in the [zoningedits](../../preparation/tabular-inputs/) Excel Spreadsheet
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 * relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 

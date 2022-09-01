@@ -8,10 +8,10 @@ The second model, 2 | Define Possible Parcels, generates a Feature Class compris
 
 ### Inputs
 
-* [excl\_points](../analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-2.-excluding-points.md)
-* [excl\_lines](../analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-lines.md)
-* [excl\_polygons](../analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluding-polygons.md)
-* [excl\_parcels](../analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluded-parcel-ids.md)
+* [excl\_points](../preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluding-points.md)
+* [excl\_lines](../preparation/spatial-inputs/2.-parcel-level-exclusions/2-2.-excluding-lines.md)
+* [excl\_polygons](../preparation/spatial-inputs/2.-parcel-level-exclusions/2-3.-excluding-polygons.md)
+* [excl\_parcels](../preparation/spatial-inputs/2.-parcel-level-exclusions/2-4.-excluded-parcel-ids.md)
 * parcels\_in\_effaduboundary (Generated from [1 | Define Parcels in ADU Boundary](../analysis-overview/page-1.md))
 
 ### Outputs

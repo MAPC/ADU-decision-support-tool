@@ -8,9 +8,9 @@ The first model, 1 | Define Parcels in ADU Boundary, generates a Feature Class c
 
 ### Inputs
 
-* [aduboundary](../analysis-preparation/spatial-inputs/1-1.-adu-boundary.md)
-* [aduexclusions](../analysis-preparation/spatial-inputs/1-2.-adu-exclusions.md)
-* [allparcels](../analysis-preparation/spatial-inputs/1-3.-all-parcels.md)
+* [aduboundary](../preparation/spatial-inputs/1-1.-adu-boundary.md)
+* [aduexclusions](../preparation/spatial-inputs/1-2.-adu-exclusions.md)
+* [allparcels](../preparation/spatial-inputs/1-3.-all-parcels.md)
 
 ### Outputs
 

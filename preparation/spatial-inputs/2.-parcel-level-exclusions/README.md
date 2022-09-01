@@ -9,20 +9,20 @@ As with the ADU Boundary and ADU Exclusions layers, Parcel-level Exclusions are 
 
 The pages linked below provide instructions for the preparation of the four excluding layers: Excluding Points, Excluding Lines, Excluding Polygons, and Excluded Parcel IDs.  If the policy does not reference exclusions of this kind, no inputs need to be created. The preexisting excl\_points, excl\_lines, excl\_polygons, and excl\_parcels Feature Classes may be used instead.
 
-{% content-ref url="2-2.-excluding-points.md" %}
-[2-2.-excluding-points.md](2-2.-excluding-points.md)
+{% content-ref url="2-1.-excluding-points.md" %}
+[2-1.-excluding-points.md](2-1.-excluding-points.md)
 {% endcontent-ref %}
 
-{% content-ref url="2-3.-excluding-lines.md" %}
-[2-3.-excluding-lines.md](2-3.-excluding-lines.md)
+{% content-ref url="2-2.-excluding-lines.md" %}
+[2-2.-excluding-lines.md](2-2.-excluding-lines.md)
 {% endcontent-ref %}
 
-{% content-ref url="2-4.-excluding-polygons.md" %}
-[2-4.-excluding-polygons.md](2-4.-excluding-polygons.md)
+{% content-ref url="2-3.-excluding-polygons.md" %}
+[2-3.-excluding-polygons.md](2-3.-excluding-polygons.md)
 {% endcontent-ref %}
 
-{% content-ref url="2-1.-excluded-parcel-ids.md" %}
-[2-1.-excluded-parcel-ids.md](2-1.-excluded-parcel-ids.md)
+{% content-ref url="2-4.-excluded-parcel-ids.md" %}
+[2-4.-excluded-parcel-ids.md](2-4.-excluded-parcel-ids.md)
 {% endcontent-ref %}
 
 
