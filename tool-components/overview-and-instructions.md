@@ -1,6 +1,10 @@
-# Overview and Operation
+# Overview and Instructions
 
-The ADU Analytical Tool is a sequence of ArcPro [model tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/modelbuilder/create-a-model-tool.htm) that automate the geoprocessing operations needed to evaluate parcel eligibility. The model tools must be used in order, as the inputs for tools later in the sequence are produced by tools earlier in the sequence.&#x20;
+The ADU Analytical Tool is a sequence of ArcPro [model tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/modelbuilder/create-a-model-tool.htm) that automate the geoprocessing operations used to evaluate parcel eligibility. The model tools must be used in order, as the inputs for tools later in the sequence are produced by tools earlier in the sequence.&#x20;
+
+The following pages provide a brief description of each of the models, along with their inputs and outputs. Users that wish for a more in-depth understanding of the analysis (or who wish to modify the analysis for their own application), can review or modify the tool by right-clicking on a model tool and selecting Edit, rather than Open.
+
+### Tool Instructions
 
 To begin, use the ArcGIS Catalog to navigate to the downloaded folder, then to Toolboxes, then to **2022-07-27\_ADU-Analytical-Tool.tbx**.&#x20;
 

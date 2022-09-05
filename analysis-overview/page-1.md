@@ -19,5 +19,5 @@ The first model, 1 | Define Parcels in ADU Boundary, generates a Feature Class c
 ### Key Assumptions
 
 * Only parcels with a Type of Parcel (poly\_type) equal to "FEE" are preserved.
-* Only parcels with centroids in the Effective ADU Boundary are preserved. This may mean some parcels, particularly those with less uniform shapes, are preserved or discarded in a way that is undesirable.
+* Only parcels with centroids in the Effective ADU Boundary are preserved. This may mean some parcels, particularly those with less uniform shapes, are preserved or discarded in a way that is undesirable to the user.
 
