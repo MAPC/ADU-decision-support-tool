@@ -22,8 +22,8 @@
     * [2-4. Excluded Parcel IDs](analysis-preparation/spatial-inputs/2.-parcel-level-exclusions/2-1.-excluded-parcel-ids.md)
   * [3-1. Zoning ](analysis-preparation/spatial-inputs/3-1.-zoning.md)
   * [For Specific ADU Typologies](preparation/spatial-inputs/for-specific-adu-typologies/README.md)
-    * [For Type 2 and 4 ADUs](preparation/spatial-inputs/for-specific-adu-typologies/for-type-2-and-4-adus.md)
-    * [For Type 3 ADUs](preparation/spatial-inputs/for-specific-adu-typologies/for-type-3-adus.md)
+    * [For Type 2 and 4 ADUs](analysis-preparation/spatial-inputs/3-2.-all-structures.md)
+    * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
 
 ## Tool Components
 

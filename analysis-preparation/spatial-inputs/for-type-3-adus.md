@@ -1,10 +1,8 @@
 # For Type 3 ADUs
 
-## Building Roofprints Lookup Table
+Type 3 (Accessory-Existing) ADUs involve the conversion of an existing accessory structure to an ADU. This requires an assessment of whether any of the existing accessory structures on the parcel is sufficiently large to accommodate the smallest allowable ADU. Unfortunately, Level 3 Parcel Data does not contain square footage figures for accessory structures, so the tool requires estimates of square footage created by analyzing building footprints. The following provides instructions for generating a lookup table, **table\_structures\_ov\[XX]sf\_byparcel,** with  this information.
 
-{% hint style="warning" %}
-\[Add something about building stories assumption]
-{% endhint %}
+##
 
 1. If it has not already been retrieved in an earlier step, retrieve spatial data for the building roofprints in the Study Municipality. We recommend sourcing this data from the MassGIS Building Structures layer, available for download at [https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-](https://www.mass.gov/info-details/massgis-data-building-structures-2-d#downloads-) Add the downloaded spatial data to ADUTool.gdb, titled "all\_structures."
 2. If the Minimum Size of a Type 3 ADU (aduSFmn3) for the policy under consideration exceeds 150 square feet (the minimum area for inclusion in the MassGIS layer), discard any geometry where the building roofprint area (area\_sq\_ft) is less than this minimum. Title the file with the remaining structures, structures\_ov\[XX]sf, replacing \[XX] with aduSFmn3.
