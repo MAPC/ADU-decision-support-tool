@@ -1,7 +1,5 @@
 # For Type 3 ADUs
 
-<mark style="color:orange;background-color:blue;">\[Some explanatory text: Type 3 ADUs (Accessory-Existing) ADUs are ADUs that are developed adjacent to the principal building, through an addition.]</mark>
+The fourth tab of the Excel Spreadsheet, **aduty3\_inputs**, is specific to Type 3 (or Accessory-Existing) ADUs: ADUs developed within an existing accessory structure, without any expansion of that building's foundation. If Type 3 ADUs are not allowable within any zoning district, this tab can be ignored. If Type 3 ADUs are allowable, a user should complete all rows and all fields in the sheet, using the prompts provided. Note that even though Column F prompts the user for Required On-site Parking Spaces, the tool is not capable of evaluating on-site parking.
 
-#### Inputs for Type 3 ADUs:
-
-{% embed url="https://airtable.com/shrfuU1gCtH4vISYc" %}
+![Type 3 ADU Inputs (Click to Expand)](../../.gitbook/assets/aduty3\_inputs.png)
