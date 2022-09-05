@@ -27,7 +27,7 @@
 
 ## Tool Components
 
-* [Tool Overview](tool-components/tool-overview.md)
+* [Overview and Operation](tool-components/overview-and-operation.md)
 * [1 | Define Parcels in ADU Boundary](analysis-overview/page-1.md)
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 * [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
