@@ -1,7 +1,5 @@
 # For Type 1 ADUs
 
-Type 1 ADUs (Principal-Existing) are ADUs that are developed within the principal building on the parcel, without any expansion of that building's foundation. ADUs in this category could be created through the conversion of an existing floor or floors or through the development of new floors, provided the principal building is not at or above the maximum allowable building height. &#x20;
+The second tab of the Excel Spreadsheet, **aduty1\_inputs**, is specific to Type 1 (or Principal-Existing) ADUs, that is, ADUs developed within the principal building, without any expansion of that building's foundation. If Type 1 ADUs are not allowable within any zoning district, this tab can be ignored. If this is not the case, a user should complete all rows and all fields, using the prompts provided. Note that even though the spreadsheet prompts the user for Required On-site Parking Spaces, the tool does not currently process these inputs.
 
-#### Inputs for Type 1 ADUs:
-
-{% embed url="https://airtable.com/shr9DwL3xL6kucaVC" %}
+![ADU Type 1 Inputs (Click to Expand)](<../../.gitbook/assets/aduty1\_inputs (1).png>)
