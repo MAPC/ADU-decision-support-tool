@@ -6,7 +6,7 @@
 
 * [Software and Downloads](analysis-preparation/software-requirements.md)
 * [Tabular Inputs](analysis-preparation/tabular-inputs/README.md)
-  * [Allowable Typologies](analysis-preparation/tabular-inputs/all-adus.md)
+  * [Required Fields](preparation/tabular-inputs/required-fields.md)
   * [For Type 1 ADUs](analysis-preparation/tabular-inputs/type-1-adus-principal-existing.md)
   * [For Type 2 ADUs](analysis-preparation/tabular-inputs/type-2-adus-principal-new.md)
   * [For Type 3 ADUs](analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
