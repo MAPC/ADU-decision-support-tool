@@ -15,7 +15,7 @@ The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits 
 
 * [zoningedits](../analysis-preparation/tabular-inputs/) Excel Spreadsheet and Cell Range
 * [zoning\_base](../analysis-preparation/spatial-inputs/3-1.-zoning.md)
-* [allstructures](../analysis-preparation/spatial-inputs/3-2.-all-structures.md)
+* [allstructures](../preparation/spatial-inputs/for-specific-adu-typologies/for-type-2-and-4-adus.md)
 * possible\_parcels (Generated from [2 | Define Possible Parcels](2-or-define-possible-parcels.md))
 
 ### Outputs
