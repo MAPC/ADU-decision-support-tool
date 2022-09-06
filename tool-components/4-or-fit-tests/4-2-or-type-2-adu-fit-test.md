@@ -21,7 +21,7 @@ The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded
 
 ### Analysis
 
-The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. <mark style="background-color:orange;">It does this through a sequence of three tests: one that checks the parcels against required attributes, one that evaluates...</mark>
+The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.
 
 #### Test One: Parcel Attributes
 
@@ -31,19 +31,21 @@ The first part of the model restricts the Possible Parcels data to only those pa
 
 #### Test Two: Parcel Fit Tests
 
-Parcels meeting the parcel attribute requirements are then screened for ...&#x20;
+The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction; all areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
-_Generate Parcel Setbacks for Type 2 ADUs_
+```sql
+(area_sf2 <= (aduSFmn2*1.25) And ppscore2 <= '0.95') Or (area_sf2 <= (aduSFmn2*1.5) And ppscore2 <= '0.85') Or (area_sf2 <= (aduSFmn2*1.75) And ppscore2 <= '0.75') Or (area_sf2 <= (aduSFmn2*2.0) And ppscore2 <= '0.5') Or (area_sf2 <= (aduSFmn2*2.25) And ppscore2 <= '0.25') Or (area_sf2 <= (aduSFmn2*2.5) And ppscore2 <= '0.15') Or (area_sf2 <= (aduSFmn2* 3) And ppscore2 <= '0.10')
+```
+
+_Test Two Model Groups_
 
 ![Screenshot of Model 4, Group 2a: Generate Parcel Setbacks for Type 2 ADUs. Click to expand.](../../.gitbook/assets/4b.png)
 
-_Combine Buildable Areas and Unbuildable Area (Structures)_
-
 ![Screenshot of Model 4, Group 2b: Combinate Buildable Areas and Unbuildable Areas (Structures). Click to expand.](<../../.gitbook/assets/4c (1).png>)
 
-![](../../.gitbook/assets/4d.png)
+![Screenshot of Model 4, Group 2c: Type 2 ADU Parcel Fit Test. Click to expand.](../../.gitbook/assets/4d.png)
+
+#### <mark style="background-color:orange;">Test Three: Minimum Dimension Tests</mark>
 
 
-
-###
 
