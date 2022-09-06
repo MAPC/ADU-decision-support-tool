@@ -1,6 +1,6 @@
 # 4-2 | Type 2 ADU Fit Test
 
-The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate whether a Type 2 ADU, that is, an ADU built as an addition to an existing structure, will fit on the parcel.
+The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate what parcels meet the eligibility requirements for a Type 2 ADU, that is, an ADU built as an addition to an existing structure. The model also evaluates which of those parcels are large enough to fit a Type 2 ADU.
 
 ### Model Inputs
 
@@ -21,7 +21,7 @@ The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded
 
 ### Analysis
 
-The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate whether a Type 2 ADU, that is, an ADU built as an addition to an existing structure, will fit on the parcel. <mark style="background-color:orange;">It does this through three analyses, one that checks the parcels against required attributes, one that evaluates...</mark>
+The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. <mark style="background-color:orange;">It does this through a sequence of three tests: one that checks the parcels against required attributes, one that evaluates...</mark>
 
 #### Test One: Parcel Attributes
 
