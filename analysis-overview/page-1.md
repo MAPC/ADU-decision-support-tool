@@ -1,6 +1,6 @@
 # 1 | Define Parcels in ADU Boundary
 
-The first model, 1 | Define Parcels in ADU Boundary, generates a Feature Class comprised of fee parcels in the Study Municipality that have their centroids within the Effective ADU Boundary.
+The first model, 1 | Define Parcels in ADU Boundary, generates a feature class comprised of fee parcels in the Study Municipality that have their centroids within the Effective ADU Boundary.
 
 ### Model Inputs
 
@@ -19,7 +19,7 @@ The first model, 1 | Define Parcels in ADU Boundary, generates a Feature Class c
 
 ### Analysis
 
-The first model generates a Feature Class comprised of fee parcels in the Study Municipality that have their centroids within the Effective ADU Boundary (effaduboundary), defined as the ADU Boundary (aduboundary) input less ADU Exclusions (aduexclusions) input.
+The first model generates a feature class comprised of fee parcels in the Study Municipality that have their centroids within the Effective ADU Boundary (effaduboundary), defined as the ADU Boundary (aduboundary) input less ADU Exclusions (aduexclusions) input.
 
 ![Screenshot of Model 1 | Define Parcels in ADU Boundary. Click to expand.](../.gitbook/assets/Model1-2.png)
 
