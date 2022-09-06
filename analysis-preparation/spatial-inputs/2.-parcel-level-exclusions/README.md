@@ -1,6 +1,6 @@
 # 2. Parcel-level Exclusions
 
-The **Parcel-level Exclusions** inputs collectively describe characteristics of parcels that yield a parcel ineligible for an ADU, regardless of whether that parcel is located within the Effective ADU Boundary. In contrast with ADU Exclusions, Parcel-level Exclusions are not a function of where in the Study Municipality a given parcel is located; in theory, the parcel could be moved to a different area within the municipality and would remain ineligible due to the characteristics inherent to that parcel and its associated structures.
+**Parcel-level Exclusions** inputs collectively describe characteristics of parcels that yield a parcel ineligible for an ADU, regardless of whether that parcel is located within the Effective ADU Boundary. In contrast with ADU Exclusions, Parcel-level Exclusions are not a function of where in the Study Municipality a given parcel is located; in theory, the parcel could be moved to a different area within the municipality and would remain ineligible due to the characteristics inherent to that parcel and its associated structures.
 
 As with the ADU Boundary and ADU Exclusions layers, Parcel-level Exclusions are determined by the policy under consideration. There are two main types of inputs for parcel-level exclusions:
 
