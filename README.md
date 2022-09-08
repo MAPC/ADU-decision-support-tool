@@ -15,7 +15,7 @@ The ADU Tool outputs a table with fields corresponding to each of these four ADU
 
 This guidebook provides a general overview of the ADU Tool and its operation: software and downloads, tabular and spatial inputs, and tool components and their instructions. The guidebook provides a level of explanation that should be suitable for an intermediate GIS user with access to the relevant software.
 
-Questions about the ADU Tool may be directed to the Data Services department at the Metropolitan Area Planning Council, using the email address datarequests@mapc.org.
+Questions and feedback about the ADU Tool may be directed to the Data Services department at the Metropolitan Area Planning Council, using the email address datarequests@mapc.org.
 
 ### Acknowledgements
 

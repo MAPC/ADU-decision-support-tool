@@ -12,7 +12,7 @@ The model then optionally summarizes these results by user-specified summary geo
   * parcels\_passforadu1 (Parcels likely eligible for Type 1 or Principal-Existing, ADUs)&#x20;
   * adjbuildarea2\_passadut3 (Parcels likely eligible for Type 2 or Principal-New, ADUs)&#x20;
   * parcels\_passforadu3 (Parcels likely eligible for Type 3 or Accessory-Existing, ADUs)&#x20;
-  * adjbuildarea4\_passadut2 (Parcels likely eligible for Type 4 or Accessory-New, ADUs)&#x20;
+  * <mark style="background-color:orange;">adjbuildarea4\_passadut2</mark> (Parcels likely eligible for Type 4 or Accessory-New, ADUs)&#x20;
 
 ### Model Outputs
 
@@ -21,7 +21,7 @@ The model then optionally summarizes these results by user-specified summary geo
 
 ### Key Assumptions
 
-* <mark style="background-color:orange;">XXX</mark>
+* Parcels may only be associated with one summary geography.
 
 ### Analysis
 

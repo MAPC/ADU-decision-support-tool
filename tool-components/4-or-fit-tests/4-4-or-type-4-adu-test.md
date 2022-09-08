@@ -21,7 +21,7 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Model Outputs
 
-* <mark style="background-color:orange;">adjbuildarea2\_passadut3</mark> (Geometry and attributes of parcels that have passed through the three Type 4 ADU Fit tests and are likely eligible.)&#x20;
+* <mark style="background-color:orange;">adjbuildarea4\_passadut2</mark> (Geometry and attributes of parcels that have passed through the three Type 4 ADU Fit tests and are likely eligible.)&#x20;
 
 ### Key Assumptions
 
