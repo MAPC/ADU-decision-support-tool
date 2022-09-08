@@ -5,14 +5,19 @@ The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded
 ### Model Inputs
 
 * Already present in the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel spreadsheet:
+  * ADU Size Requirements:&#x20;
+    * Minimum Size for a Type 2 ADU (aduSFmn2)
+    * Minimum Dimension for a Type 2 ADU (aduDimn2)
   * Parcel Attribute Requirements:&#x20;
     * Type 2 ADU Permitted (adu2perm)
     * Minimum Size for a Type 2 Principal Building, in GSF (pGSFmn2)
     * Minimum Size for a Type 2 Principal Building, in FSF (pFSFmn2)
     * <mark style="background-color:orange;">Maximum Expansion of the GSF of a Type 2 Principal Building (pGSFmxe2)</mark>
     * <mark style="background-color:orange;">Maximum Expansion of the FSF of a Type 2 Principal Building (pFSFmxe2)</mark>
-  * Parcel Setback Requirements: Front (pafrStbk2), Side (pasiStbk2), or Rear (pareStbk2).
-  * ADU Size Requirements: Minimum Size of a Type 2 ADU (aduSFmn2).
+  * Parcel Setback Requirements:&#x20;
+    * Front (pafrStbk2)
+    * Side (pasiStbk2)
+    * Rear (pareStbk2)
 * Desired Setback Selection (See [Key Assumptions](4-2-or-type-2-adu-fit-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 * relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
@@ -35,7 +40,7 @@ The first part of the model restricts the Possible Parcels data to only those pa
 
 ![Screenshot of Model 4, Group 1: Type 2 ADU Parcel Attribute Tests. Click to expand.](../../.gitbook/assets/4-1a.png)
 
-#### Test Two: Parcel Fit Tests
+#### Test Two: Buildable Area
 
 The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
@@ -47,15 +52,31 @@ These areas are then restricted to those exceeding the minimum size for a Type 2
 (area_sf2 <= (aduSFmn2*1.25) And ppscore2 <= '0.95') Or (area_sf2 <= (aduSFmn2*1.5) And ppscore2 <= '0.85') Or (area_sf2 <= (aduSFmn2*1.75) And ppscore2 <= '0.75') Or (area_sf2 <= (aduSFmn2*2.0) And ppscore2 <= '0.5') Or (area_sf2 <= (aduSFmn2*2.25) And ppscore2 <= '0.25') Or (area_sf2 <= (aduSFmn2*2.5) And ppscore2 <= '0.15') Or (area_sf2 <= (aduSFmn2* 3) And ppscore2 <= '0.10')
 ```
 
-_Test Two Model Groups_
+_Test 2 Screenshots_
 
-![Screenshot of Model 4, Group 2a: Generate Parcel Setbacks for Type 2 ADUs. Click to expand.](../../.gitbook/assets/4b.png)
+{% tabs %}
+{% tab title="Generate Parcel Setbacks" %}
+![Click to expand](../../.gitbook/assets/4b.png)
 
-![Screenshot of Model 4, Group 2b: Combinate Buildable Areas and Unbuildable Areas (Structures). Click to expand.](<../../.gitbook/assets/4c (1).png>)
 
-![Screenshot of Model 4, Group 2c: Type 2 ADU Parcel Fit Test. Click to expand.](../../.gitbook/assets/4d.png)
+{% endtab %}
 
-#### <mark style="background-color:orange;">Test Three: Minimum Dimension Tests</mark>
+{% tab title="Combine Buildable Area and Unbuildable Area" %}
+
+
+![Click to Expand](<../../.gitbook/assets/4c (1).png>)
+{% endtab %}
+
+{% tab title="Buildable Area Test" %}
+
+
+![Click to expand](../../.gitbook/assets/4d.png)
+{% endtab %}
+{% endtabs %}
+
+#### Test Three: Minimum Dimension
+
+The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field.
 
 
 
