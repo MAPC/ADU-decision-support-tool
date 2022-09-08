@@ -4,18 +4,17 @@ The fifth model, 5 | Summary of Results, joins the outputs from the four ADU Fit
 
 ### Model Inputs
 
+* [summary\_geo](../preparation/spatial-inputs/5-1.-summary-geography.md) (Optional Input)
 * [allparcels](../analysis-preparation/spatial-inputs/1-3.-all-parcels.md)
-* [summarygeo](../preparation/spatial-inputs/5-1.-summary-geography.md) (Optional Input)
-* Results from ADU Typology Fit Tests:
-  * parcels\_passforadu1 (Parcels likely eligible for Type 1 or Principal-Existing, ADUs)&#x20;
-  * adjbuildarea2\_passadut3 (Parcels likely eligible for Type 2 or Principal-New, ADUs)&#x20;
-  * parcels\_passforadu3 (Parcels likely eligible for Type 3 or Accessory-Existing, ADUs)&#x20;
-  * adjbuildarea4\_passadut2 (Parcels likely eligible for Type 4 or Accessory-New, ADUs)&#x20;
+* <mark style="background-color:orange;">Results from ADU Typology Fit Tests</mark>
+  * <mark style="background-color:orange;">Name of Type 1 Output</mark>
+  * adjbuildarea2\_passadut3 (Parcels likely eligible for Type 2 or Principal-New, ADUs&#x20;
+  * <mark style="background-color:orange;">Name of Type 3 Output</mark>
+  * <mark style="background-color:orange;">Name of Type 4 Output</mark>
 
 ### Model Outputs
 
-* allparcels\_aduresults
-* summarygeo\_aduresults
+* <mark style="background-color:orange;">XXX</mark>
 
 ### Key Assumptions
 
