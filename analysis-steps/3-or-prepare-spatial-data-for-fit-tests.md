@@ -17,7 +17,7 @@ The third model, 3 | Prepare Spatial Data for Fit Tests, joins the Zoning Edits 
 ### Key Assumptions
 
 * Parcels are joined to a single zoning district
-* Structures are joined to a single parcel, but multiple structures may be joined to a parcel
+* Structures are joined to a single parcel, though multiple structures may be joined to a single parcel
 
 ### Analysis
 

@@ -4,20 +4,26 @@ The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded
 
 ### Model Inputs
 
-* From the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel spreadsheet:
-  * Parcel Attribute Requirements: Type 2 ADU Permitted (adu2perm), Minimum Size for a Type 2 Principal Building, in GSF (pGSFmn2), Minimum Size for a Type 2 Principal Building, in FSF (pFSFmn2), Maximum Expansion of the GSF of a Type 2 Principal Building (pGSFmxe2), and Maximum Expansion of the FSF of a Type 2 Principal Building (pFSFmxe2).
+* Already present in the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel spreadsheet:
+  * Parcel Attribute Requirements:&#x20;
+    * Type 2 ADU Permitted (adu2perm)
+    * Minimum Size for a Type 2 Principal Building, in GSF (pGSFmn2)
+    * Minimum Size for a Type 2 Principal Building, in FSF (pFSFmn2)
+    * <mark style="background-color:orange;">Maximum Expansion of the GSF of a Type 2 Principal Building (pGSFmxe2)</mark>
+    * <mark style="background-color:orange;">Maximum Expansion of the FSF of a Type 2 Principal Building (pFSFmxe2)</mark>
   * Parcel Setback Requirements: Front (pafrStbk2), Side (pasiStbk2), or Rear (pareStbk2).
   * ADU Size Requirements: Minimum Size of a Type 2 ADU (aduSFmn2).
+* Desired Setback Selection (See [Key Assumptions](4-2-or-type-2-adu-fit-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 * relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 
 ### Model Outputs
 
-* adjbuildarea2\_passadut3
+* adjbuildarea2\_passadut3 (Geometry and attributes of parcels that have passed through the three Type 2 ADU Fit tests and are likely eligible.)&#x20;
 
 ### Key Assumptions
 
-* <mark style="background-color:orange;">XXX</mark>
+* While the tool is able to apply a different parcel setback for each zoning district and each ADU typology, the tool is not capable of applying different setbacks to each parcel at this time. This means that it cannot correctly render a zoning policy where the parcel front setback differs from the parcel side setback and/or the parcel rear setback. To provide as much flexibility as possible within this limitation, the model tool parameters dialogue box allows a user to define their preferred setback.
 
 ### Analysis
 
@@ -31,7 +37,11 @@ The first part of the model restricts the Possible Parcels data to only those pa
 
 #### Test Two: Parcel Fit Tests
 
-The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction; all areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
+The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
+
+
+
+These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
 ```sql
 (area_sf2 <= (aduSFmn2*1.25) And ppscore2 <= '0.95') Or (area_sf2 <= (aduSFmn2*1.5) And ppscore2 <= '0.85') Or (area_sf2 <= (aduSFmn2*1.75) And ppscore2 <= '0.75') Or (area_sf2 <= (aduSFmn2*2.0) And ppscore2 <= '0.5') Or (area_sf2 <= (aduSFmn2*2.25) And ppscore2 <= '0.25') Or (area_sf2 <= (aduSFmn2*2.5) And ppscore2 <= '0.15') Or (area_sf2 <= (aduSFmn2* 3) And ppscore2 <= '0.10')
