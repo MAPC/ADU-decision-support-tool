@@ -26,4 +26,4 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 
 This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels and accessory structures meet the eligibility requirements for a Type 3 ADU. It does this by restricting the Possible Parcels data to only those parcels meeting the parcel attribute requirements, then checking the accessory structures to make sure at least one accessory structure is large enough to accommodate an ADU.&#x20;
 
-<mark style="background-color:orange;">INSERT SCREENSHOT</mark>
+<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
