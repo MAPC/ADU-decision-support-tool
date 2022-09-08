@@ -21,7 +21,7 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Model Outputs
 
-* adjbuildarea2\_passadut3 (Geometry and attributes of parcels that have passed through the three Type 2 ADU Fit tests and are likely eligible.)&#x20;
+* <mark style="background-color:orange;">adjbuildarea2\_passadut3</mark> (Geometry and attributes of parcels that have passed through the three Type 4 ADU Fit tests and are likely eligible.)&#x20;
 
 ### Key Assumptions
 
@@ -29,13 +29,13 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Analysis
 
-The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.
+This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 4 ADU. <mark style="background-color:orange;">It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.</mark>
 
 #### Test One: Parcel Attributes
 
 The first part of the model restricts the Possible Parcels data to only those parcels meeting the parcel attribute requirements.&#x20;
 
-![Screenshot of Model 4, Group 1: Type 2 ADU Parcel Attribute Tests. Click to expand.](../../.gitbook/assets/4-1a.png)
+<mark style="background-color:orange;">\[UPDATE SCREENSHOT]</mark>
 
 #### Test Two: Buildable Area
 
@@ -43,10 +43,10 @@ The second part of the model removes setbacks and existing structures (in other 
 
 
 
-These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
+These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 4 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
 ```sql
-(area_sf2 <= (aduSFmn2*1.25) And ppscore2 <= '0.95') Or (area_sf2 <= (aduSFmn2*1.5) And ppscore2 <= '0.85') Or (area_sf2 <= (aduSFmn2*1.75) And ppscore2 <= '0.75') Or (area_sf2 <= (aduSFmn2*2.0) And ppscore2 <= '0.5') Or (area_sf2 <= (aduSFmn2*2.25) And ppscore2 <= '0.25') Or (area_sf2 <= (aduSFmn2*2.5) And ppscore2 <= '0.15') Or (area_sf2 <= (aduSFmn2* 3) And ppscore2 <= '0.10')
+(area_sf4 <= (aduSFmn4*1.25) And ppscore4 <= '0.95') Or (area_sf4 <= (aduSFmn4*1.5) And ppscore4 <= '0.85') Or (area_sf4 <= (aduSFmn4*1.75) And ppscore4 <= '0.75') Or (area_sf4 <= (aduSFmn4*2.0) And ppscore4 <= '0.5') Or (area_sf4 <= (aduSFmn4*2.25) And ppscore4 <= '0.25') Or (area_sf4 <= (aduSFmn4*2.5) And ppscore4 <= '0.15') Or (area_sf4 <= (aduSFmn4* 3) And ppscore4 <= '0.10')
 ```
 
 _Test 2 Screenshots_
