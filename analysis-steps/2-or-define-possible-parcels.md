@@ -22,6 +22,8 @@ The second model, 2 | Define Possible Parcels, generates a feature class compris
 
 The second model generates a feature class comprised of fee parcels in the Effective ADU Boundary (effaduboundary) that do not have an excluded Parcel ID (parloc\_id) or an excluded feature (point, line, and/or polygon).
 
+_Model Design_
+
 ![Screenshot of Model 2 | Define Possible Parcels. Click to expand.](../.gitbook/assets/Model2.png)
 
 

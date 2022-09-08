@@ -34,25 +34,35 @@ This model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in th
 
 The fourth model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.
 
-#### Test One: Parcel Attributes
+#### Parcel Attribute Test
 
 The first part of the model restricts the Possible Parcels data to only those parcels meeting the parcel attribute requirements.&#x20;
 
+_Model Design_
+
 ![Screenshot of Model 4, Group 1: Type 2 ADU Parcel Attribute Tests. Click to expand.](../../.gitbook/assets/4-1a.png)
 
-#### Test Two: Buildable Area
+#### Buildable Area Test
 
 The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Sample Output. Dashed lines indicate parcel boundaries; green fill indicates area(s) within the parcel for possible ADU construction.</p></figcaption></figure>
 
+These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact.&#x20;
 
-These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Sample Output. Green fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sample Output. Yellow fill indicates area(s) within the parcel that have been discarded because they not sufficiently compact.</p></figcaption></figure>
+
+This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
 ```sql
 (area_sf2 <= (aduSFmn2*1.25) And ppscore2 <= '0.95') Or (area_sf2 <= (aduSFmn2*1.5) And ppscore2 <= '0.85') Or (area_sf2 <= (aduSFmn2*1.75) And ppscore2 <= '0.75') Or (area_sf2 <= (aduSFmn2*2.0) And ppscore2 <= '0.5') Or (area_sf2 <= (aduSFmn2*2.25) And ppscore2 <= '0.25') Or (area_sf2 <= (aduSFmn2*2.5) And ppscore2 <= '0.15') Or (area_sf2 <= (aduSFmn2* 3) And ppscore2 <= '0.10')
 ```
 
-_Test 2 Screenshots_
+_Model Design_
 
 {% tabs %}
 {% tab title="Generate Parcel Setbacks" %}
@@ -74,7 +84,7 @@ _Test 2 Screenshots_
 {% endtab %}
 {% endtabs %}
 
-#### Test Three: Minimum Dimension
+#### Minimum Dimension Test
 
 The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field.
 

@@ -26,6 +26,8 @@ The third model joins the Zoning Edits table to the Possible Parcels Feature Cla
 * possparcels\_sjo\_zones, which has the same number of parcels as the Possible Parcels (possible\_parcels) Feature Class but has additional fields with the parcel's base zoning district, and the associated user-provided policy inputs.
 * relstructures\_sjo\_zones, which only contains structures that have their center in a parcel in the Possible Parcels Feature Class. As with the possparcels\_sjo\_zones output, the resulting structures data has additional fields with the associated parcel, that parcel's base zoning district, and the associated user-provided policy inputs.
 
+_Model Design_
+
 ![Screenshot of Model 3, Group 1: Join Possible Parcels to Zoning Edits. Click to expand.](../.gitbook/assets/Model3a2.png)
 
 ![Screenshot of Model 3, Group 2: Join Possible Parcels and Zoning Edits to Structures. Click to expand.](<../.gitbook/assets/Model 3b.png>)

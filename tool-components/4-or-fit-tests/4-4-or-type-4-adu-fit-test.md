@@ -31,13 +31,13 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 4 ADU. <mark style="background-color:orange;">It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.</mark>
 
-#### Test One: Parcel Attributes
+#### Parcel Attribute Test
 
 The first part of the model restricts the Possible Parcels data to only those parcels meeting the parcel attribute requirements.&#x20;
 
-<mark style="background-color:orange;">\[UPDATE SCREENSHOT]</mark>
+_<mark style="background-color:orange;">Model Design</mark>_
 
-#### <mark style="background-color:orange;">Test Two: Buildable Area</mark>
+#### <mark style="background-color:orange;">Buildable Area Test</mark>
 
 The second part of the model removes setbacks and existing structures, which have been expanded by the Existing Building and ADU Setback Requirement, from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
@@ -49,7 +49,7 @@ These areas are then restricted to those exceeding the minimum size for a Type 4
 (area_sf4 <= (aduSFmn4*1.25) And ppscore4 <= '0.95') Or (area_sf4 <= (aduSFmn4*1.5) And ppscore4 <= '0.85') Or (area_sf4 <= (aduSFmn4*1.75) And ppscore4 <= '0.75') Or (area_sf4 <= (aduSFmn4*2.0) And ppscore4 <= '0.5') Or (area_sf4 <= (aduSFmn4*2.25) And ppscore4 <= '0.25') Or (area_sf4 <= (aduSFmn4*2.5) And ppscore4 <= '0.15') Or (area_sf4 <= (aduSFmn4* 3) And ppscore4 <= '0.10')
 ```
 
-_<mark style="background-color:orange;">Test 2 Screenshots</mark>_
+_<mark style="background-color:orange;">Model Design</mark>_
 
 {% tabs %}
 {% tab title="Generate Parcel Setbacks" %}

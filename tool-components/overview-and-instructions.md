@@ -12,10 +12,10 @@ To begin, use ArcGIS Catalog to navigate to the [downloaded folder](../analysis-
 
 Expand the toolbox to show the model tools, right click on the first tool, and then click Open.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 This action will open a dialogue box with the model tool parameters (tabular inputs and/or spatial inputs) required for that model. The parameter names in each dialogue box correspond with the names of the inputs described in this guidebook. Provided the locations and names of these files are consistent with the guidebook, a user should simply double check the names and file paths and click Run.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 Once complete, navigate to the next model tool in the sequence, again confirming parameters and clicking Run.
