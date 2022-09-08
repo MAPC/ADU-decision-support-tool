@@ -26,6 +26,7 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 ### Key Assumptions
 
 * While the tool is able to apply a different parcel setback for each zoning district and each ADU typology, the tool is not capable of applying different setbacks to each parcel at this time. This means that it cannot correctly render a zoning policy where the parcel front setback differs from the parcel side setback and/or the parcel rear setback. To provide as much flexibility as possible within this limitation, the model tool parameters dialogue box allows a user to define their preferred setback.
+* The tool assumes ADUs are one-story tall. This means parcels that might accommodate a two-story ADU may be unnecessarily eliminated.
 
 ### Analysis
 

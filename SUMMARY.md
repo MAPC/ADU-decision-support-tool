@@ -39,10 +39,6 @@
   * [4-4 | Type 4 ADU Fit Test](tool-components/4-or-fit-tests/4-4-or-type-4-adu-fit-test.md)
 * [5 | Summary of Results](tool-components/5-or-summary-of-results.md)
 
-## Technical Documentation
-
-* [Key Assumptions and Limitations](technical-documentation/key-assumptions.md)
-
 ## Archive
 
 * [SQL Documentation](archive/sql-documentation.md)
