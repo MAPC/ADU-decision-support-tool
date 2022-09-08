@@ -21,7 +21,7 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Model Outputs
 
-* <mark style="background-color:orange;">adjbuildarea4\_passadut2</mark> (Geometry and attributes of parcels that have passed through the three Type 4 ADU Fit tests and are likely eligible.)&#x20;
+* parcels\_passforadu2 (Geometry and attributes of parcels that have passed through the three Type 4 ADU Fit tests and are likely eligible.)&#x20;
 
 ### Key Assumptions
 
@@ -30,23 +30,25 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Analysis
 
-This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 4 ADU. <mark style="background-color:orange;">It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.</mark>
+This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 4 ADU. It does this through a sequence of two tests: one that checks the parcels against required attributes and one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact.
 
 #### Parcel Attribute Test
 
 The first part of the model restricts the Possible Parcels data to only those parcels meeting the parcel attribute requirements.&#x20;
 
-_<mark style="background-color:orange;">Model Design</mark>_
+_Model Design_
 
-#### <mark style="background-color:orange;">Buildable Area Test</mark>
+<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
+
+#### Buildable Area Test
 
 The second part of the model removes setbacks and existing structures, which have been expanded by the Existing Building and ADU Setback Requirement, from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
-\[INSERT SCREENSHOT]
+<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
 
 These areas are then restricted to those exceeding the minimum size for a Type 4 ADU and to those with shapes that are sufficiently compact.&#x20;
 
-\[INSERT SCREENSHOT]
+<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
 
 This compactness test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 4 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
@@ -54,29 +56,6 @@ This compactness test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Pols
 (area_sf4 <= (aduSFmn4*1.25) And ppscore4 <= '0.95') Or (area_sf4 <= (aduSFmn4*1.5) And ppscore4 <= '0.85') Or (area_sf4 <= (aduSFmn4*1.75) And ppscore4 <= '0.75') Or (area_sf4 <= (aduSFmn4*2.0) And ppscore4 <= '0.5') Or (area_sf4 <= (aduSFmn4*2.25) And ppscore4 <= '0.25') Or (area_sf4 <= (aduSFmn4*2.5) And ppscore4 <= '0.15') Or (area_sf4 <= (aduSFmn4* 3) And ppscore4 <= '0.10')
 ```
 
-_<mark style="background-color:orange;">Model Design</mark>_
+_Model Design_
 
-{% tabs %}
-{% tab title="Generate Parcel Setbacks" %}
-![Click to expand](../../.gitbook/assets/4b.png)
-
-
-{% endtab %}
-
-{% tab title="Combine Buildable Area and Unbuildable Area" %}
-
-
-![Click to Expand](<../../.gitbook/assets/4c (1).png>)
-{% endtab %}
-
-{% tab title="Buildable Area Test" %}
-
-
-![Click to expand](../../.gitbook/assets/4d.png)
-{% endtab %}
-{% endtabs %}
-
-#### <mark style="background-color:orange;">Test Three: Minimum Dimension</mark>
-
-The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field.
-
+<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
