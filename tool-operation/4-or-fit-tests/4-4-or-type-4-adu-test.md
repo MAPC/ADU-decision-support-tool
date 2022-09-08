@@ -16,8 +16,8 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
     * Side (pasiStbk4)
     * Rear (pareStbk4)
 * Desired Setback Selection (see [Key Assumptions](4-4-or-type-4-adu-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
-* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
-* relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
+* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../3-or-prepare-spatial-data-for-fit-tests.md))
+* relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../3-or-prepare-spatial-data-for-fit-tests.md))
 
 ### Model Outputs
 

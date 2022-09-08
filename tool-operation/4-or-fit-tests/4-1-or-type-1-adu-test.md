@@ -12,7 +12,7 @@ This model, 4-1 | Type 1 ADU Fit Test, uses the policy parameters recorded in th
     * Minimum Size for a Type 1 Principal Building, in FSF (pFSFmn1)
     * Maximum Share of the Principal Building GSF a Type 1 ADU May Occupy (pGSFmxs1)
     * Maximum Share of the Principal Building FSF a Type 1 ADU May Occupy (pFSFmxs1)
-* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
+* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../3-or-prepare-spatial-data-for-fit-tests.md))
 
 ### Model Outputs
 

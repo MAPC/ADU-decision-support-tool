@@ -11,7 +11,7 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
     * Minimum Size for a Type 3 Principal Building, in GSF (pGSFmn1)
     * Minimum Size for a Type 3 Principal Building, in FSF (pFSFmn1)
 * [allstructures\_estsf](../../analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
-* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
+* possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../3-or-prepare-spatial-data-for-fit-tests.md))
 
 ### Model Outputs
 
