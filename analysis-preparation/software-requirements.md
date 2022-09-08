@@ -6,7 +6,7 @@ To run the ADU Analytical Tool, a user must have [ArcPro](https://pro.arcgis.com
 
 ### Tool Download
 
-The ADU Analytical Tool has been published to this folder: <mark style="background-color:orange;">XXX</mark>. The folder contains four documents:
+The ADU Analytical Tool has been published to this folder: <mark style="background-color:orange;">\[XXX]</mark>. The folder contains four documents:
 
 * zoningedits\_FINALTEMPLATE.xlsx
 * ADU-Analytical-Tool\_Outputs.gdb

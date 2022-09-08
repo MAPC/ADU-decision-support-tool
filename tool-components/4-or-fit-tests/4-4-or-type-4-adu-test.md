@@ -1,4 +1,4 @@
-# 4-4 | Type 4 ADU Fit Test
+# 4-4 | Type 4 ADU Test
 
 This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate what parcels meet the eligibility requirements for a Type 4 ADU, that is, an ADU built as a new, detached structure. The model also evaluates which of those parcels are large enough to fit a Type 4 ADU.
 
@@ -15,7 +15,7 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
     * Front (pafrStbk4)
     * Side (pasiStbk4)
     * Rear (pareStbk4)
-* Desired Setback Selection (see [Key Assumptions](4-4-or-type-4-adu-fit-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
+* Desired Setback Selection (see [Key Assumptions](4-4-or-type-4-adu-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 * relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 

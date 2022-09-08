@@ -33,10 +33,10 @@
 * [2 | Define Possible Parcels](analysis-steps/2-or-define-possible-parcels.md)
 * [3 | Prepare Spatial Data for Fit Tests](analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md)
 * [4 | Fit Tests](tool-components/4-or-fit-tests/README.md)
-  * [4-1 | Type 1 ADU Fit Test](tool-components/4-or-fit-tests/4-1-or-type-1-adu-fit-test.md)
-  * [4-2 | Type 2 ADU Fit Test](tool-components/4-or-fit-tests/4-2-or-type-2-adu-fit-test.md)
-  * [4-3 | Type 3 ADU Fit Test](tool-components/4-or-fit-tests/4-3-or-type-3-adu-fit-test.md)
-  * [4-4 | Type 4 ADU Fit Test](tool-components/4-or-fit-tests/4-4-or-type-4-adu-fit-test.md)
+  * [4-1 | Type 1 ADU Test](tool-components/4-or-fit-tests/4-1-or-type-1-adu-test.md)
+  * [4-2 | Type 2 ADU Test](tool-components/4-or-fit-tests/4-2-or-type-2-adu-test.md)
+  * [4-3 | Type 3 ADU Test](tool-components/4-or-fit-tests/4-3-or-type-3-adu-test.md)
+  * [4-4 | Type 4 ADU Test](tool-components/4-or-fit-tests/4-4-or-type-4-adu-test.md)
 * [5 | Summary of Results](tool-components/5-or-summary-of-results.md)
 
 ## Archive
