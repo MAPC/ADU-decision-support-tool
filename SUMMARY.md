@@ -24,6 +24,7 @@
   * [For Specific ADU Typologies](preparation/spatial-inputs/for-specific-adu-typologies/README.md)
     * [For Type 2 and 4 ADUs](analysis-preparation/spatial-inputs/3-2.-all-structures.md)
     * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
+  * [5-1. Summary Geography](preparation/spatial-inputs/5-1.-summary-geography.md)
 
 ## Tool Components
 
