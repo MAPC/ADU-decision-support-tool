@@ -4,7 +4,7 @@ The ADU Tool requires tabular and spatial inputs, which together define the ADU 
 
 #### Tabular Inputs
 
-Tabular inputs are organized into a single Excel spreadsheet, **zoningedits\_FINALTEMPLATE.xlsx**, present in the downloaded folder. The spreadsheet has five tabs, one tab with inputs that are required regardless of the ADU policy, and four tabs corresponding to each of the ADU typologies. If the ADU policy does not allow a particular ADU typology, that tab does not need to be completed.
+Tabular inputs are organized into a single Excel spreadsheet, **zoningedits\_FINALTEMPLATE.xlsx**, present in the downloaded folder. The spreadsheet has five sheets, one sheet with inputs that are required regardless of the ADU policy, and four sheets corresponding to each of the ADU typologies. If the ADU policy does not allow a particular ADU typology, that sheet does not need to be completed.
 
 ![Tabular Inputs. Click to expand.](../../.gitbook/assets/Excel-Screenshot.png)
 

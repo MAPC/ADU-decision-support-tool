@@ -1,6 +1,6 @@
 # Spatial Inputs
 
-Spatial Inputs define location relationships that impact whether a parcel is eligible for ADU development.  The following pages describe how to prepare these data layers.&#x20;
+Spatial inputs define location relationships that impact whether a parcel is eligible for ADU development.  The following pages describe how to prepare these data layers.&#x20;
 
 {% content-ref url="1-1.-adu-boundary.md" %}
 [1-1.-adu-boundary.md](1-1.-adu-boundary.md)

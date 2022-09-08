@@ -2,11 +2,11 @@
 
 ### Software Requirements
 
-To run the ADU Analytical Tool, a user must have [ArcPro](https://pro.arcgis.com/en/pro-app/2.8/get-started/download-arcgis-pro.htm), version 2.9 or later, and [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel), version 2007 or later.
+To run the ADU Tool, a user must have [ArcPro](https://pro.arcgis.com/en/pro-app/2.8/get-started/download-arcgis-pro.htm), version 2.9 or later, and [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel), version 2007 or later.
 
 ### Tool Download
 
-The ADU Analytical Tool has been published to this folder: <mark style="background-color:orange;">\[XXX]</mark>. The folder contains four documents:
+The ADU Tool has been published to this folder: <mark style="background-color:orange;">\[XXX]</mark>. The folder contains four files:
 
 * zoningedits\_FINALTEMPLATE.xlsx
 * ADU-Analytical-Tool\_Outputs.gdb
