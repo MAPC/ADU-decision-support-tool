@@ -41,7 +41,7 @@
 
 ## Questions and Feedback
 
-* [Page 1](questions-and-feedback/page-1.md)
+* [Contact](questions-and-feedback/contact.md)
 
 ## Archive
 
