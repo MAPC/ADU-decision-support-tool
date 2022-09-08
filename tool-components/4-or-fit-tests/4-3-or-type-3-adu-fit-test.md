@@ -19,7 +19,8 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Key Assumptions
 
-* <mark style="background-color:orange;">XXX</mark>
+* Level 3 Parcel Data does not contain square footage figures for accessory structures, so the tool uses estimates of square footage created by analyzing building footprints. This means parcels with two-story accessory structures may be unnecessarily eliminated.
+* The tool does not test accessory structures for a minimum dimension.
 
 ### Analysis
 
