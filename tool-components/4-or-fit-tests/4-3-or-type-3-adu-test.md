@@ -1,4 +1,4 @@
-# 4-3 | Type 3 ADU Fit Test
+# 4-3 | Type 3 ADU Test
 
 This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate what parcels meet the eligibility requirements for a Type 3 ADU, that is, an ADUs developed within an existing accessory structure, without any expansion of that building's foundation.
 
@@ -24,11 +24,6 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Analysis
 
-This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels and accessory structures meet the eligibility requirements for a Type 3 ADU. It does this by restricting the Possible Parcels data to only those parcels meeting the parcel attribute requirements, then checking the accessory structures to make sure at least one accessory structure could accomodate .&#x20;
+This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels and accessory structures meet the eligibility requirements for a Type 3 ADU. It does this by restricting the Possible Parcels data to only those parcels meeting the parcel attribute requirements, then checking the accessory structures to make sure at least one accessory structure is large enough to accommodate an ADU.&#x20;
 
-_<mark style="background-color:orange;">Model Design</mark>_
-
-![Screenshot of Model 4, Group 1: Type 2 ADU Parcel Attribute Tests. Click to expand.](../../.gitbook/assets/4-1a.png)
-
-
-
+<mark style="background-color:orange;">INSERT SCREENSHOT</mark>

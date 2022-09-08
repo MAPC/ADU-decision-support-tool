@@ -42,9 +42,13 @@ _<mark style="background-color:orange;">Model Design</mark>_
 
 The second part of the model removes setbacks and existing structures, which have been expanded by the Existing Building and ADU Setback Requirement, from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
+\[INSERT SCREENSHOT]
 
+These areas are then restricted to those exceeding the minimum size for a Type 4 ADU and to those with shapes that are sufficiently compact.&#x20;
 
-These areas are then restricted to those exceeding the minimum size for a Type 4 ADU and to those with shapes that are sufficiently compact. This second test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 4 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
+\[INSERT SCREENSHOT]
+
+This compactness test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 4 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
 ```sql
 (area_sf4 <= (aduSFmn4*1.25) And ppscore4 <= '0.95') Or (area_sf4 <= (aduSFmn4*1.5) And ppscore4 <= '0.85') Or (area_sf4 <= (aduSFmn4*1.75) And ppscore4 <= '0.75') Or (area_sf4 <= (aduSFmn4*2.0) And ppscore4 <= '0.5') Or (area_sf4 <= (aduSFmn4*2.25) And ppscore4 <= '0.25') Or (area_sf4 <= (aduSFmn4*2.5) And ppscore4 <= '0.15') Or (area_sf4 <= (aduSFmn4* 3) And ppscore4 <= '0.10')
@@ -75,3 +79,4 @@ _<mark style="background-color:orange;">Model Design</mark>_
 #### <mark style="background-color:orange;">Test Three: Minimum Dimension</mark>
 
 The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field.
+

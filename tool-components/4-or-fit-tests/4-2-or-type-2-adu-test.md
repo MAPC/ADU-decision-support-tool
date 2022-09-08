@@ -89,5 +89,16 @@ _Model Design_
 
 The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field. The&#x20;
 
+_Model Design_
 
+{% tabs %}
+{% tab title="Buffer Structures by Minimum ADU Dimension" %}
 
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+__
