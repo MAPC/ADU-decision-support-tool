@@ -1,6 +1,6 @@
 # 4-2 | Type 2 ADU Fit Test
 
-The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate what parcels meet the eligibility requirements for a Type 2 ADU, that is, an ADU built as an addition to an existing structure. The model also evaluates which of those parcels are large enough to fit a Type 2 ADU.
+This model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in the [zoningedits](../../analysis-preparation/tabular-inputs/#tabular-inputs) Excel spreadsheet to evaluate what parcels meet the eligibility requirements for a Type 2 ADU, that is, an ADU built as an addition to an existing structure. The model also evaluates which of those parcels are large enough to fit a Type 2 ADU.
 
 ### Model Inputs
 
@@ -18,7 +18,7 @@ The fourth model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded
     * Front (pafrStbk2)
     * Side (pasiStbk2)
     * Rear (pareStbk2)
-* Desired Setback Selection (See [Key Assumptions](4-2-or-type-2-adu-fit-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
+* Desired Setback Selection (see [Key Assumptions](4-2-or-type-2-adu-fit-test.md#key-assumptions)): Front Setback, Side Setback, or Rear Setback (This selection is made in the model tool parameters dialogue box.)
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 * relstructures\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../../analysis-steps/3-or-prepare-spatial-data-for-fit-tests.md))
 
