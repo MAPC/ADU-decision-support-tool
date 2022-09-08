@@ -5,14 +5,12 @@ This model, 4-4 | Type 4 ADU Fit Test, uses the policy parameters recorded in th
 ### Model Inputs
 
 * Already present in the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel spreadsheet:
-  * ADU Size Requirements:&#x20;
-    * Minimum Size for a Type 4 ADU (aduSFmn4)
+  * Minimum Size for a Type 4 ADU (aduSFmn4)
+  * Existing Building and ADU Setback Requirement (paduStbk4)
   * Parcel Attribute Requirements:&#x20;
     * Type 4 ADU Permitted (adu4perm)
     * Minimum Size for a Type 4 Principal Building, in GSF (pGSFmn4)
     * Minimum Size for a Type 4 Principal Building, in FSF (pFSFmn4)
-  * Existing Building and ADU Setback Requirement:
-    * &#x20;
   * Parcel Setback Requirements:&#x20;
     * Front (pafrStbk4)
     * Side (pasiStbk4)
