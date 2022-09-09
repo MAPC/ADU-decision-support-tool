@@ -26,22 +26,23 @@
     * [For Type 3 ADUs](analysis-preparation/spatial-inputs/for-type-3-adus.md)
   * [5-1. Summary Geography](preparation/spatial-inputs/5-1.-summary-geography.md)
 
-## Tool Operation
+## Analysis
 
-* [Overview and Instructions](tool-operation/overview-and-instructions.md)
-* [1 | Define Parcels in ADU Boundary](tool-operation/1-or-define-parcels-in-adu-boundary.md)
-* [2 | Define Possible Parcels](tool-operation/2-or-define-possible-parcels.md)
-* [3 | Prepare Spatial Data for Fit Tests](tool-operation/3-or-prepare-spatial-data-for-fit-tests.md)
-* [4 | Fit Tests](tool-operation/4-or-fit-tests/README.md)
-  * [4-1 | Type 1 ADU Test](tool-operation/4-or-fit-tests/4-1-or-type-1-adu-test.md)
-  * [4-2 | Type 2 ADU Test](tool-operation/4-or-fit-tests/4-2-or-type-2-adu-test.md)
-  * [4-3 | Type 3 ADU Test](tool-operation/4-or-fit-tests/4-3-or-type-3-adu-test.md)
-  * [4-4 | Type 4 ADU Test](tool-operation/4-or-fit-tests/4-4-or-type-4-adu-test.md)
-* [5 | Summary of Results](tool-operation/5-or-summary-of-results.md)
+* [Overview and Instructions](analysis/overview-and-instructions.md)
+* [1 | Define Parcels in ADU Boundary](analysis/1-or-define-parcels-in-adu-boundary.md)
+* [2 | Define Possible Parcels](analysis/2-or-define-possible-parcels.md)
+* [3 | Prepare Spatial Data for Fit Tests](analysis/3-or-prepare-spatial-data-for-fit-tests.md)
+* [4 | Fit Tests](analysis/4-or-fit-tests/README.md)
+  * [4-1 | Type 1 ADU Test](analysis/4-or-fit-tests/4-1-or-type-1-adu-test.md)
+  * [4-2 | Type 2 ADU Test](analysis/4-or-fit-tests/4-2-or-type-2-adu-test.md)
+  * [4-3 | Type 3 ADU Test](analysis/4-or-fit-tests/4-3-or-type-3-adu-test.md)
+  * [4-4 | Type 4 ADU Test](analysis/4-or-fit-tests/4-4-or-type-4-adu-test.md)
+* [5 | Summary of Results](analysis/5-or-summary-of-results.md)
 
-## Questions and Feedback
+## Conclusions
 
-* [Contact](questions-and-feedback/contact.md)
+* [Interpretation](conclusions/interpretation.md)
+* [Questions and Feedback](conclusions/questions-and-feedback.md)
 
 ## Archive
 
