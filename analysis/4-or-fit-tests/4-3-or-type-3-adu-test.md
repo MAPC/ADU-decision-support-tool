@@ -29,24 +29,24 @@ This model uses the policy parameters recorded in the zoningedits Excel spreadsh
 _Model Design_
 
 {% tabs %}
-{% tab title="Prepare Parcels Input" %}
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% tab title="Parcels Input" %}
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Parcel Attribute Tests" %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Untitled" %}
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Join Passed Parcels to Structures" %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Join Parcels to Structures" %}
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Export Results" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
