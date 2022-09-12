@@ -74,7 +74,7 @@ _Model Design_
 {% endtab %}
 
 {% tab title="Buildable Area Test, Part 2" %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
