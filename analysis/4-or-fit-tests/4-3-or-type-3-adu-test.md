@@ -7,9 +7,9 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 * Already present in the [zoningedits](../../analysis-preparation/tabular-inputs/) Excel spreadsheet:
   * Minimum Size for a Type 3 ADU (aduSFmn3)
   * Parcel Attribute Requirements:&#x20;
-    * Type 3 ADU Permitted (adu1perm)
-    * Minimum Size for a Type 3 Principal Building, in GSF (pGSFmn1)
-    * Minimum Size for a Type 3 Principal Building, in FSF (pFSFmn1)
+    * Type 3 ADU Permitted (adu3perm)
+    * Minimum Size for a Type 3 Principal Building, in GSF (pGSFmn3)
+    * Minimum Size for a Type 3 Principal Building, in FSF (pFSFmn3)
 * [allstructures\_estsf](../../analysis-preparation/tabular-inputs/type-3-adus-accessory-existing.md)
 * possparcels\_sjo\_zones (Generated from [3 | Prepare Spatial Data for Fit Tests](../3-or-prepare-spatial-data-for-fit-tests.md))
 
@@ -19,7 +19,7 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Key Assumptions
 
-* Level 3 Parcel Data does not contain square footage figures for accessory structures, so the tool uses estimates of square footage created by analyzing building footprints. This means parcels with two-story accessory structures may be unnecessarily eliminated.
+* Level 3 Parcel Data does not contain square footage figures for accessory structures, so the tool uses estimates of square footage created by analyzing building footprints. This means parcels with two-story accessory structures may be unnecessarily eliminated. The prescribed process can deliver strong estimates for the footprint of the first three structures on a parcel; parcels with more than three structures will have less precise estimates.
 * The tool does not test accessory structures for a minimum dimension.
 
 ### Analysis

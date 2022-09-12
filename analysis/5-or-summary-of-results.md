@@ -21,6 +21,7 @@ The model then optionally summarizes these results by user-specified summary geo
 
 ### Key Assumptions
 
+* The analysis assumes a maximum of one ADU (per ADU typology) per parcel
 * Parcels may only be associated with one summary geography.
 
 ### Analysis

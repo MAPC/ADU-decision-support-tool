@@ -8,12 +8,12 @@ Type 3 (Accessory-Existing) ADUs involve the conversion of an existing accessory
 * [ ] Execute a spatial join to relate the structures data to the parcel data, using:
   * Target Features = allstructures
   * Join Features = allparcels
-  * Output Feature Class = allstructures\_joinap
+  * Output Feature Class = allstru\_sjo\_allparc
     * Uncheck "Keep All Target Parcels"
   * Join Operation = JOIN\_ONE\_TO\_MANY
   * Match Option = HAVE\_THEIR\_CENTER\_IN
-* [ ] Open allstructures\_joinap. Execute a dissolve, using:
-  * Input Features = allstructures\_joinap
+* [ ] Open allstru\_sjo\_allparc. Execute a dissolve, using:
+  * Input Features = allstru\_sjo\_allparc
   * Output Feature Class = allstructures\_estsf
   * Dissolve Fields = parloc\_id
   * Statistics Fields

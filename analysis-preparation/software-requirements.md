@@ -6,11 +6,12 @@ To run the ADU Tool, a user must have [ArcPro](https://pro.arcgis.com/en/pro-app
 
 ### Tool Download
 
-The ADU Tool has been published to this folder: <mark style="background-color:orange;">\[XXX]</mark>. The folder contains four files:
+The ADU Tool has been published in [**this folder**](https://mapc.sharefile.com/d-s918cf86edeb14152b247e3ff5243512e).  The folder contains the following files:
 
 * zoningedits\_FINALTEMPLATE.xlsx
 * ADU-Analytical-Tool\_Outputs.gdb
 * ADU-Analytical-Tool\_Spatial-Inputs.gdb
+* ADU-Analytical-Tool\_Reference.gdb
 * 2022-07-27\_ADU-Analytical-Tool.tbx
 
 To begin, a user should download and save the entire folder to a project folder on their computer.&#x20;
