@@ -28,8 +28,34 @@ The model then optionally summarizes these results by user-specified summary geo
 
 The fifth model joins the outputs from the four ADU Fit Tests back to the All Parcels input, to generate a complete table of results. A value of "1" is assigned in an ADU Type column (1, 2, 3, or 4) when that parcel is likely eligible for that type of ADU; a value of "0" indicates that the parcel is likely ineligible for that type of ADU.&#x20;
 
-<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
+_Model Design_
+
+{% tabs %}
+{% tab title="Prepare Inputs" %}
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Join Results" %}
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Create Results File and Summary Statistics" %}
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 The model then optionally summarizes these results by user-specified summary geography, such as neighborhood boundaries. This offers one way to understand the possible results of ADU development under current and proposed ADU policies.
 
-<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
+_Model Design_
+
+{% tabs %}
+{% tab title="Data Checks" %}
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Join and Create Results File" %}
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+__

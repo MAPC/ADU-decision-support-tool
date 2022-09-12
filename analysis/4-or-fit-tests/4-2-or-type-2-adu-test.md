@@ -91,11 +91,11 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Buffer Structures by Minimum ADU Dimension" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Part 2. Click to expand. The earlier model output, buildarea2_passadu2t2_dxpid, is rejoined in two steps.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Part 3. Click to expand.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>Part 3. Click to expand.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Minimum Dimension Test" %}
