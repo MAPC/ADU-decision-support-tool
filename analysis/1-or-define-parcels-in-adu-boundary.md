@@ -24,6 +24,3 @@ The first model generates a feature class comprised of fee parcels in the Study 
 _Model Design_
 
 ![Screenshot of Model 1 | Define Parcels in ADU Boundary. Click to expand.](../.gitbook/assets/Model1-2.png)
-
-###
-

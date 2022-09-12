@@ -53,7 +53,7 @@ These areas are then restricted to those exceeding the minimum size for a Type 2
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Sample Output. Green fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Sample Output. Yellow fill indicates area(s) within the parcel that have been discarded because they were not sufficiently compact.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Sample Output. Yellow fill indicates area(s) within the parcel that have been discarded because they were not sufficiently compact.</p></figcaption></figure>
 
 The compactness test uses a [Polsby Popper ](https://en.wikipedia.org/wiki/Polsby%E2%80%93Popper\_test)score; areas that are closer to the minimum size for a Type 2 ADU must have Posby Popper score closer to 1 to pass, while areas that are larger need lower scores. The test used in the analysis is below.
 
@@ -91,7 +91,7 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Buffer Structures by Minimum ADU Dimension" %}
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Part 2. Click to expand. The earlier model output, buildarea2_passadu2t2_dxpid, is rejoined in two steps.</p></figcaption></figure>
 
@@ -99,6 +99,6 @@ _Model Design_
 {% endtab %}
 
 {% tab title="Minimum Dimension Test" %}
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}

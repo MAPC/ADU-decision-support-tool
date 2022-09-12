@@ -12,7 +12,7 @@ The following pages provide a brief description of each of the models, along wit
 
 2\. Expand the toolbox to show the model tools, right click on the first tool, and then click Open.
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 3\. This action will open a dialogue box with the model tool parameters (tabular inputs and/or spatial inputs) required for that model. The parameter names in each dialogue box correspond with the names of the inputs described in this guidebook. Provided the locations and names of these files are consistent with the guidebook, a user should simply double check the names and file paths and click Run.
 

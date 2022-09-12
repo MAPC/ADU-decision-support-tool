@@ -24,9 +24,3 @@ The pages linked below provide instructions for the preparation of the four excl
 {% content-ref url="2-1.-excluded-parcel-ids.md" %}
 [2-1.-excluded-parcel-ids.md](2-1.-excluded-parcel-ids.md)
 {% endcontent-ref %}
-
-
-
-
-
-****

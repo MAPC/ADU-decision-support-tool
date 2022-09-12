@@ -38,7 +38,7 @@ The first part of the model restricts the Possible Parcels data to only those pa
 
 _Model Design_
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 
 #### Buildable Area Test
 
@@ -74,8 +74,6 @@ _Model Design_
 {% endtab %}
 
 {% tab title="Buildable Area Test, Part 2" %}
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-<mark style="background-color:orange;"></mark>

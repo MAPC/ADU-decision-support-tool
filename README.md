@@ -21,4 +21,4 @@ Questions and feedback about the ADU Tool may be directed to the Data Services d
 
 ### Acknowledgments
 
-<mark style="background-color:orange;">The development of the ADU Tool was funded by the Executive Office of Energy and Environmental Affairs (EEA) through a Planning Assistance Grant. The tool was created to support the City of Beverly and MAPC in their work updating the City's existing ADU ordinance; we are grateful to the City for providing vital feedback throughout our development process.</mark>
+The development of the ADU Tool was funded by the Executive Office of Energy and Environmental Affairs (EEA) through a Planning Assistance Grant. The tool was created to support the City of Beverly and MAPC in their work updating the City's existing ADU ordinance; we are grateful to the City for providing vital feedback throughout our development process.

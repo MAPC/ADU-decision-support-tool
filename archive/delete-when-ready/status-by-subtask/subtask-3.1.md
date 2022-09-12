@@ -77,4 +77,4 @@ While many more decisions will need to be made, I believe the existing developme
 
 #### PowerPoint Excerpt (developed July 2021)
 
-![PowerPoint Slide. The presentation responds to these questions in greater depth.](<../../../.gitbook/assets/image (2) (1) (1) (1).png>)
+![PowerPoint Slide. The presentation responds to these questions in greater depth.](<../../../.gitbook/assets/image (2) (1) (1).png>)

@@ -42,12 +42,10 @@ _Model Design_
 {% endtab %}
 
 {% tab title="Join Parcels to Structures" %}
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Export Results" %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-__

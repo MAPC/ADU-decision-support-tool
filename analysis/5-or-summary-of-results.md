@@ -32,15 +32,15 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Prepare Inputs" %}
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Join Results" %}
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Create Results File and Summary Statistics" %}
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -50,12 +50,10 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Data Checks" %}
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Join and Create Results File" %}
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-__
