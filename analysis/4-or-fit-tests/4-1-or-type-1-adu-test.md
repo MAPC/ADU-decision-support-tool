@@ -20,10 +20,25 @@ This model, 4-1 | Type 1 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Key Assumptions
 
-* <mark style="background-color:orange;">XXX (Cannot think of any?)</mark>
+* None at this time
 
 ### Analysis
 
 This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 1 ADU. It does this by restricting the Possible Parcels data to only those parcels meeting the parcel attribute requirements.&#x20;
 
-<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
+_Model Design_
+
+{% tabs %}
+{% tab title="Prepare Inputs" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Attribute Tests" %}
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Export Results" %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
