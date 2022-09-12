@@ -34,9 +34,9 @@
 * [3 | Prepare Spatial Data for Fit Tests](analysis/3-or-prepare-spatial-data-for-fit-tests.md)
 * [4 | Fit Tests](analysis/4-or-fit-tests/README.md)
   * [4-1 | Type 1 ADU Test](analysis/4-or-fit-tests/4-1-or-type-1-adu-test.md)
+  * [4-2 | Type 2 ADU Test](analysis/4-or-fit-tests/4-2-or-type-2-adu-test.md)
   * [4-3 | Type 3 ADU Test](analysis/4-or-fit-tests/4-3-or-type-3-adu-test.md)
   * [4-4 | Type 4 ADU Test](analysis/4-or-fit-tests/4-4-or-type-4-adu-test.md)
-  * [4-2 | Type 2 ADU Test](analysis/4-or-fit-tests/4-2-or-type-2-adu-test.md)
 * [5 | Summary of Results](analysis/5-or-summary-of-results.md)
 
 ## Conclusions

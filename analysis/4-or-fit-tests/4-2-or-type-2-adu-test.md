@@ -12,8 +12,8 @@ This model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in th
     * Type 2 ADU Permitted (adu2perm)
     * Minimum Size for a Type 2 Principal Building, in GSF (pGSFmn2)
     * Minimum Size for a Type 2 Principal Building, in FSF (pFSFmn2)
-    * <mark style="background-color:orange;">Maximum Expansion of the GSF of a Type 2 Principal Building (pGSFmxe2)</mark>
-    * <mark style="background-color:orange;">Maximum Expansion of the FSF of a Type 2 Principal Building (pFSFmxe2)</mark>
+    * Maximum Expansion of the GSF of a Type 2 Principal Building (pGSFmxe2)
+    * Maximum Expansion of the FSF of a Type 2 Principal Building (pFSFmxe2)
   * Parcel Setback Requirements:&#x20;
     * Front (pafrStbk2)
     * Side (pasiStbk2)
@@ -47,11 +47,11 @@ _Model Design_
 
 The second part of the model removes setbacks and existing structures (in other words, unbuildable areas) from the geometry of the parcels passing through the first test. This removal generates area(s) within the parcel for possible ADU construction:
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Sample Output. Dashed lines indicate parcel boundaries; green fill indicates area(s) within the parcel for possible ADU construction.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Sample Output. Dashed lines indicate parcel boundaries; green fill indicates area(s) within the parcel for possible ADU construction.</p></figcaption></figure>
 
 These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Sample Output. Green fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Sample Output. Green fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Sample Output. Yellow fill indicates area(s) within the parcel that have been discarded because they were not sufficiently compact.</p></figcaption></figure>
 
@@ -91,14 +91,14 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Buffer Structures by Minimum ADU Dimension" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Part 1. Click to expand.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Part 2. Click to expand. The earlier model output, buildarea2_passadu2t2_dxpid, is rejoined in two steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Part 2. Click to expand. The earlier model output, buildarea2_passadu2t2_dxpid, is rejoined in two steps.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Part 3. Click to expand.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Minimum Dimension Test" %}
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}

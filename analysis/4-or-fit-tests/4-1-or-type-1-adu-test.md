@@ -30,15 +30,15 @@ _Model Design_
 
 {% tabs %}
 {% tab title="Prepare Inputs" %}
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Attribute Tests" %}
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% tab title="Parcel Attribute Tests" %}
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Export Results" %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

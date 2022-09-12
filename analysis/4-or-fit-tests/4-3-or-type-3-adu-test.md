@@ -26,4 +26,28 @@ This model, 4-3 | Type 3 ADU Fit Test, uses the policy parameters recorded in th
 
 This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels and accessory structures meet the eligibility requirements for a Type 3 ADU. It does this by restricting the Possible Parcels data to only those parcels meeting the parcel attribute requirements, then checking the accessory structures to make sure at least one accessory structure is large enough to accommodate an ADU.&#x20;
 
-<mark style="background-color:orange;">\[INSERT SCREENSHOT]</mark>
+_Model Design_
+
+{% tabs %}
+{% tab title="Prepare Parcels Input" %}
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Parcel Attribute Tests" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Untitled" %}
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Join Passed Parcels to Structures" %}
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Export Results" %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+__
