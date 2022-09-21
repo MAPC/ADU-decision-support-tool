@@ -33,7 +33,7 @@ This model, 4-2 | Type 2 ADU Fit Test, uses the policy parameters recorded in th
 
 ### Analysis
 
-This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.
+This model uses the policy parameters recorded in the zoningedits Excel spreadsheet (attached to the parcel data and structure data in the previous step) to evaluate what parcels meet the eligibility requirements for a Type 2 ADU and which of those parcels are large enough to fit a Type 2 ADU. It does this through a sequence of three tests: one that checks the parcels against required attributes, one that determines buildable areas on the remaining parcels and checks if these buildable areas are sufficiently large and compact, and one that ensures there is enough depth between the structures and the buildable areas to meet the minimum dimension of a Type 2 ADU.
 
 #### Parcel Attribute Test
 
@@ -51,7 +51,7 @@ The second part of the model removes setbacks and existing structures (in other 
 
 These areas are then restricted to those exceeding the minimum size for a Type 2 ADU and to those with shapes that are sufficiently compact.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Sample Output. Green fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Sample Output. Pink fill indicates area(s) within the parcel that have been discarded because they are too small.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Sample Output. Yellow fill indicates area(s) within the parcel that have been discarded because they were not sufficiently compact.</p></figcaption></figure>
 

@@ -51,7 +51,7 @@ _Model Design_
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Generate Structure Buffers" %}
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Click to expand</p></figcaption></figure>
 {% endtab %}
 

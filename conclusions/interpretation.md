@@ -1,6 +1,6 @@
 # Interpretation
 
-The Accessory Dwelling Unit (ADU) Analytical Tool identifies which parcels in a municipality meet criteria set forth in an ADU policy, and are thus likely to be eligible for ADU development. In this way, the ADU Tool equips municipal staff and their partners with a means to evaluate the quantity and distribution of parcels likely eligible for ADU development under current and proposed ADU policies.
+The Accessory Dwelling Unit (ADU) Analytical Tool identifies which parcels in a municipality meet criteria set forth in an ADU policy and are thus likely to be eligible for ADU development. In this way, the ADU Tool equips municipal staff and their partners with a means to evaluate the quantity and distribution of parcels likely eligible for ADU development under current and proposed ADU policies.
 
 In interpreting the results of the tool, we would highlight two key points:&#x20;
 

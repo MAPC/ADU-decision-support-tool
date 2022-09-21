@@ -2,7 +2,7 @@
 
 \##Install Postgres and PostGIS Postgres via pgAdmin - (https://www.pgadmin.org/download/)\[https://www.pgadmin.org/download/] PostGIS - (https://postgis.net/install/)\[https://postgis.net/install/] csvkit = (https://csvkit.readthedocs.io/en/latest/)\[https://csvkit.readthedocs.io/en/latest/]
 
-\##Input Tables and Shapefiles In the testing directory there are two directories: shapefiles and tables All of these tables and shapefiles are required to run tests and analyses in Postgres and PostGIS. Names need to match exactly or the scripts need to be updated. The following command are run in a terminal command line.
+\##Input Tables and Shapefiles In the testing directory there are two directories: shapefiles and tables. All of these tables and shapefiles are required to run tests and analyses in Postgres and PostGIS. Names need to match exactly or the scripts need to be updated. The following command are run in a terminal command line.
 
 You will need a local postgres database instance running with a database set up for `beverly_adu`. The following strings are also use to connect to our production database pg.mapc.org. You will need the password and will insert that below in place of `{password}`
 
