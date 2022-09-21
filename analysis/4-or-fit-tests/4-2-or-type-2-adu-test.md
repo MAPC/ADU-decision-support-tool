@@ -85,7 +85,7 @@ _Model Design_
 
 #### Minimum Dimension Test
 
-The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers reapplies the All Structures input, this time buffering existing structures by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field.
+The third part of the model evaluates the buildable area(s) surrounding existing structures to make sure they are wide enough to accommodate an ADU. To do so, the model buffers the All Structures input by the minimum dimension for a Type 2 ADU, as defined by the aduDimn2 field. The model then intersects this buffered area with the buildable area, to isolate areas around existing structures that could be used for an addition. As a final step, the model calculates the square footage of each isolated area and divides that total by the aduDimn2 field to calculate the average width of the isolated area. If this average width falls below the minimum dimension for a Type 2 ADU, it is identified as too narrow and discarded from the analysis.
 
 _Model Design_
 
